@@ -229,7 +229,8 @@
                 "price":"700$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-33R"
+                "seriesnum":"ASE-15R",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Pro": {
                 "img":"",
@@ -237,10 +238,44 @@
                 "price":"900$",
                 "delivery":"3",
                 "description":"128G/256G/512G/1T",
-                "seriesnum":"ASE-33R"
+                "seriesnum":"ASE-15P",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Pro Max": {
-
+                 "img":"",
+                 "name":"Iphone 15 Pro Max",
+                 "price":"1099$",
+                 "delivery":"",
+                 "description":"",
+                 "seriesnum":"AS15-PX",
+                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
+                },
+                "Iphone 12": {
+                 "img":"",
+                 "name":"Iphone 12",
+                 "price":"",
+                 "delivery":"3",
+                 "description":"64G/128G",
+                 "seriesnum":"ASE-12R",
+                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
+                },
+                "Iphone 13": {
+                 "img":"",
+                 "name":"",
+                 "price":"",
+                 "delivery":"",
+                 "description":"",
+                 "seriesnum":"",
+                 "color":""
+                },
+                "Iphone 14": {
+                 "img":"",
+                 "name":"",
+                 "price":"",
+                 "delivery":"",
+                 "description":"",
+                 "seriesnum":"",
+                 "color":""
                 }
             },
             "Samsung":{
