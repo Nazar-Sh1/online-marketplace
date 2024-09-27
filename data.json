@@ -55,9 +55,9 @@
                     "description":"2TB SSD/ 64GB RAM/ Intel i7",
                     "seriesnum":"3480"
                 },
-                "Ноутбук Dell Latitude":{
+                "Ноутбук Dell Latitude Pro":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/08/041050/2%20(1)-1397x1397.jpg.webp",
-                    "name":"Dell Latitude",
+                    "name":"Dell Latitude Pro",
                     "price":"60 099",
                     "delivery":"2",
                     "description":"512GB SSD/ 16GB RAM/ Intel i7",
@@ -229,7 +229,8 @@
                 "price":"800$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-33R"
+                "seriesnum":"ASE-33R",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Plus": {
                 "img":"",
@@ -237,7 +238,8 @@
                 "price":"850$",
                 "delivery":"2",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-44R"
+                "seriesnum":"ASE-44R",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Pro": {
                 "img":"",
@@ -245,7 +247,8 @@
                 "price":"100$",
                 "delivery":"3",
                 "description":"128G/256G/512G/1T",
-                "seriesnum":"ASE-33R"
+                "seriesnum":"ASE-33R",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Pro Max": {
                 "img":"",
@@ -253,7 +256,8 @@
                 "price":"1200$",
                 "delivery":"1",
                 "description":"256G/512G/1T",
-                "seriesnum":"ASE-33F"
+                "seriesnum":"ASE-33F",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15": {
                 "img":"",
@@ -261,7 +265,8 @@
                 "price":"700$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-33S"
+                "seriesnum":"ASE-33S",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Plus": {
                 "img":"",
@@ -269,7 +274,8 @@
                 "price":"800$",
                 "delivery":"2",
                 "description":"128G/256G/512G",
-                "seriesnum":"AKE-44R"
+                "seriesnum":"AKE-44R",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Pro": {
                 "img":"",
@@ -277,7 +283,8 @@
                 "price":"900$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-33H"
+                "seriesnum":"ASE-33H",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Pro Max": {
                 "img":"",
@@ -285,7 +292,8 @@
                 "price":"1000$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-34V"
+                "seriesnum":"ASE-34V",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 14": {
                 "img":"",
@@ -293,7 +301,8 @@
                 "price":"600$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-22D"
+                "seriesnum":"ASE-22D",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 14 Plus": {
                 "img":"",
@@ -301,7 +310,8 @@
                 "price":"700$",
                 "delivery":"2",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-44R"
+                "seriesnum":"ASE-44R",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 14 Pro": {
                 "img":"",
@@ -309,7 +319,8 @@
                 "price":"850$",
                 "delivery":"1",
                 "description":"128G/256G/512G",
-                "seriesnum":"FDE-33R"
+                "seriesnum":"FDE-33R",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 14 Pro Max": {
                 "img":"",
@@ -317,7 +328,8 @@
                 "price":"990$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"DSA-33В"
+                "seriesnum":"DSA-33В",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 13": {
                 "img":"",
@@ -325,7 +337,8 @@
                 "price":"800$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-33R"
+                "seriesnum":"ASE-33R",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 13 mini": {
                 "img":"",
@@ -333,7 +346,8 @@
                 "price":"600$",
                 "delivery":"2",
                 "description":"128G/256G/512G",
-                "seriesnum":"VBN-44R"
+                "seriesnum":"VBN-44R",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 13 Pro": {
                 "img":"",
@@ -341,7 +355,8 @@
                 "price":"730$",
                 "delivery":"1",
                 "description":"128G/256G/512G",
-                "seriesnum":"XZC-22A"
+                "seriesnum":"XZC-22A",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 13 Pro Max": {
                 "img":"",
@@ -349,7 +364,8 @@
                 "price":"850$",
                 "delivery":"2",
                 "description":"128G/256G/512G",
-                "seriesnum":"MKL-44R"
+                "seriesnum":"MKL-44R",
+                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 }
             },
             "Samsung":{
