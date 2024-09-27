@@ -223,59 +223,133 @@
     "Phone":{
         "Models":{
             "Iphone":{
+                "Iphone 16": {
+                "img":"",
+                "name":"Iphone 16",
+                "price":"800$",
+                "delivery":"3",
+                "description":"128G/256G/512G",
+                "seriesnum":"ASE-33R"
+                },
+                "Iphone 16 Plus": {
+                "img":"",
+                "name":"Iphone 16 Plus",
+                "price":"850$",
+                "delivery":"2",
+                "description":"128G/256G/512G",
+                "seriesnum":"ASE-44R"
+                },
+                "Iphone 16 Pro": {
+                "img":"",
+                "name":"Iphone 16 Pro",
+                "price":"100$",
+                "delivery":"3",
+                "description":"128G/256G/512G/1T",
+                "seriesnum":"ASE-33R"
+                },
+                "Iphone 16 Pro Max": {
+                "img":"",
+                "name":"Iphone 16 Pro Max",
+                "price":"1200$",
+                "delivery":"1",
+                "description":"256G/512G/1T",
+                "seriesnum":"ASE-33F"
+                },
                 "Iphone 15": {
                 "img":"",
                 "name":"Iphone 15",
                 "price":"700$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-15R",
-                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
+                "seriesnum":"ASE-33S"
+                },
+                "Iphone 15 Plus": {
+                "img":"",
+                "name":"Iphone 15 Plus",
+                "price":"800$",
+                "delivery":"2",
+                "description":"128G/256G/512G",
+                "seriesnum":"AKE-44R"
                 },
                 "Iphone 15 Pro": {
                 "img":"",
                 "name":"Iphone 15 Pro",
                 "price":"900$",
                 "delivery":"3",
-                "description":"128G/256G/512G/1T",
-                "seriesnum":"ASE-15P",
-                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
+                "description":"128G/256G/512G",
+                "seriesnum":"ASE-33H"
                 },
                 "Iphone 15 Pro Max": {
-                 "img":"",
-                 "name":"Iphone 15 Pro Max",
-                 "price":"1099$",
-                 "delivery":"",
-                 "description":"",
-                 "seriesnum":"AS15-PX",
-                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
-                },
-                "Iphone 12": {
-                 "img":"",
-                 "name":"Iphone 12",
-                 "price":"",
-                 "delivery":"3",
-                 "description":"64G/128G",
-                 "seriesnum":"ASE-12R",
-                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
-                },
-                "Iphone 13": {
-                 "img":"",
-                 "name":"",
-                 "price":"",
-                 "delivery":"",
-                 "description":"",
-                 "seriesnum":"",
-                 "color":""
+                "img":"",
+                "name":"Iphone 15 Pro Max",
+                "price":"1000$",
+                "delivery":"3",
+                "description":"128G/256G/512G",
+                "seriesnum":"ASE-34V"
                 },
                 "Iphone 14": {
-                 "img":"",
-                 "name":"",
-                 "price":"",
-                 "delivery":"",
-                 "description":"",
-                 "seriesnum":"",
-                 "color":""
+                "img":"",
+                "name":"Iphone 14",
+                "price":"600$",
+                "delivery":"3",
+                "description":"128G/256G/512G",
+                "seriesnum":"ASE-22D"
+                },
+                "Iphone 14 Plus": {
+                "img":"",
+                "name":"Iphone 14 Plus",
+                "price":"700$",
+                "delivery":"2",
+                "description":"128G/256G/512G",
+                "seriesnum":"ASE-44R"
+                },
+                "Iphone 14 Pro": {
+                "img":"",
+                "name":"Iphone 14 Pro",
+                "price":"850$",
+                "delivery":"1",
+                "description":"128G/256G/512G",
+                "seriesnum":"FDE-33R"
+                },
+                "Iphone 14 Pro Max": {
+                "img":"",
+                "name":"Iphone 14 Pro Max",
+                "price":"990$",
+                "delivery":"3",
+                "description":"128G/256G/512G",
+                "seriesnum":"DSA-33В"
+                },
+                "Iphone 13": {
+                "img":"",
+                "name":"Iphone 13",
+                "price":"800$",
+                "delivery":"3",
+                "description":"128G/256G/512G",
+                "seriesnum":"ASE-33R"
+                },
+                "Iphone 13 mini": {
+                "img":"",
+                "name":"Iphone 13 mini",
+                "price":"600$",
+                "delivery":"2",
+                "description":"128G/256G/512G",
+                "seriesnum":"VBN-44R"
+                },
+                "Iphone 13 Pro": {
+                "img":"",
+                "name":"Iphone 13 Pro",
+                "price":"730$",
+                "delivery":"1",
+                "description":"128G/256G/512G",
+                "seriesnum":"XZC-22A"
+                },
+                "Iphone 13 Pro Max": {
+                "img":"",
+                "name":"Iphone 13 Pro Max",
+                "price":"850$",
+                "delivery":"2",
+                "description":"128G/256G/512G",
+                "seriesnum":"MKL-44R"
                 }
             },
             "Samsung":{
