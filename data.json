@@ -1,10 +1,10 @@
 {
-    "Notebooks":
+    "Laptop":
     {
         "Models":
         {
               "Asus":{
-                "Ноутбук ASUS ROG Strix G15":{
+                "Laptop ASUS ROG Strix G15":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/02/291118/bfdg55-74x74.jpg.webp",
                     "name":"ASUS ROG Strix G15",
                     "price":"46 999",
@@ -12,7 +12,7 @@
                     "description":"Ryzen 7 / 16GB RAM / 1TB",
                     "seriesnum":"G513RM"
                 },
-                "Ноутбук ASUS ROG Strix G17":{
+                "Laptop ASUS ROG Strix G17":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/07/041901/1-74x74.jpg.webp",
                     "name":"ASUS ROG Strix G17",
                     "price":"77 599",
@@ -20,7 +20,7 @@
                     "description":"AMD Ryzen 9/ 32GB/ 1TB/ RTX 4060",
                     "seriesnum":"G713PV-WS95"
                 },
-                "Ноутбук ASUS ROG Strix G18":{
+                "Laptop ASUS ROG Strix G18":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/07/041847/1-74x74.jpg.webp",
                     "name":"ASUS ROG Strix G18",
                     "price":"94 799",
@@ -28,7 +28,7 @@
                     "description":"Intel Core i7/ 32GB/ 1TB/ RTX 4070",
                     "seriesnum":"G814JI-N6084"
                 },
-                "Ноутбук ASUS Vivobook 15 OLED ":{
+                "Laptop ASUS Vivobook 15 OLED ":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/08/211207/65vvd-1397x1397.jpg.webp",
                     "name":"ASUS Vivobook 15 OLED R1505ZA",
                     "price":"48 099",
@@ -37,7 +37,7 @@
                     "seriesnum":"R1505ZA-L1184"
 
                 },
-                "Ноутбук ASUS VivoBook Pro 15 OLED":{
+                "Laptop ASUS VivoBook Pro 15 OLED":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/08/271251/ed3-1397x1397.jpg.webp",
                     "name":"ASUS VivoBook Pro 15 OLED",
                     "price":"66 499",
@@ -47,7 +47,7 @@
                 }
               },
               "Dell":{
-                "Ноутбук Dell Precision Workstation":{
+                "Laptop Dell Precision Workstation":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/11/211524/1-1397x1397.jpg.webp",
                     "name":" Dell Precision Workstation",
                     "price":"78 218",
@@ -55,7 +55,7 @@
                     "description":"2TB SSD/ 64GB RAM/ Intel i7",
                     "seriesnum":"3480"
                 },
-                "Ноутбук Dell Latitude Pro":{
+                "Laptop Dell Latitude Pro":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/08/041050/2%20(1)-1397x1397.jpg.webp",
                     "name":"Dell Latitude Pro",
                     "price":"60 099",
@@ -63,7 +63,7 @@
                     "description":"512GB SSD/ 16GB RAM/ Intel i7",
                     "seriesnum":"5540"
                 },
-                "Ноутбук Dell Latitude":{
+                "Laptop Dell Latitude":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/08/021743/2-1397x1397.jpg.webp",
                     "name":"Dell Latitude",
                     "price":"55 999",
@@ -71,7 +71,7 @@
                     "description":"512GB SSD/ 16GB RAM/ Intel i5",
                     "seriesnum":"5541"
                 },
-                "Ноутбук Dell Inspiron 14":{
+                "Laptop Dell Inspiron 14":{
                     "img":"",
                     "name":"Dell Inspiron 14",
                     "price":"41 699",
@@ -79,7 +79,7 @@
                     "description":"Intel Core i7/ 16GB/ 1TB/ Iris Xe",
                     "seriesnum":"7430"
                 },
-                "Ноутбук Dell Vostro":{
+                "Laptop Dell Vostro":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/08/041226/N1005VNB5630UA_W11P-2-1397x1397.jpg.webp",
                     "name":"Dell Vostro",
                     "price":"32 599",
@@ -119,7 +119,7 @@
                 "MacBook Air 15 (2023)":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/06/052251/1%20(7)-1397x1397.jpg.webp",
                     "name":"MacBook Air 15 (2023)",
-                    "price":"50 499",
+                    "price":"1 231$",
                     "delivery":"2",
                     "description":"256GB/ 8 CPU-10 GPU/ 8GB RAM/ Apple M2",
                     "seriesnum":"MQKW3",
@@ -129,7 +129,7 @@
                 "Apple MacBook Pro 16 (2023)":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2022/06/201846/mbp16-spacegray-gallery1-202110-1397x1397.jpg.webp",
                     "name":"Apple MacBook Pro 16 (2023)",
-                    "price":"69 999",
+                    "price":"1 707$",
                     "delivery":"1",
                     "description":"Apple M1 Pro/ 10 CPU-16 GPU/ 16GB RAM/ 512GB SSD",
                     "seriesnum":"MK183",
@@ -139,42 +139,42 @@
                 
               },
               "HP":{
-                "Ноутбук HP Pavilion 14":{
+                "Laptop HP Pavilion 14":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/08/260912/54r-1397x1397.jpg.webp",
                     "name":"HP Pavilion 14",
-                    "price":"37 655",
+                    "price":"918$",
                     "delivery":"2",
                     "description":"Core 5/ 8GB/ 512GB/ Intel Graphics",
                     "seriesnum":"A0NC0EA"
                 },
-                "Ноутбук HP Pavilion 15":{
+                "Laptop HP Pavilion 15":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/08/260915/43df-1397x1397.jpg.webp",
                     "name":"HP Pavilion 15",
-                    "price":"39 099",
+                    "price":"953$",
                     "delivery":"2",
                     "description":"Core i7 / 16GB RAM / 512GB",
                     "seriesnum":"A0NC0E0"
                 },
-                "Ноутбук HP Probook 14":{
+                "Laptop HP Probook 14":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/10/131428/43ssf-1397x1397.jpg.webp",
                     "name":"HP Probook 14",
-                    "price":"67 999",
+                    "price":"1 658$",
                     "delivery":"2",
                     "description":"1TB SSD/ 32GB RAM/ Intel i7",
                     "seriesnum":"440-G10"
                 },
-                "Ноутбук HP ZBook Firefly":{
+                "Laptop HP ZBook Firefly":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/121218/hfjjdf-1397x1397.jpg.webp",
                     "name":"HP ZBook Firefly",
-                    "price":"51 155",
+                    "price":"1 247$",
                     "delivery":"2",
                     "description":"Core i5 / 16GB RAM / 512GB",
                     "seriesnum":"441-A30"
                 },
-                "Ноутбук HP OMEN":{
+                "Laptop HP OMEN":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/10/151048/7Y0N1EA-1397x1397.jpg.webp",
                     "name":"HP OMEN",
-                    "price":"82 999",
+                    "price":"2 024$",
                     "delivery":"2",
                     "description":"1TB SSD/ 16GB RAM/ Intel i7",
                     "seriesnum":"17-cm2007ua"
@@ -182,23 +182,23 @@
                 
               },
               "Acer":{
-                "Ноутбук Acer Nitro 5":{
+                "Laptop Acer Nitro 5":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/09/160927/AN515-587-1397x1397.jpeg.webp",
                     "name":"Acer Nitro 5",
-                    "price":"48 999",
+                    "price":"1 195$",
                     "delivery":"1",
                     "description":"(Intel Core i7/ 16GB/ 512GB/ RTX 4060",
                     "seriesnum":"AN515-58"
                 },
-                "Ноутбук Acer Nitro V 15":{
+                "Laptop Acer Nitro V 15":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/241236/34bdfbd-1397x1397.jpg.webp",
                     "name":"Acer Nitro V 15",
-                    "price":"49 999",
+                    "price":"1 219$",
                     "delivery":"1",
                     "description":"Core i7/16GB RAM/512GB/RTX 4050",
                     "seriesnum":"ANV15"
                 },
-                "Ноутбук Acer TravelMate P2":{
+                "Laptop Acer TravelMate P2":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/051302/76bdff-1397x1397.jpg.webp",
                     "name":"Acer TravelMate P2",
                     "price":"1 040$",
@@ -206,7 +206,7 @@
                     "description":"Core i7 / 32GB RAM / 1TB",
                     "seriesnum":"TMP215-54"
                 },
-                "Ноутбук Acer Nitro 17":{
+                "Laptop Acer Nitro 17":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/241352/43vdvfd-1397x1397.jpg.webp",
                     "name":"Acer Nitro 17",
                     "price":"1 317$",
@@ -214,7 +214,7 @@
                     "description":"Core i5/16GB RAM/512GB/RTX 4050",
                     "seriesnum":"AN17-51"
                 },
-                "Ноутбук Acer Predator Helios 16":{
+                "Laptop Acer Predator Helios 16":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/261452/7-1397x1397.jpg.webp",
                     "name":"Acer Predator Helios 16",
                     "price":"2 514$",
