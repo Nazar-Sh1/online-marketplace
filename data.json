@@ -376,19 +376,49 @@
             },
             "Samsung":{
                 "Samsung Galaxy S24 Ultra":{
-
+                    "img":"",
+                    "name":"Samsung Galaxy S24 Ultra",
+                    "price":"1292$",
+                    "delivery":"2",
+                    "description":"256G/512G/1TB",
+                    "seriesnum":"SMS-111",
+                    "color":"Titanium Black/Cobalt Violet/Titanium Gray"
+                },
+                "Samsung Galaxy S24+":{
+                    "img":"",
+                    "name":"Samsung Galaxy S24+",
+                    "price":"990$",
+                    "delivery":"2",
+                    "description":"256G/512G",
+                    "seriesnum":"SMS-112",
+                    "color":"Marble Grey/Marble Black/Cobalt Violet"
                 },
                 "Samsung Galaxy S24":{
-
+                    "img":"",
+                    "name":"Samsung Galaxy S24",
+                    "price":"809$",
+                    "delivery":"2",
+                    "description":"128G/256G",
+                    "seriesnum":"SMS-113",
+                    "color":"Cobalt Violet/Cobalt Grey/Cobalt Black"
                 },
                 "Samsung Galaxy Fold 6":{
-
+                    "img":"",
+                    "name":"Samsung Galaxy Fold 6",
+                    "price":"2073$",
+                    "delivery":"2",
+                    "description":"512G/1TB",
+                    "seriesnum":"SMS-114",
+                    "color":"Silver Shadow/Navy/Pink"
                 },
                 "Samsung Galaxy Flip 6":{
-
-                },
-                "Samsung Galaxy S23":{
-
+                   "img":"",
+                    "name":"Samsung Galaxy Fold 6",
+                    "price":"1121$",
+                    "delivery":"2",
+                    "description":"256G/512G",
+                    "seriesnum":"SMS-115",
+                    "color":"Blue/Gray/Black"
                 }
             },
             "Asus":{
@@ -411,7 +441,7 @@
                     "color":"Grey/Black"
                  },
                  "Asus ROG Phone 5s":{
-                    
+
                  }
             },
             "Xiaomi":{
