@@ -334,7 +334,7 @@
                 "price":"990$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"DSA-33В",
+                "seriesnum":"DSA-33B",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 13": {
@@ -375,12 +375,46 @@
                 }
             },
             "Samsung":{
+                "Samsung Galaxy S24 Ultra":{
 
+                },
+                "Samsung Galaxy S24":{
+
+                },
+                "Samsung Galaxy Fold 6":{
+
+                },
+                "Samsung Galaxy Flip 6":{
+
+                },
+                "Samsung Galaxy S23":{
+
+                }
             },
             "Asus":{
-
+                 "ASUS ROG Phone 8":{
+                    "img":"",
+                    "name":"ASUS ROG Phone 8",
+                    "price":"810$",
+                    "delivery":"2",
+                    "description":"128G/256G/512G",
+                    "seriesnum":"ASS-111",
+                    "color":"Grey/Black"
+                 },
+                 "Asus Zenfone 11 Ultra":{
+                    "img":"",
+                    "name":"Asus Zenfone 11 Ultra",
+                    "price":"975$",
+                    "delivery":"1",
+                    "description":"128G/256G/512G",
+                    "seriesnum":"ASS-112",
+                    "color":"Grey/Black"
+                 },
+                 "Asus ROG Phone 5s":{
+                    
+                 }
             },
-            "Redmi":{
+            "Xiaomi":{
 
             },
             "Poco":{
