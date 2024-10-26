@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yellone</title>
     <link
@@ -11,6 +12,47 @@
       sizes="16x16"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      /* Додати стилі для адаптивності відео */
+      .header__video {
+        position: relative;
+        overflow: hidden;
+        width: 100%; /* Ширина 100% */
+        height: 0;
+        padding-bottom: 56.25%; /* Співвідношення сторін 16:9 */
+      }
+
+      .header__video video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%; /* Ширина 100% */
+        height: 100%; /* Висота 100% */
+        object-fit: cover; /* Заповнити контейнер */
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav
+        class="header__nav"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.header-nav.partial.html"
+      ></nav>
+      <div class="header__video">
+        <video autoplay muted loop>
+          <source src="video/videoplayback.mp4" type="video/mp4" />
+          Your browser does not support video. Update it or use another one.
+        </video>
+      </div>
+    </header>
+    <main></main>
+    <script src="js/index.js"></script>
+  </body>
 </html>
