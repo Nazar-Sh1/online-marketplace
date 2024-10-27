@@ -19,7 +19,7 @@
     ></script>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav
         class="header__nav"
         data-hx-trigger="load"
@@ -27,13 +27,58 @@
         data-hx-get="global.header-nav.partial.html"
       ></nav>
       <div class="header__video">
-        <video autoplay muted loop>
+        <video class="header__video-element" autoplay muted loop>
           <source src="video/videoplayback.mp4" type="video/mp4" />
           Your browser does not support video. Update it or use another one.
         </video>
       </div>
     </header>
-    <main></main>
+    <main class="main-content">
+      <section class="category">
+        <div class="category__grid">
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/iphone-setup.jfif"
+                alt="Iphone Setup"
+                class="category__image"
+              />
+              <p class="category__title">Electronics</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/household-goods.jfif"
+                alt="Household goods"
+                class="category__image"
+              />
+              <p class="category__title">Household goods</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/cook-for-gamers.jfif"
+                alt="Cook for gamers"
+                class="category__image"
+              />
+              <p class="category__title">Goods for gamers</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/smart-home.jfif"
+                alt="Smart Home"
+                class="category__image"
+              />
+              <p class="category__title">Smart home</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="js/index.js"></script>
   </body>
 </html>
