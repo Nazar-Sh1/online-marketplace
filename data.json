@@ -1,4 +1,5 @@
-{
+{"ElectroTehnica":
+ {
     "Laptop":
     {
         "Models":
@@ -74,7 +75,7 @@
                 "Laptop Dell Inspiron 14":{
                     "img":"",
                     "name":"Dell Inspiron 14",
-                    "price":"1012$",
+                    "price":"1010$",
                     "delivery":"2",
                     "description":"Intel Core i7/ 16GB/ 1TB/ Iris Xe",
                     "seriesnum":"7430"
@@ -119,7 +120,7 @@
                 "MacBook Air 15 (2023)":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/06/052251/1%20(7)-1397x1397.jpg.webp",
                     "name":"MacBook Air 15 (2023)",
-                    "price":"1231$",
+                    "price":"1230$",
                     "delivery":"2",
                     "description":"256GB/ 8 CPU-10 GPU/ 8GB RAM/ Apple M2",
                     "seriesnum":"MQKW3",
@@ -129,7 +130,7 @@
                 "Apple MacBook Pro 16 (2023)":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2022/06/201846/mbp16-spacegray-gallery1-202110-1397x1397.jpg.webp",
                     "name":"Apple MacBook Pro 16 (2023)",
-                    "price":"1707$",
+                    "price":"1710$",
                     "delivery":"1",
                     "description":"Apple M1 Pro/ 10 CPU-16 GPU/ 16GB RAM/ 512GB SSD",
                     "seriesnum":"MK183",
@@ -142,7 +143,7 @@
                 "Laptop HP Pavilion 14":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/08/260912/54r-1397x1397.jpg.webp",
                     "name":"HP Pavilion 14",
-                    "price":"918$",
+                    "price":"920$",
                     "delivery":"2",
                     "description":"Core 5/ 8GB/ 512GB/ Intel Graphics",
                     "seriesnum":"A0NC0EA"
@@ -150,7 +151,7 @@
                 "Laptop HP Pavilion 15":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/08/260915/43df-1397x1397.jpg.webp",
                     "name":"HP Pavilion 15",
-                    "price":"953$",
+                    "price":"950$",
                     "delivery":"2",
                     "description":"Core i7 / 16GB RAM / 512GB",
                     "seriesnum":"A0NC0E0"
@@ -158,7 +159,7 @@
                 "Laptop HP Probook 14":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/10/131428/43ssf-1397x1397.jpg.webp",
                     "name":"HP Probook 14",
-                    "price":"1658$",
+                    "price":"1660$",
                     "delivery":"2",
                     "description":"1TB SSD/ 32GB RAM/ Intel i7",
                     "seriesnum":"440-G10"
@@ -166,7 +167,7 @@
                 "Laptop HP ZBook Firefly":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/121218/hfjjdf-1397x1397.jpg.webp",
                     "name":"HP ZBook Firefly",
-                    "price":"1247$",
+                    "price":"1250$",
                     "delivery":"2",
                     "description":"Core i5 / 16GB RAM / 512GB",
                     "seriesnum":"441-A30"
@@ -174,7 +175,7 @@
                 "Laptop HP OMEN":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/10/151048/7Y0N1EA-1397x1397.jpg.webp",
                     "name":"HP OMEN",
-                    "price":"2024$",
+                    "price":"2025$",
                     "delivery":"2",
                     "description":"1TB SSD/ 16GB RAM/ Intel i7",
                     "seriesnum":"17-cm2007ua"
@@ -193,7 +194,7 @@
                 "Laptop Acer Nitro V 15":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/241236/34bdfbd-1397x1397.jpg.webp",
                     "name":"Acer Nitro V 15",
-                    "price":"1219$",
+                    "price":"1220$",
                     "delivery":"1",
                     "description":"Core i7/16GB RAM/512GB/RTX 4050",
                     "seriesnum":"ANV15"
@@ -209,7 +210,7 @@
                 "Laptop Acer Nitro 17":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/241352/43vdvfd-1397x1397.jpg.webp",
                     "name":"Acer Nitro 17",
-                    "price":"1317$",
+                    "price":"1320$",
                     "delivery":"2",
                     "description":"Core i5/16GB RAM/512GB/RTX 4050",
                     "seriesnum":"AN17-51"
@@ -217,7 +218,7 @@
                 "Laptop Acer Predator Helios 16":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/261452/7-1397x1397.jpg.webp",
                     "name":"Acer Predator Helios 16",
-                    "price":"2514$",
+                    "price":"2510$",
                     "delivery":"3",
                     "description":"Core i9/32GB RAM/1TB/RTX 4070",
                     "seriesnum":"PH16-72"
@@ -250,7 +251,7 @@
                 "Iphone 16 Pro": {
                 "img":"",
                 "name":"Iphone 16 Pro",
-                "price":"100$",
+                "price":"1000$",
                 "delivery":"3",
                 "description":"128G/256G/512G/1T",
                 "seriesnum":"ASE-33R",
@@ -378,7 +379,7 @@
                 "Samsung Galaxy S24 Ultra":{
                     "img":"",
                     "name":"Samsung Galaxy S24 Ultra",
-                    "price":"1292$",
+                    "price":"1290$",
                     "delivery":"2",
                     "description":"256G/512G/1TB",
                     "seriesnum":"SMS-111",
@@ -396,7 +397,7 @@
                 "Samsung Galaxy S24":{
                     "img":"",
                     "name":"Samsung Galaxy S24",
-                    "price":"809$",
+                    "price":"810$",
                     "delivery":"2",
                     "description":"128G/256G",
                     "seriesnum":"SMS-113",
@@ -405,7 +406,7 @@
                 "Samsung Galaxy Fold 6":{
                     "img":"",
                     "name":"Samsung Galaxy Fold 6",
-                    "price":"2073$",
+                    "price":"2075$",
                     "delivery":"2",
                     "description":"512G/1TB",
                     "seriesnum":"SMS-114",
@@ -414,7 +415,7 @@
                 "Samsung Galaxy Flip 6":{
                    "img":"",
                     "name":"Samsung Galaxy Fold 6",
-                    "price":"1121$",
+                    "price":"1120$",
                     "delivery":"2",
                     "description":"256G/512G",
                     "seriesnum":"SMS-115",
@@ -440,19 +441,96 @@
                     "seriesnum":"ASS-112",
                     "color":"Grey/Black"
                  },
-                 "Asus ROG Phone 5s":{
-
+                 "Asus ROG Phone 8 Pro":{
+                    "img":"",
+                    "name":"Asus ROG Phone 8 Pro",
+                    "price":"1120$",
+                    "delivery":"1",
+                    "description":"256G/512G/1TB",
+                    "seriesnum":"ASS-113",
+                    "color":"Phantom Black"
                  }
             },
             "Xiaomi":{
-
+               "Xiaomi Redmi Note 13 Pro":{
+                    "img":"",
+                    "name":"Xiaomi Redmi Note 13 Pro",
+                    "price":"380$",
+                    "delivery":"2",
+                    "description":"256G/512G",
+                    "seriesnum":"XIO-111",
+                    "color":"Midnigth Black/Aurora Purple/Ocean Teal"
+               },
+                "Xiaomi Redmi Note 13 Pro+":{
+                    "img":"",
+                    "name":"Xiaomi Redmi Note 13 Pro+",
+                    "price":"440$",
+                    "delivery":"2",
+                    "description":"256G/512G",
+                    "seriesnum":"XIO-112",
+                    "color":"Midnigth Black/Mystic Silver/Moonlight White/Aurora Purple"
+               },
+                "Xiaomi 14":{
+                    "img":"",
+                    "name":"Xiaomi 14",
+                    "price":"970$",
+                    "delivery":"2",
+                    "description":"256G/512G",
+                    "seriesnum":"XIO-113",
+                    "color":"Black/Jade Green/White"
+               },
+                "Xiaomi 14 Ultra":{
+                    "img":"",
+                    "name":"Xiaomi 14 Ultra",
+                    "price":"1340$",
+                    "delivery":"2",
+                    "description":"256G/512G",
+                    "seriesnum":"XIO-114",
+                    "color":"Black/White"
+               }
             },
-            "Poco":{
-
+            "Google ":{
+               "Google Pixel 8":{
+                   "img":"",
+                    "name":"Google Pixel 8",
+                    "price":"540$",
+                    "delivery":"3",
+                    "description":"128G/256G/512G",
+                    "seriesnum":"GGL-111",
+                    "color":"Rose/Obsidian/Hazel"
+               },
+                "Google Pixel 8 Pro":{
+                    "img":"",
+                    "name":"Google Pixel 8 Pro",
+                    "price":"700$",
+                    "delivery":"3",
+                    "description":"128G/256G/512G",
+                    "seriesnum":"GGL-112",
+                    "color":"Bay/Obsidian/Mint/Porcelain"
+                },
+                "Google Pixel 9":{
+                    "img":"",
+                    "name":"Google Pixel 9",
+                    "price":"800$",
+                    "delivery":"3",
+                    "description":"128G/256G/512G",
+                    "seriesnum":"GGL-113",
+                    "color":"Porcelain/Obsidian/Peoni/WinterGreean"
+                },
+                "Google Pixel 9 Pro":{
+                    "img":"",
+                    "name":"Google Pixel 9 Pro",
+                    "price":"1340$",
+                    "delivery":"3",
+                    "description":"128G/256G/512G/1TB",
+                    "seriesnum":"GGL-114",
+                    "color":"Obsidian/Porcelian"
+                }   
             }
         }
     },
     "":{
         
     }
+ }
 }
