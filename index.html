@@ -78,7 +78,180 @@
           </div>
         </div>
       </section>
+      <section class="product-ratings">
+        <h2 class="product-ratings__title">Product ratings</h2>
+        <div class="product-ratings__grid">
+          <div class="product-ratings__item">
+            <a href="#" class="product-ratings__link">
+              <img
+                src="img/photo/electronics-top.jfif"
+                alt="Electronics Top"
+                class="product-ratings__image"
+              />
+              <p class="product-ratings__text">Electronics Rating</p>
+            </a>
+          </div>
+          <div class="product-ratings__item">
+            <a href="#" class="product-ratings__link">
+              <img
+                src="img/photo/household-goods-top.jfif"
+                alt="Household Goods Top"
+                class="product-ratings__image"
+              />
+              <p class="product-ratings__text">Household Goods Rating</p>
+            </a>
+          </div>
+          <div class="product-ratings__item">
+            <a href="#" class="product-ratings__link">
+              <img
+                src="img/photo/gaming-top.jfif"
+                alt="Gaming Top"
+                class="product-ratings__image"
+              />
+              <p class="product-ratings__text">Gaming Rating</p>
+            </a>
+          </div>
+          <div class="product-ratings__item">
+            <a href="#" class="product-ratings__link">
+              <img
+                src="img/photo/smart-home-top.jfif"
+                alt="Smart Home Top"
+                class="product-ratings__image"
+              />
+              <p class="product-ratings__text">Smart Home Rating</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="carousel">
+          <h1 class="carousel__title">Apple</h1>
+          <div class="carousel__wrapper">
+            <div class="carousel__items">
+              <!-- Копії слайдів для безперервного циклу -->
+              <div class="carousel__item clone">
+                <img
+                  src="img/photo3.jpg"
+                  alt="iPhone 16 Pro Max"
+                  class="carousel__image"
+                />
+                <p class="product__name">
+                  Apple iPhone 16 Pro Max 256GB (Desert Titanium)
+                </p>
+                <div class="product__colors">
+                  <span class="color" style="background-color: black"></span>
+                  <span class="color" style="background-color: gray"></span>
+                  <span class="color" style="background-color: beige"></span>
+                  <span class="color" style="background-color: white"></span>
+                </div>
+                <div class="product__price">
+                  <span class="old-price">1399$</span>
+                  <span class="new-price">1299$</span>
+                </div>
+              </div>
+              <!-- Реальні слайди -->
+              <div class="carousel__item">
+                <img
+                  src="img/photo1.jpg"
+                  alt="iPhone 15 Pro"
+                  class="carousel__image"
+                />
+                <p class="product__name">
+                  Apple iPhone 15 Pro 256GB (Black Titanium)
+                </p>
+                <div class="product__colors">
+                  <span class="color" style="background-color: black"></span>
+                  <span class="color" style="background-color: gray"></span>
+                  <span
+                    class="color"
+                    style="background-color: lightgray"
+                  ></span>
+                  <span class="color" style="background-color: white"></span>
+                </div>
+                <div class="product__price">
+                  <span class="old-price">999$</span>
+                  <span class="new-price">989$</span>
+                </div>
+              </div>
+              <div class="carousel__item">
+                <img
+                  src="img/photo2.jpg"
+                  alt="iPhone 15"
+                  class="carousel__image"
+                />
+                <p class="product__name">Apple iPhone 15 128GB</p>
+                <div class="product__colors">
+                  <span class="color" style="background-color: black"></span>
+                  <span class="color" style="background-color: gray"></span>
+                  <span class="color" style="background-color: pink"></span>
+                  <span class="color" style="background-color: yellow"></span>
+                </div>
+                <div class="product__price">
+                  <span class="old-price">999$</span>
+                  <span class="new-price">989$</span>
+                </div>
+              </div>
+              <div class="carousel__item">
+                <img
+                  src="img/photo3.jpg"
+                  alt="iPhone 16 Pro Max"
+                  class="carousel__image"
+                />
+                <p class="product__name">
+                  Apple iPhone 16 Pro Max 256GB (Desert Titanium)
+                </p>
+                <div class="product__colors">
+                  <span class="color" style="background-color: black"></span>
+                  <span class="color" style="background-color: gray"></span>
+                  <span class="color" style="background-color: beige"></span>
+                  <span class="color" style="background-color: white"></span>
+                </div>
+                <div class="product__price">
+                  <span class="old-price">1399$</span>
+                  <span class="new-price">1299$</span>
+                </div>
+              </div>
+              <!-- Копії слайдів для безперервного циклу -->
+              <div class="carousel__item clone">
+                <img
+                  src="img/photo1.jpg"
+                  alt="iPhone 15 Pro"
+                  class="carousel__image"
+                />
+                <p class="product__name">
+                  Apple iPhone 15 Pro 256GB (Black Titanium)
+                </p>
+                <div class="product__colors">
+                  <span class="color" style="background-color: black"></span>
+                  <span class="color" style="background-color: gray"></span>
+                  <span
+                    class="color"
+                    style="background-color: lightgray"
+                  ></span>
+                  <span class="color" style="background-color: white"></span>
+                </div>
+                <div class="product__price">
+                  <span class="old-price">999$</span>
+                  <span class="new-price">989$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel__controls">
+            <div class="carousel__control" onclick="prevSlide()">&#9650;</div>
+            <div class="carousel__control" onclick="nextSlide()">&#9650;</div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <nav
+        class="footer__nav"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.footer.partial.html"
+      ></nav>
+    </footer>
     <script src="js/index.js"></script>
   </body>
 </html>
