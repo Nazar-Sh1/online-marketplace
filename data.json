@@ -517,7 +517,7 @@
                     "price":"540$",
                     "delivery":"3",
                     "description":"128G/256G/512G",
-                    "id":"b79f85da-d6b8-4f65-a4de-f45f8adebc97",
+                    "id":"ebe6a84f-a18e-48f1-8870-c2f55edc47fa",
                     "color":"Rose/Obsidian/Hazel"
                },
                 "Google Pixel 8 Pro":{
@@ -526,7 +526,7 @@
                     "price":"700$",
                     "delivery":"3",
                     "description":"128G/256G/512G",
-                    "id":"b79f85da-d6b8-4f65-a4de-f45f8adebc97",
+                    "id":"7b37b50a-6fea-45eb-90db-e1a589012227",
                     "color":"Bay/Obsidian/Mint/Porcelain"
                 },
                 "Google Pixel 9":{
@@ -535,7 +535,7 @@
                     "price":"800$",
                     "delivery":"3",
                     "description":"128G/256G/512G",
-                    "id":"b79f85da-d6b8-4f65-a4de-f45f8adebc97",
+                    "id":"d896fbb1-9bf3-4e86-9aa6-5cc61f4cfa79",
                     "color":"Porcelain/Obsidian/Peoni/WinterGreean"
                 },
                 "Google Pixel 9 Pro":{
@@ -559,15 +559,88 @@
                     "name":"Xiaomi Robot Vacuum E5",
                     "price":"120$",
                     "delivery":"1",
-                    "id":"b79f85da-d6b8-4f65-a4de-f45f8adebc97",
+                    "id":"c8eeb780-89d7-4ace-b7ab-d73340b06a03",
+                    "color":"Black/White"
+               },
+               "Xiaomi Robot Vacuum E10":{
+                    "img":"",
+                    "name":"Xiaomi Robot Vacuum E10",
+                    "price":"145$",
+                    "delivery":"1",
+                    "id":"aed28839-3276-4108-9121-c65aaf77cc0e",
+                    "color":"Black/White"
+               },
+               "Xiaomi Robot Vacuum S10":{
+                    "img":"",
+                    "name":"Xiaomi Robot Vacuum S10",
+                    "price":"210$",
+                    "delivery":"1",
+                    "id":"27c5d994-1071-4ba7-8c1d-e02e5e5e7c04",
                     "color":"Black/White"
                }
         },
             "Philips":{
-
+               "PHILIPS Series 2000":{
+                    "img":"",
+                    "name":"PHILIPS Series 2000",
+                    "price":"440$",
+                    "delivery":"1",
+                    "id":"06eb28d8-d9ab-4e98-9047-b660afa537fd",
+                    "color":"Black/White"
+               },
+               "PHILIPS Series 3000":{
+                    "img":"",
+                    "name":"PHILIPS Series 3000",
+                    "price":"640$",
+                    "delivery":"1",
+                    "id":"ba8567e4-7165-46b8-a25e-4d56d0a66426",
+                    "color":"Black/White"
+               },
+               "PHILIPS Series 7000":{
+                    "img":"",
+                    "name":"PHILIPS Series 7000",
+                    "price":"900$",
+                    "delivery":"1",
+                    "id":"a0662c95-9534-43fb-8b0c-f2cae3c2fd46",
+                    "color":"Black/White"
+               }
         },
             "Samsung":{
+                "Samsung Bespoke Jet Bot":{
+                    "img":"",
+                    "name":"Samsung Bespoke Jet Bot",
+                    "price":"300$",
+                    "delivery":"1",
+                    "id":"647b64d8-5a1c-4082-b585-595cd09ee260",
+                    "color":"Black/White"
+                },
+                "Samsung Bespoke Jet Bot AI+":{
+                    "img":"",
+                    "name":"Samsung Bespoke Jet Bot AI+",
+                    "price":"620$",
+                    "delivery":"1",
+                    "id":"3c818448-f8a7-4f1c-b931-4c8a22c5e881",
+                    "color":"Black/White"
+                },
+                "Samsung Bespoke Jet Bot+" :{
+                    "img":"",
+                    "name":"Samsung Bespoke Jet Bot+",
+                    "price":"320$",
+                    "delivery":"1",
+                    "id":"c3d519cb-3c64-46a2-b11f-7be4ea9cf171",
+                    "color":"Black/White"
+                }   
+        },
+        "CoffeMachine":{
+            "Philips":{
 
+            },
+            "Bosch":{
+
+            },
+            "Beko":{
+
+            }
         }
     }
  }
