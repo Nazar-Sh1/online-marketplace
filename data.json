@@ -633,13 +633,66 @@
         },
         "CoffeMachine":{
             "Philips":{
-
+                 "PHILIPS Series 1200":{
+                    "img":"",
+                    "name":"PHILIPS Series 1200",
+                    "price":"390$",
+                    "delivery":"2",
+                    "id":"2d379bc9-c7a8-478b-bb43-d6b4f919b3b2",
+                    "color":"Black/Black and White"
+                 },
+                 "PHILIPS Series 2200":{
+                    "img":"",
+                    "name":"PHILIPS Series 2200",
+                    "price":"410$",
+                    "delivery":"2",
+                    "id":"03caa14e-a2e2-404b-aeec-eea744497aa9",
+                    "color":"Black"
+                 },
+                 "PHILIPS Series 3300":{
+                    "img":"",
+                    "name":"PHILIPS Series 3300",
+                    "price":"540$",
+                    "delivery":"2",
+                    "id":"3a4ab087-d710-4d5e-98a1-1d68a20c32e4",
+                    "color":"Black/White"
+                 }
             },
             "Bosch":{
-
+                "Bosch Series 8":{
+                    "img":"",
+                    "name":"Bosch Series 8",
+                    "price":"2360$",
+                    "delivery":"2",
+                    "id":"8a4ee243-51ca-428e-8f29-502e069baa4e",
+                    "color":"Black"
+                }
             },
-            "Beko":{
-
+            "Delonghi":{
+                "DELONGHI Dinamica Plus":{
+                    "img":"",
+                    "name":"DELONGHI Dinamica Plus",
+                    "price":"730$",
+                    "delivery":"2",
+                    "id":"3781b373-7c06-4932-82d8-f9043a3f485f",
+                    "color":"Silver and Black"
+                },
+                "DeLonghi PrimaDonna Exclusive":{
+                    "img":"",
+                    "name":"DeLonghi PrimaDonna Exclusive",
+                    "price":"760$",
+                    "delivery":"2",
+                    "id":"8f0645f9-d12d-4180-916e-1e3184d8e129",
+                    "color":"Silver and Black"
+                },
+                "DELONGHI Magnifica Start":{
+                    "img":"",
+                    "name":"DELONGHI Magnifica Start",
+                    "price":"400$",
+                    "delivery":"2",
+                    "id":"1837081d-acdd-4f94-aa91-08522daad741",
+                    "color":"Silver/Black/White"
+                }
             }
         }
     }
