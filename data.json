@@ -11,7 +11,8 @@
                     "price":"1040$",
                     "delivery":"3",
                     "description":"Ryzen 7 / 16GB RAM / 1TB",
-                    "seriesnum":"G513RM"
+                    "id":"b79f85da-d6b8-4f65-a4de-f45f8adebc97",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop ASUS ROG Strix G17":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/07/041901/1-74x74.jpg.webp",
@@ -19,7 +20,8 @@
                     "price":"1720$",
                     "delivery":"2",
                     "description":"AMD Ryzen 9/ 32GB/ 1TB/ RTX 4060",
-                    "seriesnum":"G713PV-WS95"
+                    "id":"32be6618-b126-4915-be50-e421dec417f7",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop ASUS ROG Strix G18":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/07/041847/1-74x74.jpg.webp",
@@ -27,7 +29,9 @@
                     "price":"2100$",
                     "delivery":"3",
                     "description":"Intel Core i7/ 32GB/ 1TB/ RTX 4070",
-                    "seriesnum":"G814JI-N6084"
+                    "id":"8c1c1dfc-95c9-48e7-a991-07201d51f492",
+                    "color":"Space Black/Silver"
+
                 },
                 "Laptop ASUS Vivobook 15 OLED ":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/08/211207/65vvd-1397x1397.jpg.webp",
@@ -35,7 +39,8 @@
                     "price":"1070$",
                     "delivery":"1",
                     "description":"Intel Core i7/ 24GB/ 1TB/ Iris Xe",
-                    "seriesnum":"R1505ZA-L1184"
+                    "id":"249d868a-3af2-45a3-a368-b28e3c1310da",
+                    "color":"Space Black/Silver"
 
                 },
                 "Laptop ASUS VivoBook Pro 15 OLED":{
@@ -44,7 +49,8 @@
                     "price":"1470$",
                     "delivery":"1",
                     "description":"Core i9 / 16GB RAM / 1TB",
-                    "seriesnum":"K6502VV"
+                    "id":"9053a517-c186-4af8-b047-ca4958a83cba",
+                    "color":"Space Black/Silver"
                 }
               },
               "Dell":{
@@ -54,7 +60,8 @@
                     "price":"1730$",
                     "delivery":"2",
                     "description":"2TB SSD/ 64GB RAM/ Intel i7",
-                    "seriesnum":"3480"
+                    "id":"38139a8d-01ec-4532-b0f1-224eced8f202",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop Dell Latitude Pro":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/08/041050/2%20(1)-1397x1397.jpg.webp",
@@ -62,7 +69,8 @@
                     "price":"1330$",
                     "delivery":"2",
                     "description":"512GB SSD/ 16GB RAM/ Intel i7",
-                    "seriesnum":"5540"
+                    "id":"370e1088-0896-494b-8f18-384c41b78bfc",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop Dell Latitude":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/08/021743/2-1397x1397.jpg.webp",
@@ -70,7 +78,8 @@
                     "price":"1350$",
                     "delivery":"2",
                     "description":"512GB SSD/ 16GB RAM/ Intel i5",
-                    "seriesnum":"5541"
+                    "id":"b2f51070-5f79-4ebe-b394-5149727b51e3",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop Dell Inspiron 14":{
                     "img":"",
@@ -78,7 +87,8 @@
                     "price":"1010$",
                     "delivery":"2",
                     "description":"Intel Core i7/ 16GB/ 1TB/ Iris Xe",
-                    "seriesnum":"7430"
+                    "id":"c0958839-6b99-4be2-8497-44eea1296b7a",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop Dell Vostro":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/08/041226/N1005VNB5630UA_W11P-2-1397x1397.jpg.webp",
@@ -86,7 +96,8 @@
                     "price":"790$",
                     "delivery":"2",
                     "description":"256GB SSD/ 8GB RAM/ Intel i5",
-                    "seriesnum":"5630"
+                    "id":"29920374-dcf3-42c1-b147-b677688e6dea",
+                    "color":"Space Black/Silver"
                 }
               },
               "AppleMac":{
@@ -96,7 +107,7 @@
                     "price":"770$",
                     "delivery":"1",
                     "description":"256 GB/Apple M1",
-                    "seriesnum":"MGND3",
+                    "id":"aad8a8aa-e8b2-42a7-ac65-404f572dcfd4",
                     "color":"Space Gray/Silver/Gold"
                 },
                 "Apple MacBook Pro 13 (2020)":{
@@ -105,7 +116,7 @@
                     "price":"1580$",
                     "delivery":"2",
                     "description":"256GB/ Apple M1",
-                    "seriesnum":"Z11B000E3",
+                    "id":"4df8cf01-5022-431c-931b-9693e19c0021",
                     "color":"Space Gray/Silver"
                 },
                 "Apple MacBook Pro 14 (2023)":{
@@ -114,7 +125,7 @@
                     "price":"1500$",
                     "delivery":"1",
                     "description":" Apple M3/ 512GB/ 8 CPU-10 GPU/ 8GB RAM,",
-                    "seriesnum":"MTL73",
+                    "id":"1015d30c-5620-4578-8009-1d68b73ff834",
                     "color":"Space Black/Silver"
                 },
                 "MacBook Air 15 (2023)":{
@@ -123,7 +134,7 @@
                     "price":"1230$",
                     "delivery":"2",
                     "description":"256GB/ 8 CPU-10 GPU/ 8GB RAM/ Apple M2",
-                    "seriesnum":"MQKW3",
+                    "id":"8642ff0e-ca40-48ea-a6c0-c1a7a4298180",
                     "color":"Space Gray/Silver/Midnight/Starlight"
                 },
                 
@@ -133,7 +144,7 @@
                     "price":"1710$",
                     "delivery":"1",
                     "description":"Apple M1 Pro/ 10 CPU-16 GPU/ 16GB RAM/ 512GB SSD",
-                    "seriesnum":"MK183",
+                    "id":"553f235e-c2dd-429c-8f84-444d1c2cd022",
                     "color":"Space Black/Silver"
 
                 }
@@ -146,7 +157,8 @@
                     "price":"920$",
                     "delivery":"2",
                     "description":"Core 5/ 8GB/ 512GB/ Intel Graphics",
-                    "seriesnum":"A0NC0EA"
+                    "id":"c35adbd4-9daf-471b-9510-4fae68e63e9b",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop HP Pavilion 15":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/08/260915/43df-1397x1397.jpg.webp",
@@ -154,7 +166,8 @@
                     "price":"950$",
                     "delivery":"2",
                     "description":"Core i7 / 16GB RAM / 512GB",
-                    "seriesnum":"A0NC0E0"
+                    "id":"6a29f9f8-e40b-400c-a6a7-99755a22bae0",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop HP Probook 14":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/10/131428/43ssf-1397x1397.jpg.webp",
@@ -162,7 +175,8 @@
                     "price":"1660$",
                     "delivery":"2",
                     "description":"1TB SSD/ 32GB RAM/ Intel i7",
-                    "seriesnum":"440-G10"
+                    "id":"1d1bdbb5-2442-4e83-9db2-3d8bf3833351",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop HP ZBook Firefly":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/121218/hfjjdf-1397x1397.jpg.webp",
@@ -170,7 +184,8 @@
                     "price":"1250$",
                     "delivery":"2",
                     "description":"Core i5 / 16GB RAM / 512GB",
-                    "seriesnum":"441-A30"
+                    "id":"53123519-6c19-4b13-8a55-bb48ab8d4039",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop HP OMEN":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/10/151048/7Y0N1EA-1397x1397.jpg.webp",
@@ -178,7 +193,8 @@
                     "price":"2025$",
                     "delivery":"2",
                     "description":"1TB SSD/ 16GB RAM/ Intel i7",
-                    "seriesnum":"17-cm2007ua"
+                    "id":"21638ed7-56e4-4b70-b439-5522e810cb05",
+                    "color":"Space Black/Silver"
                 }
                 
               },
@@ -189,7 +205,8 @@
                     "price":"1195$",
                     "delivery":"1",
                     "description":"(Intel Core i7/ 16GB/ 512GB/ RTX 4060",
-                    "seriesnum":"AN515-58"
+                    "id":"d9d25e09-8cc6-47bb-b9cd-829be452062c",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop Acer Nitro V 15":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/241236/34bdfbd-1397x1397.jpg.webp",
@@ -197,7 +214,8 @@
                     "price":"1220$",
                     "delivery":"1",
                     "description":"Core i7/16GB RAM/512GB/RTX 4050",
-                    "seriesnum":"ANV15"
+                    "id":"a9451a3b-92f6-4bfb-bc82-de687bf62b26",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop Acer TravelMate P2":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/051302/76bdff-1397x1397.jpg.webp",
@@ -205,7 +223,8 @@
                     "price":"1040$",
                     "delivery":"2",
                     "description":"Core i7 / 32GB RAM / 1TB",
-                    "seriesnum":"TMP215-54"
+                    "id":"008dd0cb-1438-47a4-badc-4e6b22db45b0",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop Acer Nitro 17":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/241352/43vdvfd-1397x1397.jpg.webp",
@@ -213,7 +232,8 @@
                     "price":"1320$",
                     "delivery":"2",
                     "description":"Core i5/16GB RAM/512GB/RTX 4050",
-                    "seriesnum":"AN17-51"
+                    "id":"dabbc23c-5c11-4144-98c5-b6b7fe95366f",
+                    "color":"Space Black/Silver"
                 },
                 "Laptop Acer Predator Helios 16":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/04/261452/7-1397x1397.jpg.webp",
@@ -221,7 +241,8 @@
                     "price":"2510$",
                     "delivery":"3",
                     "description":"Core i9/32GB RAM/1TB/RTX 4070",
-                    "seriesnum":"PH16-72"
+                    "id":"f87b88dd-e315-4417-a0eb-9280c170f528",
+                    "color":"Space Black/Silver"
                 }
                 
               }
@@ -236,7 +257,7 @@
                 "price":"800$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-33R",
+                "id":"2756bde6-1496-48c4-b64f-1a5dbe384ffc",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Plus": {
@@ -245,7 +266,7 @@
                 "price":"850$",
                 "delivery":"2",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-44R",
+                "id":"ded26784-4d23-450f-8d91-84185a0a6062",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Pro": {
@@ -254,7 +275,7 @@
                 "price":"1000$",
                 "delivery":"3",
                 "description":"128G/256G/512G/1T",
-                "seriesnum":"ASE-33R",
+                "id":"ebd6f7f5-9efc-4bcf-9610-4e86ceb2fa44",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Pro Max": {
@@ -263,7 +284,7 @@
                 "price":"1200$",
                 "delivery":"1",
                 "description":"256G/512G/1T",
-                "seriesnum":"ASE-33F",
+                "id":"ddf122ba-7c46-4c78-a644-e9cf151a0258",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15": {
@@ -272,7 +293,7 @@
                 "price":"700$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-33S",
+                "id":"d817e54d-1871-4e92-8437-1b8dd0113f0f",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Plus": {
@@ -281,7 +302,7 @@
                 "price":"800$",
                 "delivery":"2",
                 "description":"128G/256G/512G",
-                "seriesnum":"AKE-44R",
+                "id":"fb01f31c-d940-414d-837d-1b658eb81d3c",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Pro": {
@@ -290,7 +311,7 @@
                 "price":"900$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-33H",
+                "id":"cc7eb23a-1d49-4798-9ea7-3fa58a9433c8",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Pro Max": {
@@ -299,7 +320,7 @@
                 "price":"1000$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-34V",
+                "id":"221dad7e-2bcf-44a4-a190-806a06282b9d",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 14": {
@@ -308,7 +329,7 @@
                 "price":"600$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-22D",
+                "id":"3ca03939-8e9c-4ea1-a225-96adfb379ee8",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 14 Plus": {
@@ -317,7 +338,7 @@
                 "price":"700$",
                 "delivery":"2",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-44R",
+                "id":"d906a897-bb72-4eb9-8068-ef286a7094fa",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 14 Pro": {
@@ -326,7 +347,7 @@
                 "price":"850$",
                 "delivery":"1",
                 "description":"128G/256G/512G",
-                "seriesnum":"FDE-33R",
+                "id":"8c6f34ff-d8ce-4b69-920d-edc743858cf6",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 14 Pro Max": {
@@ -335,7 +356,7 @@
                 "price":"990$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"DSA-33B",
+                "id":"666507fd-e22e-488f-b84f-de410f34aeae",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 13": {
@@ -344,7 +365,7 @@
                 "price":"800$",
                 "delivery":"3",
                 "description":"128G/256G/512G",
-                "seriesnum":"ASE-33R",
+                "id":"49f9890f-84e8-46bc-a453-1040ee5f7727",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 13 mini": {
@@ -353,7 +374,7 @@
                 "price":"600$",
                 "delivery":"2",
                 "description":"128G/256G/512G",
-                "seriesnum":"VBN-44R",
+                "id":"c0b74c29-726d-4e18-878c-1c76940fbd69",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 13 Pro": {
@@ -362,7 +383,7 @@
                 "price":"730$",
                 "delivery":"1",
                 "description":"128G/256G/512G",
-                "seriesnum":"XZC-22A",
+                "id":"31e4aa87-f71b-4cde-b992-732d4da654b8",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 13 Pro Max": {
@@ -371,7 +392,7 @@
                 "price":"850$",
                 "delivery":"2",
                 "description":"128G/256G/512G",
-                "seriesnum":"MKL-44R",
+                "id":"86d5f9e6-8e02-48c9-8e91-f2162deb8fc4",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 }
             },
@@ -382,7 +403,7 @@
                     "price":"1290$",
                     "delivery":"2",
                     "description":"256G/512G/1TB",
-                    "seriesnum":"SMS-111",
+                    "id":"9fa07c2f-feac-4660-bc84-a9eae057254c",
                     "color":"Titanium Black/Cobalt Violet/Titanium Gray"
                 },
                 "Samsung Galaxy S24+":{
@@ -391,7 +412,7 @@
                     "price":"990$",
                     "delivery":"2",
                     "description":"256G/512G",
-                    "seriesnum":"SMS-112",
+                    "id":"5ea0b107-3b70-4d91-98e4-575e2af7b09a",
                     "color":"Marble Grey/Marble Black/Cobalt Violet"
                 },
                 "Samsung Galaxy S24":{
@@ -400,7 +421,7 @@
                     "price":"810$",
                     "delivery":"2",
                     "description":"128G/256G",
-                    "seriesnum":"SMS-113",
+                    "id":"8e96a2b9-be09-4434-b870-64795bd0e30e",
                     "color":"Cobalt Violet/Cobalt Grey/Cobalt Black"
                 },
                 "Samsung Galaxy Fold 6":{
@@ -409,7 +430,7 @@
                     "price":"2075$",
                     "delivery":"2",
                     "description":"512G/1TB",
-                    "seriesnum":"SMS-114",
+                    "id":"0711eb00-103c-4cf0-bc82-18600a70d806",
                     "color":"Silver Shadow/Navy/Pink"
                 },
                 "Samsung Galaxy Flip 6":{
@@ -418,7 +439,7 @@
                     "price":"1120$",
                     "delivery":"2",
                     "description":"256G/512G",
-                    "seriesnum":"SMS-115",
+                    "id":"515000d6-3c89-40a0-b7ed-9d3d4f5e2f0c",
                     "color":"Blue/Gray/Black"
                 }
             },
@@ -429,7 +450,7 @@
                     "price":"810$",
                     "delivery":"2",
                     "description":"128G/256G/512G",
-                    "seriesnum":"ASS-111",
+                    "id":"e85821b0-7b72-4900-a257-6afb71da371d",
                     "color":"Grey/Black"
                  },
                  "Asus Zenfone 11 Ultra":{
@@ -438,7 +459,7 @@
                     "price":"975$",
                     "delivery":"1",
                     "description":"128G/256G/512G",
-                    "seriesnum":"ASS-112",
+                    "id":"f15021e2-407b-431d-ba93-1fc23278acc2",
                     "color":"Grey/Black"
                  },
                  "Asus ROG Phone 8 Pro":{
@@ -447,7 +468,7 @@
                     "price":"1120$",
                     "delivery":"1",
                     "description":"256G/512G/1TB",
-                    "seriesnum":"ASS-113",
+                   "id":"0cb6fc1d-ac37-4845-a65c-4fcd661aeeae",
                     "color":"Phantom Black"
                  }
             },
@@ -458,7 +479,7 @@
                     "price":"380$",
                     "delivery":"2",
                     "description":"256G/512G",
-                    "seriesnum":"XIO-111",
+                    "id":"af9a21c0-c185-40c0-8b34-a57ef11584c9",
                     "color":"Midnigth Black/Aurora Purple/Ocean Teal"
                },
                 "Xiaomi Redmi Note 13 Pro+":{
@@ -467,7 +488,7 @@
                     "price":"440$",
                     "delivery":"2",
                     "description":"256G/512G",
-                    "seriesnum":"XIO-112",
+                    "id":"276160a1-0d95-4ba1-b538-df1305420794",
                     "color":"Midnigth Black/Mystic Silver/Moonlight White/Aurora Purple"
                },
                 "Xiaomi 14":{
@@ -476,7 +497,7 @@
                     "price":"970$",
                     "delivery":"2",
                     "description":"256G/512G",
-                    "seriesnum":"XIO-113",
+                    "id":"81fc5fbe-f228-4abc-9c59-5d11f46807ec",
                     "color":"Black/Jade Green/White"
                },
                 "Xiaomi 14 Ultra":{
@@ -485,7 +506,7 @@
                     "price":"1340$",
                     "delivery":"2",
                     "description":"256G/512G",
-                    "seriesnum":"XIO-114",
+                    "id":"7d80fe4c-b697-4401-8cc2-b782b4ba381a",
                     "color":"Black/White"
                }
             },
@@ -496,7 +517,7 @@
                     "price":"540$",
                     "delivery":"3",
                     "description":"128G/256G/512G",
-                    "seriesnum":"GGL-111",
+                    "id":"b79f85da-d6b8-4f65-a4de-f45f8adebc97",
                     "color":"Rose/Obsidian/Hazel"
                },
                 "Google Pixel 8 Pro":{
@@ -505,7 +526,7 @@
                     "price":"700$",
                     "delivery":"3",
                     "description":"128G/256G/512G",
-                    "seriesnum":"GGL-112",
+                    "id":"b79f85da-d6b8-4f65-a4de-f45f8adebc97",
                     "color":"Bay/Obsidian/Mint/Porcelain"
                 },
                 "Google Pixel 9":{
@@ -514,7 +535,7 @@
                     "price":"800$",
                     "delivery":"3",
                     "description":"128G/256G/512G",
-                    "seriesnum":"GGL-113",
+                    "id":"b79f85da-d6b8-4f65-a4de-f45f8adebc97",
                     "color":"Porcelain/Obsidian/Peoni/WinterGreean"
                 },
                 "Google Pixel 9 Pro":{
@@ -523,14 +544,31 @@
                     "price":"1340$",
                     "delivery":"3",
                     "description":"128G/256G/512G/1TB",
-                    "seriesnum":"GGL-114",
+                    "id":"b79f85da-d6b8-4f65-a4de-f45f8adebc97",
                     "color":"Obsidian/Porcelian"
                 }   
             }
         }
-    },
-    "":{
-        
+    }
+ },
+ "HomeTools":{
+    "Robot Vacuum Clearner":{
+            "Xiomi":{
+               "Xiaomi Robot Vacuum E5":{
+                    "img":"",
+                    "name":"Xiaomi Robot Vacuum E5",
+                    "price":"120$",
+                    "delivery":"1",
+                    "id":"b79f85da-d6b8-4f65-a4de-f45f8adebc97",
+                    "color":"Black/White"
+               }
+        },
+            "Philips":{
+
+        },
+            "Samsung":{
+
+        }
     }
  }
 }
