@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart home</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/icone/logo.png"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav
+        class="header__nav"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.header-nav.partial.html"
+      ></nav>
+      <div class="header__video">
+        <video class="header__video-element" autoplay muted loop>
+          <source src="video/smart-home-presentation.mp4" type="video/mp4" />
+          Your browser does not support video. Update it or use another one.
+        </video>
+      </div>
+    </header>
+    <main class="main-content">
+      <section class="category">
+        <div class="category__grid">
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-surveillance-camera.jpg"
+                alt="Iphone Setup"
+                class="category__image"
+              />
+              <p class="category__title">Surveillance camera</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-alarms.jfif"
+                alt="Household goods"
+                class="category__image"
+              />
+              <p class="category__title">Alarms</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-intercom.jfif"
+                alt="Cook for gamers"
+                class="category__image"
+              />
+              <p class="category__title">Intercoms</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-wi-fi.jfif"
+                alt="Smart Home"
+                class="category__image"
+              />
+              <p class="category__title">Wi-Fi</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <div class="parting"></div>
+    </main>
+    <footer class="footer">
+      <nav
+        class="footer__nav"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.footer.partial.html"
+      ></nav>
+    </footer>
+  </body>
+</html>

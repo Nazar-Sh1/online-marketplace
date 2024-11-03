@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Household goods</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/icone/logo.png"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav
+        class="header__nav"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.header-nav.partial.html"
+      ></nav>
+      <div class="header__video">
+        <video class="header__video-element" autoplay muted loop>
+          <source src="video/dyson-presentation.mp4" type="video/mp4" />
+          Your browser does not support video. Update it or use another one.
+        </video>
+      </div>
+    </header>
+    <main class="main-content">
+      <section class="category">
+        <div class="category__grid">
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-robot-vacuum-cleaner.jfif"
+                alt="Iphone Setup"
+                class="category__image"
+              />
+              <p class="category__title">Robot Vacuum Cleaner</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-homepod.jfif"
+                alt="Iphone Setup"
+                class="category__image"
+              />
+              <p class="category__title">Audio station</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-dyson-airwrap.jfif"
+                alt="Household goods"
+                class="category__image"
+              />
+              <p class="category__title">Hair dryers</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-ecoflow.jfif"
+                alt="Household goods"
+                class="category__image"
+              />
+              <p class="category__title">Charging stations</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-dyson-purifier.jfif"
+                alt="Cook for gamers"
+                class="category__image"
+              />
+              <p class="category__title">Air purifier</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-vacuum-cleaner.jfif"
+                alt="Cook for gamers"
+                class="category__image"
+              />
+              <p class="category__title">Vacuum cleaner</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-smeg-electric-kettle.jfif"
+                alt="Smart Home"
+                class="category__image"
+              />
+              <p class="category__title">Kettle</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-smeg-toaster.jfif"
+                alt="Smart Home"
+                class="category__image"
+              />
+              <p class="category__title">Toaster</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <div class="parting"></div>
+    </main>
+    <footer class="footer">
+      <nav
+        class="footer__nav"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.footer.partial.html"
+      ></nav>
+    </footer>
+  </body>
+</html>

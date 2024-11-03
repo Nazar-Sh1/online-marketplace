@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goods for gamers</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/icone/logo.png"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav
+        class="header__nav"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.header-nav.partial.html"
+      ></nav>
+      <div class="header__video">
+        <video class="header__video-element" autoplay muted loop>
+          <source src="video/dualsense-presentation.mp4" type="video/mp4" />
+          Your browser does not support video. Update it or use another one.
+        </video>
+      </div>
+    </header>
+    <main class="main-content">
+      <section class="category">
+        <div class="category__grid">
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-game-consoles.jfif"
+                alt="Iphone Setup"
+                class="category__image"
+              />
+              <p class="category__title">Game consoles</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-playstation.jfif"
+                alt="Household goods"
+                class="category__image"
+              />
+              <p class="category__title">Gamepads</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-games.jfif"
+                alt="Cook for gamers"
+                class="category__image"
+              />
+              <p class="category__title">Games</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-gaming-laptop.jfif"
+                alt="Smart Home"
+                class="category__image"
+              />
+              <p class="category__title">Gaming laptops</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-gaming-chair.jfif"
+                alt="Smart Home"
+                class="category__image"
+              />
+              <p class="category__title">Gaming computer chairs</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-gaming-pc.jfif"
+                alt="Smart Home"
+                class="category__image"
+              />
+              <p class="category__title">Gaming PC</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-monitor.jfif"
+                alt="Smart Home"
+                class="category__image"
+              />
+              <p class="category__title">Gaming monitors</p>
+            </a>
+          </div>
+          <div class="category__item">
+            <a href="#" class="category__link">
+              <img
+                src="img/photo/menu-vr.jfif"
+                alt="Smart Home"
+                class="category__image"
+              />
+              <p class="category__title">Virtual reality glasses</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <div class="parting"></div>
+    </main>
+    <footer class="footer">
+      <nav
+        class="footer__nav"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.footer.partial.html"
+      ></nav>
+    </footer>
+  </body>
+</html>
