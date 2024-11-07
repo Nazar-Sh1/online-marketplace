@@ -1,191 +1,312 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #f0f0f0;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-header {
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
-}
-
-.logo {
-    font-size: 1.5em;
-    color: #999900;
-}
-
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #000;
-}
-
-nav a.sale {
-    color: #999900;
-}
-
-.icons .icon {
-    margin: 0 5px;
-}
-
-.cart {
-    background-color: #e0e0e0;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.remove-all {
-    background: none;
-    border: none;
-    color: #000;
-    font-size: 1em;
-    cursor: pointer;
+    padding: 10px;
+    flex-wrap: wrap;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #fff; 
+    z-index: 1000; 
+  }
+  
+  body {
+    padding-top: 60px; 
+  }
+  
+  .nav__gird-item {
     display: flex;
     align-items: center;
-}
-
-.cart-item {
+  }
+  
+  .nav__links-container {
     display: flex;
-    align-items: center;
-    background-color: #c7c7c7;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-}
-
-.cart-item img {
-    width: 80px;
-    height: auto;
-    margin-right: 20px;
-}
-
-.item-details {
-    flex: 2;
-}
-
-.pickup {
-    color: #999900;
-}
-
-.product-code, .favorites {
-    color: #666;
-    margin-top: 5px;
-}
-
-.remove-btn {
-    background: none;
-    border: none;
-    color: #666;
-    cursor: pointer;
-}
-
-.price {
-    text-align: right;
-    margin-right: 20px;
-}
-
-.old-price {
-    text-decoration: line-through;
-    color: #666;
-}
-
-.discount {
-    color: #999900;
-}
-
-.current-price {
-    font-size: 1.2em;
-    color: #d90000;
-}
-
-.quantity {
+  }
+  
+  .nav__list {
     display: flex;
-    align-items: center;
-}
-
-.quantity button {
-    background: #e0e0e0;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-.quantity input {
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav__link {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .nav__account-container,
+  .nav__logo-container {
+    margin-left: 15px;
+  }
+  
+  .nav__logo-image,
+  .nav__menu-link {
     width: 30px;
-    text-align: center;
-    border: none;
-    background: #f5f5f5;
-    margin: 0 5px;
-}
-
-.order-summary {
+    height: 30px;
+  }
+  
+  /* Мобільні стилі */
+  @media (max-width: 400px) {
+    .nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav__list {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav__link {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .nav__gird-item {
+      margin-bottom: 15px;
+    }
+  
+    .nav__account-container,
+    .nav__logo-container {
+      margin-left: 0;
+    }
+  }
+  
+  #nav__item-sale {
+    color: #ffd700;
+  }
+  
+  .nav__link {
+    color: #131913;
+  }
+  
+/* Header styling */
+.header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    background-color: #d0d0d0;
-    padding: 20px;
-    border-radius: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bbb;
 }
-
-.summary {
-    flex: 1;
+.header img {
+    width: 25px;
+    height: 25px;
 }
-
-.summary p {
-    margin: 5px 0;
-}
-
-.total {
+.header span {
+    font-size: 16px;
     font-weight: bold;
 }
 
-.proceed {
-    display: block;
-    background-color: #ffdd00;
-    border: none;
-    padding: 10px;
-    font-size: 1em;
-    color: #000;
-    cursor: pointer;
-    border-radius: 5px;
+/* Main container styling */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+}
+.product img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+.product-details {
+    flex: 1;
+}
+.product-details h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.product-details .product-code {
+    font-size: 12px;
+    color: #888;
+}
+.product-details .pickup {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+.pickup img {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+.price {
+    display: flex;
+    flex-direction: column; /* Stack price-info and current-price vertically */
+    align-items: flex-end; /* Align all elements to the right */
     margin-top: 10px;
 }
 
-.similar-products {
-    flex: 1;
-}
-
-.similar-item {
+.price-info {
     display: flex;
     align-items: center;
+}
+
+.price .original-price {
+    font-size: 16px;
+    color: #888;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.price .discount {
+    background-color: #ffd700;
+    color: black;
+    font-size: 12px;
+    padding: 3px 5px;
+    border-radius: 4px;
+}
+
+.price .current-price {
+    font-size: 24px;
+    color: red;
+    margin-top: 5px; /* Adds spacing above current price */
+}
+
+.footers img {
+    width: 15px;
+    height: 15px;
+    margin: auto;
+}
+.quantity-control {
+    margin-right: auto;
+}
+
+
+/* Order container styling */
+.order-container {
+    background-color: #d9d9d9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.order-container h2 {
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
-.similar-item img {
+.order-details p, .total p {
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-details .amount, .order-details .discount, .total .total-amount {
+    font-weight: bold;
+}
+
+.proceed-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.proceed-button:hover {
+    background-color: #f0c500;
+}
+
+/* Similar products container */
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.product-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-info img {
     width: 50px;
     height: auto;
     margin-right: 10px;
 }
 
-.similar-item p {
-    flex: 1;
-}
-
-.similar-item .old-price {
-    text-decoration: line-through;
-    color: #666;
-}
-
-.similar-item .current-price {
-    color: #d90000;
+.product-details .product-name {
+    font-size: 14px;
     font-weight: bold;
 }
 
+.color-options {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.color.black { background-color: black; }
+.color.blue { background-color: blue; }
+.color.pink { background-color: pink; }
+.color.green { background-color: green; }
+.color.yellow { background-color: yellow; }
+
+.price-section {
+    text-align: right;
+}
+
+.price-section .original-price {
+    font-size: 14px;
+    color: #888;
+    text-decoration: line-through;
+}
+
+.price-section .discounted-price {
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Загальний стиль для навігаційної панелі */
 .footer-bar {
     background-color: #D9D9D9;
     padding: 120px;
@@ -200,3 +321,86 @@ nav a.sale {
     align-items: flex-start;
     width: 100%;
   }
+  
+  /* Стиль для секції brand-section */
+  .brand-section {
+    position: absolute; /* Переміщує секцію в верхній лівий кут */
+    top: 20px; /* Відступ від верху */
+    left: 20px; /* Відступ від лівого краю */
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand-section__logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  /* Стиль для секції store-info */
+  .store-info {
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Розміщення у правому верхньому куті */
+    display: flex;
+    flex-direction: column; /* Вертикальне вирівнювання елементів */
+    align-items: flex-start; /* Вирівнювання елементів зліва */
+  }
+  
+  .store-info__heading {
+    font-weight: bold;
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .store-info__address {
+    color: #555;
+  }
+  
+  /* Стиль для секції company-signature */
+  .company-signature {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-signature__icon {
+    width: 24px;
+    height: auto;
+  }
+  
+  /* Стиль для секції contact-links */
+  .contact-links {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+    margin-top: 20px; 
+  }
+  
+  .contact-links__heading {
+    font-weight: bold;
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons__icon {
+    width: 24px;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  
+  .company-signature__description {
+    font-weight: 200;
+  }
+  
+  
