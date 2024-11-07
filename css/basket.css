@@ -97,12 +97,21 @@ body {
   }
   
 /* Header styling */
+.main-container {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
 .header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
-    border-bottom: 1px solid #bbb;
+    margin-bottom: 20px;
 }
 .header img {
     width: 25px;
@@ -122,10 +131,10 @@ body {
 .product {
     display: flex;
     align-items: center;
-    margin-top: 20px;
     background-color: #e0e0e0;
-    padding: 15px;
-    border-radius: 8px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 4px;
 }
 .product img {
     width: 200px;
@@ -134,19 +143,20 @@ body {
 }
 .product-details {
     flex: 1;
+    margin-left: 20px;
 }
 .product-details h3 {
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
 }
 .product-details .product-code {
     font-size: 12px;
     color: #888;
 }
 .product-details .pickup {
+    color: #6aa84f;
     font-size: 14px;
-    color: #666;
-    margin: 5px 0;
+    margin-top: 5px;
 }
 .pickup img {
     width: 20px;
@@ -155,8 +165,8 @@ body {
 }
 .price {
     display: flex;
-    flex-direction: column; /* Stack price-info and current-price vertically */
-    align-items: flex-end; /* Align all elements to the right */
+    flex-direction: column; 
+    align-items: flex-end; 
     margin-top: 10px;
 }
 
@@ -186,13 +196,29 @@ body {
     margin-top: 5px; /* Adds spacing above current price */
 }
 
-.footers img {
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantity button {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.quantity span {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.actions img {
     width: 15px;
     height: 15px;
     margin: auto;
-}
-.quantity-control {
-    margin-right: auto;
 }
 
 
@@ -238,20 +264,66 @@ body {
 }
 
 /* Similar products container */
-.title {
-    font-size: 18px;
+/* .main-container {
+    display: flex;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 800px;
+} */
+
+.order-container {
+    width: 60%;
+    background-color: #d3d3d3;
+    padding: 20px;
+}
+
+.order-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.order-details p, .total p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.total {
     font-weight: bold;
+    font-size: 1.2em;
     margin-top: 20px;
 }
 
-.product-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.proceed-button {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.similar-products {
+    width: 40%;
+    margin-left: 20px;
     background-color: #e0e0e0;
-    padding: 10px;
+}
+
+.similar-products .title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.product-card {
+    background-color: #fff;
     border-radius: 8px;
-    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .product-info {
@@ -259,15 +331,15 @@ body {
     align-items: center;
 }
 
-.product-info img {
-    width: 50px;
+.product-image {
+    width: 60px;
     height: auto;
     margin-right: 10px;
 }
 
-.product-details .product-name {
-    font-size: 14px;
-    font-weight: bold;
+.product-details {
+    display: flex;
+    flex-direction: column;
 }
 
 .color-options {
@@ -280,7 +352,6 @@ body {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #ccc;
 }
 
 .color.black { background-color: black; }
@@ -293,17 +364,15 @@ body {
     text-align: right;
 }
 
-.price-section .original-price {
-    font-size: 14px;
-    color: #888;
+.original-price {
     text-decoration: line-through;
+    color: #999;
+    font-size: 0.9em;
 }
 
-.price-section .discounted-price {
-    font-size: 16px;
+.discounted-price {
     color: red;
-    font-weight: bold;
-    margin-top: 5px;
+    font-size: 1.1em;
 }
 
 /* Загальний стиль для навігаційної панелі */
