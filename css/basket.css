@@ -264,18 +264,16 @@ body {
 }
 
 /* Similar products container */
-/* .main-container {
-    display: flex;
-    background-color: #e0e0e0;
-    border: 1px solid #ccc;
+.order-container,
+.similar-products {
     padding: 20px;
-    max-width: 800px;
-} */
+    background-color: #d3d3d3;
+}
 
 .order-container {
     width: 60%;
-    background-color: #d3d3d3;
-    padding: 20px;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
 }
 
 .order-container h2 {
@@ -283,7 +281,8 @@ body {
     margin-bottom: 10px;
 }
 
-.order-details p, .total p {
+.order-details p,
+.total p {
     font-size: 1em;
     margin: 5px 0;
 }
@@ -307,8 +306,7 @@ body {
 
 .similar-products {
     width: 40%;
-    margin-left: 20px;
-    background-color: #e0e0e0;
+    padding-left: 20px;
 }
 
 .similar-products .title {
@@ -340,6 +338,10 @@ body {
 .product-details {
     display: flex;
     flex-direction: column;
+}
+
+.product-name {
+    font-size: 1em;
 }
 
 .color-options {
