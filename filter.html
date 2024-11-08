@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Example</title>
+    <link rel="stylesheet" href="css/filter.css">
+</head>
+<body>
+    <div class="filter-section">
+        <!-- Memory Filter -->
+        <div class="filter">
+            <h3 class="filter-header">Об'єм пам'яті
+                <span class="toggle-icon">▼</span>
+            </h3>
+            <div class="filter-content">
+                <label>
+                    <input type="checkbox" name="memory" value="256GB">
+                    256GB
+                </label>
+                <label>
+                    <input type="checkbox" name="memory" value="512GB">
+                    512GB
+                </label>
+                <label>
+                    <input type="checkbox" name="memory" value="1TB">
+                    1TB
+                </label>
+            </div>
+        </div>
+
+        <!-- Color Filter -->
+        <div class="filter">
+            <h3 class="filter-header">Колір пристрою
+                <span class="toggle-icon">▼</span>
+            </h3>
+            <div class="filter-content">
+                <label>
+                    <input type="checkbox" name="color" value="Black Titanium">
+                    Black Titanium
+                </label>
+                <label>
+                    <input type="checkbox" name="color" value="Natural Titanium">
+                    Natural Titanium
+                </label>
+                <label>
+                    <input type="checkbox" name="color" value="White Titanium">
+                    White Titanium
+                </label>
+                <label>
+                    <input type="checkbox" name="color" value="Desert Titanium">
+                    Desert Titanium
+                </label>
+            </div>
+        </div>
+
+        <!-- Version Filter -->
+        <div class="filter">
+            <h3 class="filter-header">Версія
+                <span class="toggle-icon">▼</span>
+            </h3>
+            <div class="filter-content">
+                <label>
+                    <input type="checkbox" name="version" value="e-Sim">
+                    e-Sim
+                </label>
+                <label>
+                    <input type="checkbox" name="version" value="Global">
+                    Global
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
