@@ -1,102 +1,105 @@
-/* Reset some default browser styling */
-* {
+/* Скидання стилів */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-}
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+} */
 
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  flex-wrap: wrap;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #fff;
-  z-index: 1000;
-}
-
-body {
-  padding-top: 60px;
-}
-
-.nav__gird-item {
-  display: flex;
-  align-items: center;
-}
-
-.nav__links-container {
-  display: flex;
-}
-
-.nav__list {
-  display: flex;
-  gap: 15px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav__link {
-  font-size: 16px;
-  padding: 10px;
-}
-
-.nav__account-container,
-.nav__logo-container {
-  margin-left: 15px;
-}
-
-.nav__logo-image,
-.nav__menu-link {
-  width: 30px;
-  height: 30px;
-}
-
-/* Мобільні стилі */
-@media (max-width: 400px) {
-  .nav {
-    flex-direction: column;
-    align-items: flex-start;
+/* .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #fff; 
+    z-index: 1000; 
   }
-
+  
+  body {
+    padding-top: 60px; 
+  } */
+  
+  /* .nav__gird-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav__links-container {
+    display: flex;
+  }
+  
   .nav__list {
-    flex-direction: column;
-    gap: 10px;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
-
+  
   .nav__link {
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px;
   }
-
-  .nav__gird-item {
-    margin-bottom: 15px;
-  }
-
+  
   .nav__account-container,
   .nav__logo-container {
-    margin-left: 0;
+    margin-left: 15px;
   }
-}
-
-#nav__item-sale {
-  color: #ffd700;
-}
-
-.nav__link {
-  color: #131913;
-}
-
-/* Header styling */
+  
+  .nav__logo-image,
+  .nav__menu-link {
+    width: 30px;
+    height: 30px;
+  }
+  
+  
+  @media (max-width: 400px) {
+    .nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav__list {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav__link {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .nav__gird-item {
+      margin-bottom: 15px;
+    }
+  
+    .nav__account-container,
+    .nav__logo-container {
+      margin-left: 0;
+    }
+  }
+  
+  #nav__item-sale {
+    color: #ffd700;
+  }
+  
+  .nav__link {
+    color: #131913;
+  } */
+  
+/* 
 .main-container {
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -104,50 +107,50 @@ body {
   border-radius: 8px;
 }
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 18px;
-  color: #333;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 .header img {
-  width: 25px;
-  height: 25px;
+    width: 25px;
+    height: 25px;
 }
 .header span {
-  font-size: 16px;
-  font-weight: bold;
-}
+    font-size: 16px;
+    font-weight: bold;
+} */
 
-/* Main container styling */
-.container {
-  width: 80%;
-  margin: 20px auto;
+
+/* .container {
+    width: 80%;
+    margin: 20px auto;
 }
 
 .product {
-  display: flex;
-  align-items: center;
-  background-color: #e0e0e0;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  border-radius: 4px;
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 4px;
 }
 .product img {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
 }
 .product-details {
-  flex: 1;
-  margin-left: 20px;
+    flex: 1;
+    margin-left: 20px;
 }
 .product-details h3 {
-  margin: 0;
-  font-size: 16px;
+    margin: 0;
+    font-size: 16px;
 }
 .product-details .product-code {
   font-size: 12px;
@@ -159,9 +162,9 @@ body {
   margin-top: 5px;
 }
 .pickup img {
-  width: 20px;
-  height: 20px;
-  margin: auto;
+    width: 20px;
+    height: 20px;
+    margin: auto;
 }
 .price {
   display: flex;
@@ -171,8 +174,8 @@ body {
 }
 
 .price-info {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .price .original-price {
@@ -191,10 +194,11 @@ body {
 }
 
 .price .current-price {
-  font-size: 24px;
-  color: red;
-  margin-top: 5px; /* Adds spacing above current price */
+    font-size: 24px;
+    color: red;
+    margin-top: 5px; 
 }
+
 
 .quantity {
   display: flex;
@@ -203,95 +207,71 @@ body {
 }
 
 .quantity button {
-  background-color: #eee;
-  border: 1px solid #ddd;
-  padding: 5px 10px;
-  cursor: pointer;
-  font-size: 16px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 .quantity span {
-  margin: 0 10px;
-  font-size: 16px;
+    margin: 0 10px;
+    font-size: 16px;
 }
 
 .actions img {
-  width: 15px;
-  height: 15px;
-  margin: auto;
+    width: 15px;
+    height: 15px;
+    margin: auto;
 }
 
-/* Order container styling */
-.main-container {
-  max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-/* Займає всю ширину екрану */
+
 .order-container {
-  background-color: #d9d9d9;
-  padding: 20px 0; /* Вертикальні відступи */
-  border-radius: 8px;
-  margin-top: 20px;
-  width: 100%;
-  max-width: 4000px;
-  box-sizing: border-box;
-}
-
-/* Внутрішній контейнер для центрованого вирівнювання */
-.order-content {
-  max-width: 600px; /* Максимальна ширина для зручності */
-  width: 100%;
-  padding: 0 20px; /* Горизонтальні відступи */
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    background-color: #d9d9d9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 
 .order-container h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-.order-details p,
-.total p {
-  font-size: 16px;
-  color: #333;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+.order-details p, .total p {
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
 }
 
-.order-details .amount,
-.order-details .discount,
-.total .total-amount {
-  font-weight: bold;
+.order-details .amount, .order-details .discount, .total .total-amount {
+    font-weight: bold;
 }
 
 .proceed-button {
-  width: 100%;
-  padding: 10px;
-  background-color: #ffd700;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #333;
-  cursor: pointer;
-  margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 .proceed-button:hover {
-  background-color: #f0c500;
+    background-color: #f0c500;
 }
 
 
-/* Similar products container */
 .container {
   display: flex;
+  width: 80%;
+  margin: 20px auto;
 }
 
 .order-container,
@@ -314,32 +294,36 @@ body {
 .order-details p,
 .total p {
   font-size: 1em;
-  margin: 2px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
-.amount,
-.discount,
-.total-amount {
+.amount, .discount, .total-amount {
   font-size: 1em;
   margin: 2px 0;
 }
 
 .total {
   font-weight: bold;
-  font-size: 1.1em;
-  margin-top: 15px;
 }
 
 .proceed-button {
-  background-color: #ffd700;
-  color: #000;
-  border: none;
+  width: 100%;
   padding: 12px 20px;
-  font-size: 1em;
-  margin-top: 15px;
-  cursor: pointer;
+  background-color: #ffd700;
+  border: none;
   border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  margin-top: 15px;
 }
+
+.proceed-button:hover {
+  background-color: #f0c500;
+}
+
 
 .similar-products {
   width: 50%;
@@ -370,11 +354,6 @@ body {
   width: 50px;
   height: auto;
   margin-right: 8px;
-}
-
-.product-details {
-  display: flex;
-  flex-direction: column;
 }
 
 .product-name {
@@ -424,99 +403,98 @@ body {
   font-size: 1em;
 }
 
-/* Загальний стиль для навігаційної панелі */
+
+
 .footer-bar {
-  background-color: #d9d9d9;
-  padding: 120px;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-bar__container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  width: 100%;
-}
-
-/* Стиль для секції brand-section */
-.brand-section {
-  position: absolute; /* Переміщує секцію в верхній лівий кут */
-  top: 20px; /* Відступ від верху */
-  left: 20px; /* Відступ від лівого краю */
-  display: flex;
-  align-items: center;
-}
-
-.brand-section__logo {
-  width: 40px;
-  height: auto;
-  margin-right: 10px;
-}
-
-/* Стиль для секції store-info */
-.store-info {
-  position: absolute;
-  top: 20px;
-  right: 20px; /* Розміщення у правому верхньому куті */
-  display: flex;
-  flex-direction: column; /* Вертикальне вирівнювання елементів */
-  align-items: flex-start; /* Вирівнювання елементів зліва */
-}
-
-.store-info__heading {
-  font-weight: bold;
-  font-size: 30px;
-  color: #333;
-}
-
-.store-info__address {
-  color: #555;
-}
-
-/* Стиль для секції company-signature */
-.company-signature {
-  position: absolute;
-  bottom: 20px;
-  left: 0px;
-  left: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.company-signature__icon {
-  width: 24px;
-  height: auto;
-}
-
-/* Стиль для секції contact-links */
-.contact-links {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  text-align: right;
-  margin-top: 20px;
-}
-
-.contact-links__heading {
-  font-weight: bold;
-  font-size: 30px;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.social-icons {
-  display: flex;
-  gap: 10px;
-}
-
-.social-icons__icon {
-  width: 24px;
-  height: auto;
-  margin-bottom: 5px;
-}
-
-.company-signature__description {
-  font-weight: 200;
-}
+    background-color: #D9D9D9;
+    padding: 120px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-bar__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .brand-section {
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand-section__logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .store-info {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  
+  .store-info__heading {
+    font-weight: bold;
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .store-info__address {
+    color: #555;
+  }
+  
+  .company-signature {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-signature__icon {
+    width: 24px;
+    height: auto;
+  }
+  
+  .contact-links {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+    margin-top: 20px; 
+  }
+  
+  .contact-links__heading {
+    font-weight: bold;
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons__icon {
+    width: 24px;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  
+  .company-signature__description {
+    font-weight: 200;
+  }
+  
+  
