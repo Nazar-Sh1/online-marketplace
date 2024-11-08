@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/icone/logo.png"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="login">
+      <div class="login__image-wrapper">
+        <img
+          src="img/photo/gaming-top.jfif"
+          alt="Gaming Top"
+          class="login__image"
+        />
+      </div>
+      <div class="login__form">
+        <a href="#" class="login__close-link">
+          <img
+            src="img/icone/cansel-logo-dark.png"
+            alt="Cansel Logo"
+            class="login__close-icon"
+          />
+        </a>
+        <div class="login__title">
+          <h1 class="login__heading">Entrance</h1>
+        </div>
+        <div class="login__field">
+          <div class="login__label">
+            <p class="login__label-text">E-mail address</p>
+            <form action="/submit_registration" method="post">
+              <!-- <label for="email">adres@gmail.com:</label><br /> -->
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+              /><br /><br />
+            </form>
+          </div>
+          <div class="login__input"></div>
+        </div>
+        <div class="login__field">
+          <div class="login__label">
+            <p class="login__label-text">Come up with a password</p>
+            <!-- Поле для введення паролю в формі реєстрації -->
+            <form action="/submit_registration" method="post">
+              <!-- <label for="password">Пароль:</label><br /> -->
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+              /><br /><br />
+
+              <!-- <input type="submit" value="Зареєструватись" /> -->
+            </form>
+          </div>
+          <div class="login__input"></div>
+        </div>
+        <div class="login__button-wrapper">
+          <a href="#" class="login__button-link">
+            <div class="login__button-text">Continue</div>
+          </a>
+        </div>
+        <div class="login__divider">
+          <hr class="login__line-divider" />
+        </div>
+        <div class="login__footer-link">
+          <a href="#" class="login__footer-link-text">Entrance</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
