@@ -1,7 +1,7 @@
 function init() {
   // import(""); вписати назву файлу js
   import("./main.js");
-  // import("./01.js");
+  import("./registration.wiev.js");
 }
 
 const totalPartials = document.querySelectorAll(

@@ -21,83 +21,91 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  /* padding: 20px; */
+  margin-top: 100px;
+  align-items: center; /* Центрування всіх елементів по горизонталі */
+}
+
+.login__title {
+  width: 100%;
+  text-align: center;
 }
 
 .login__heading {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
-.login__field,
-.login__button-wrapper,
-.login__footer-link {
+/* Стилі для полів форми */
+.login__field {
   width: 100%;
-  text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-/* Нові стилі для полів введення */
 .login__label {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Вирівнювання по центру */
-  width: 100%; /* Займає всю ширину */
+  align-items: flex-start;
+  width: 100%;
 }
 
 .login__label-text {
-  margin-bottom: 5px; /* Відступ між текстом і полем введення */
+  margin-bottom: 5px;
+  text-align: left;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 20px;
+  color: #c4c4c4;
 }
 
-.login__field {
-  margin-bottom: 15px; /* Відступ між полями */
-  display: flex; /* Додаємо flex для центрування */
-  flex-direction: column; /* Вертикальне вирівнювання */
-  align-items: center; /* Центрування елементів */
-}
-
-/* Стилі для полів введення */
 input[type="email"],
 input[type="password"] {
-  width: 90%; /* Зробити ширшими (90% від батьківського елемента) */
-  max-width: 500px; /* Максимальна ширина */
-  padding: 10px 100px; /* Внутрішні відступи */
-  border: 1px solid #ccc; /* Сірий контур */
-  border-radius: 10px; /* Закруглені кути */
-  box-sizing: border-box; /* Включає padding і border в загальну ширину */
+  width: 100%;
+  max-width: 700px;
+  padding: 10px 80px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 
 input[type="email"]:focus,
 input[type="password"]:focus {
-  border-color: #FFD700; /* Зміна кольору контуру при фокусі */
-  outline: none; /* Прибирає стандартний контур */
+  border-color: #ffd700;
+  outline: none;
 }
 
+/* Центрування кнопок та посилань */
 .login__button-wrapper,
-.login__footer-link {
+.login__footer-link,
+.login__divider {
+  display: flex;
+  justify-content: center; /* Центрування елементів по горизонталі */
   width: 100%;
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.login__line-divider {
-  margin: 20px 0;
-  width: 80%;
+  margin-bottom: 25px;
 }
 
 .login__button-link {
   display: block;
   padding: 10px;
-  background-color: #FFD700;
-  color: white;
+  background-color: #ffd700;
+  color: black;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  width: 40%; /* Ширина для кнопки */
+  text-align: center;
+}
+
+.login__line-divider {
+  width: 85%;
+  border: 1px solid #000;
 }
 
 .login__footer-link-text {
   color: #595959;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Стилі для кнопки закриття */
@@ -109,8 +117,39 @@ input[type="password"]:focus {
 }
 
 .login__close-icon {
-  width: 30px; /* Зменшення розміру іконки */
+  width: 30px;
   height: 30px;
   object-fit: contain;
 }
 
+/* Стилі для модального вікна */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Напівпрозорий чорний фон */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  /* padding: 20px; */
+  border-radius: 8px;
+  /* width: 400px; */
+  max-width: 90%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}

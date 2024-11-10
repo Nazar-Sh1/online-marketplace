@@ -1,19 +1,51 @@
+/* Стиль для модального вікна */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: relative;
+  margin: 5% auto;
+  /* padding: 20px; */
+  width: 90%;
+  max-width: 400px;
+  max-height: 90vh; /* Обмежуємо висоту вікна */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
   flex-wrap: wrap;
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  background-color: #fff; 
-  z-index: 1000; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
 }
 
 body {
-  padding-top: 60px; 
+  padding-top: 60px;
 }
 
 .nav__gird-item {
@@ -82,4 +114,63 @@ body {
 
 .nav__link {
   color: #131913;
+}
+
+.login-modal {
+  display: none; /* Сховане за замовчуванням */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Темний фон позаду */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.login-modal__content {
+  background: #fff;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px; /* Зменшений розмір */
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.login__heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Вхідні поля */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login__button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffd700;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
 }

@@ -2,62 +2,83 @@
   <div class="nav__gird-item">
     <div class="nav__logo-container">
       <a href="index.html" class="nav__element">
-        <img
-          src="img/icone/logo.png"
-          alt="Logo Market"
-          class="nav__logo-image"
-        />
+        <img src="img/icone/logo.png" alt="Logo Market" class="nav__logo-image" />
       </a>
     </div>
   </div>
   <div class="nav__gird-item">
     <div class="nav__links-container">
       <ul class="nav__list">
-        <li class="nav__item">
-          <a href="catalog.html" class="nav__link">Catalog</a>
-        </li>
-        <li class="nav__item">
-          <a href="#" class="nav-link" id="nav__item-sale">Sale</a>
-        </li>
-        <li class="nav__item">
-          <a href="#" class="nav__link">Apple</a>
-        </li>
-        <li class="nav__item">
-          <a href="#" class="nav__link">Samsung</a>
-        </li>
-        <li class="nav__item">
-          <a href="#" class="nav__link">Xiaomi</a>
-        </li>
+        <li class="nav__item"><a href="catalog.html" class="nav__link">Catalog</a></li>
+        <li class="nav__item"><a href="#" class="nav__link" id="nav__item-sale">Sale</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Apple</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Samsung</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Xiaomi</a></li>
       </ul>
     </div>
   </div>
   <div class="nav__gird-item">
-    <div class="nav__account-container">
-      <a href="index.login.menu.html" class="nav__element">
-        <img
-          src="img/icone/account-logo.png"
-          alt="Account Logo"
-          class="nav__menu-link"
-        />
+    <div class="nav__account-container" id="accountContainer">
+      <a href="#" class="nav__element">
+        <img src="img/icone/account-logo.png" alt="Account Logo" class="nav__menu-link" />
       </a>
     </div>
     <div class="nav__logo-container">
       <a href="#" class="nav__element">
-        <img
-          src="img/icone/search.png"
-          alt="Search Logo"
-          class="nav__menu-link"
-        />
+        <img src="img/icone/search.png" alt="Search Logo" class="nav__menu-link" />
       </a>
     </div>
     <div class="nav__logo-container">
       <a href="basket.html" class="nav__element">
-        <img
-          src="img/icone/baskets-logo.png"
-          alt="Baskets Logo"
-          class="nav__menu-link"
-        />
+        <img src="img/icone/baskets-logo.png" alt="Baskets Logo" class="nav__menu-link" />
       </a>
     </div>
   </div>
 </nav>
+
+<!-- Модальне вікно для входу -->
+<div class="modal" id="loginModal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeModalBtn">&times;</span>
+    <main id="login" class="login">
+      <div class="login__image-wrapper">
+        <img src="img/photo/gaming-top.jfif" alt="Gaming Top" class="login__image" />
+      </div>
+      <div class="login__form">
+        <!-- <a href="index.html" class="login__close-link">
+          <img src="img/icone/cansel-logo-dark.png" alt="Cancel Logo" class="login__close-icon" />
+        </a> -->
+        <div class="login__title">
+          <h1 class="login__heading">Entrance</h1>
+        </div>
+        <div class="login__field">
+          <div class="login__label">
+            <p class="login__label-text">E-mail address</p>
+            <form action="/submit_registration" method="post">
+              <input type="email" id="email" name="email" required /><br /><br />
+            </form>
+          </div>
+          <div class="login__input"></div>
+        </div>
+        <div class="login__field">
+          <div class="login__label">
+            <p class="login__label-text">Come up with a password</p>
+            <form action="/submit_registration" method="post">
+              <input type="password" id="password" name="password" required /><br /><br />
+            </form>
+          </div>
+          <div class="login__input"></div>
+        </div>
+        <div class="login__button-wrapper">
+          <a href="#" class="login__button-link">Register</a>
+        </div>
+        <div class="login__divider">
+          <hr class="login__line-divider" />
+        </div>
+        <div class="login__footer-link">
+          <a href="index.register.menu.html" class="login__footer-link-text">Entrance</a>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
