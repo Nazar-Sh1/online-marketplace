@@ -1,10 +1,11 @@
 {"ElectroTehnica":
  {
+    "category_img": "img/photo/electronics-top.jfif",
     "Laptop":
     {
-        "Models":
-        {
+        "subcategory_img": "img/photo/electronics-top.jfif",
               "Asus":{
+                "brand_img": "img/photo/electronics-top.jfif",
                 "Laptop ASUS ROG Strix G15":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/02/291118/bfdg55-74x74.jpg.webp",
                     "name":"ASUS ROG Strix G15",
@@ -246,28 +247,27 @@
                 }
                 
               }
-        }
     },
-    "Phone":{
-        "Models":{
-            "Iphone":{
+         "Phone": 
+         {      "category_img": "img/photo/electronics-top.jfif",
+                "Iphone": {
                 "Iphone 16": {
-                "img":"",
-                "name":"Iphone 16",
-                "price":"800$",
-                "delivery":"3",
-                "description":"128G/256G/512G",
-                "id":"2756bde6-1496-48c4-b64f-1a5dbe384ffc",
-                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
+                "img": "img/photo/iphone16.jpg",
+                "name": "Iphone 16",
+                "price": "800$",
+                "delivery": "3",
+                "description": "128G/256G/512G",
+                "id": "2756bde6-1496-48c4-b64f-1a5dbe384ffc",
+                "color": "White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Plus": {
-                "img":"",
-                "name":"Iphone 16 Plus",
-                "price":"850$",
-                "delivery":"2",
-                "description":"128G/256G/512G",
-                "id":"ded26784-4d23-450f-8d91-84185a0a6062",
-                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
+                 "img": "img/photo/iphone16plus.jpg",
+                 "name": "Iphone 16 Plus",
+                 "price": "850$",
+                 "delivery": "2",
+                 "description": "128G/256G/512G",
+                 "id": "ded26784-4d23-450f-8d91-84185a0a6062",
+                 "color": "White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Pro": {
                 "img":"",
@@ -288,7 +288,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15": {
-                "img":"",
+                "img":"img/photo/iphone-15-finish-select-202309-6 (3)1-1397x1397.jpg.webp",
                 "name":"Iphone 15",
                 "price":"700$",
                 "delivery":"3",
@@ -306,7 +306,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Pro": {
-                "img":"img/photo/iphone15-pro-black-cat.png",
+                "img":"img/photo/iphone15-pro-black.webp",
                 "name":"Iphone 15 Pro",
                 "price":"900$",
                 "delivery":"3",
@@ -444,6 +444,7 @@
                 }
             },
             "Asus":{
+                "subcategory__img": "img/photo/smart-home-top.jfif",
                  "ASUS ROG Phone 8":{
                     "img":"",
                     "name":"ASUS ROG Phone 8",
@@ -530,7 +531,7 @@
                     "color":"Bay/Obsidian/Mint/Porcelain"
                 },
                 "Google Pixel 9":{
-                    "img":"",
+                    "img":"img/photo/9pix-4-1397x1397.jpg.webp",
                     "name":"Google Pixel 9",
                     "price":"800$",
                     "delivery":"3",
@@ -539,7 +540,7 @@
                     "color":"Porcelain/Obsidian/Peoni/WinterGreean"
                 },
                 "Google Pixel 9 Pro":{
-                    "img":"",
+                    "img":"img/photo/9pro-1-1397x1397.jpg.webp",
                     "name":"Google Pixel 9 Pro",
                     "price":"1340$",
                     "delivery":"3",
@@ -548,12 +549,15 @@
                     "color":"Obsidian/Porcelian"
                 }   
             }
-        }
     }
  },
  "HomeTools":{
-    "Robot Vacuum Clearner":{
+    "category_img": "img/photo/electronics-top.jfif",
+    "Robot Vacuum Clearner":
+    {       
+            "subcategory_img": "img/photo/electronics-top.jfif",
             "Xiomi":{
+               "brand_img": "img/photo/electronics-top.jfif",
                "Xiaomi Robot Vacuum E5":{
                     "img":"",
                     "name":"Xiaomi Robot Vacuum E5",
@@ -630,8 +634,10 @@
                     "id":"c3d519cb-3c64-46a2-b11f-7be4ea9cf171",
                     "color":"Black/White"
                 }   
-        },
-        "CoffeMachine":{
+        }    
+    },
+    "CoffeMachine":{
+            "subcategory_img": "img/photo/electronics-top.jfif",
             "Philips":{
                  "PHILIPS Series 1200":{
                     "img":"",
@@ -694,7 +700,66 @@
                     "color":"Silver/Black/White"
                 }
             }
+        },
+        "Hair Dryer":{
+            "subcategory_img": "img/photo/electronics-top.jfif",
+            "Xiomi":{
+                "Xiaomi Showsee A18":{
+                    "img":"",
+                    "name":"Xiaomi Showsee A18",
+                    "price":"100$",
+                    "delivery":"2",
+                    "id":"5bf2356f-fdc7-449a-b5a5-9b38f83dfecb",
+                    "color":"Black/White"
+                },
+                "Xiaomi DOCO":{
+                    "img":"",
+                    "name":"Xiaomi DOCO",
+                    "price":"70$",
+                    "delivery":"2",
+                    "id":"f2837043-f29f-4cea-80e8-0f2363a8c1db",
+                    "color":"Black/Silver"
+                },
+                "Xiaomi Enchen Air-2":{
+                    "img":"",
+                    "name":"Xiaomi Enchen Air-2",
+                    "price":"30$",
+                    "delivery":"2",
+                    "id":"3110d871-7760-4dc0-84dc-d5037e54734a",
+                    "color":"Black/Silver"
+                }
+
+            },
+            "Dyson":{
+                "Dyson Supersonic":{
+                    "img":"",
+                    "name":"Dyson Supersonic",
+                    "price":"560$",
+                    "delivery":"2",
+                    "id":"09de37ba-c4df-4d2e-9551-97d6933142cd",
+                    "color":"Black/Silver/Copper"
+                },
+                "Dyson Supersonic Lite":{
+                    "img":"",
+                    "name":"Dyson Supersonic Lite",
+                    "price":"480$",
+                    "delivery":"2",
+                    "id":"65df63e7-2c8c-4b49-b9fb-b6d7c47b3286",
+                    "color":"Black/Silver/Copper"
+                },
+                "Dyson Supersonic Origin":{
+                    "img":"",
+                    "name":"Dyson Supersonic Origin",
+                    "price":"480$",
+                    "delivery":"2",
+                    "id":"175d25c5-46bd-4532-9952-d25307a9fcf9",
+                    "color":"Black/Silver/Copper"
+                }
+            }
+        },
+        "":{
+            
         }
+    
     }
- }
 }
