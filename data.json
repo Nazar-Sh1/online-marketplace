@@ -3,9 +3,9 @@
     "category_img": "img/photo/electronics-top.jfif",
     "Laptop":
     {
-        "subcategory_img": "img/photo/electronics-top.jfif",
+        "subcategory_img": "https://img.freepik.com/free-photo/still-life-books-versus-technology_23-2150062920.jpg",
               "Asus":{
-                "brand_img": "img/photo/electronics-top.jfif",
+                "brand_img": "https://static.cdnlogo.com/logos/a/92/asus.png",
                 "Laptop ASUS ROG Strix G15":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/02/291118/bfdg55-74x74.jpg.webp",
                     "name":"ASUS ROG Strix G15",
@@ -55,6 +55,7 @@
                 }
               },
               "Dell":{
+                "brand_img": "https://cdn.icon-icons.com/icons2/2845/PNG/512/dell_logo_icon_181370.png",
                 "Laptop Dell Precision Workstation":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/11/211524/1-1397x1397.jpg.webp",
                     "name":" Dell Precision Workstation",
@@ -83,7 +84,7 @@
                     "color":"Space Black/Silver"
                 },
                 "Laptop Dell Inspiron 14":{
-                    "img":"",
+                    "img":"https://content.rozetka.com.ua/goods/images/big/446781887.jpg",
                     "name":"Dell Inspiron 14",
                     "price":"1010$",
                     "delivery":"2",
@@ -102,6 +103,7 @@
                 }
               },
               "AppleMac":{
+                "brand_img":"https://cdn-icons-png.flaticon.com/512/94/94225.png",
                 "MacBook Air 13 (2020) ":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2020/11/111149/1-2%20(1)-1397x1397.jpg.webp",
                     "name":"MacBook Air 13 (2020)",
@@ -152,6 +154,7 @@
                 
               },
               "HP":{
+                "brand_img":"https://cdn.worldvectorlogo.com/logos/hp-2.svg",
                 "Laptop HP Pavilion 14":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/08/260912/54r-1397x1397.jpg.webp",
                     "name":"HP Pavilion 14",
@@ -200,6 +203,7 @@
                 
               },
               "Acer":{
+                "brand_img":"img/photo/acer_logo_icon_247729.webp",
                 "Laptop Acer Nitro 5":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/09/160927/AN515-587-1397x1397.jpeg.webp",
                     "name":"Acer Nitro 5",
@@ -248,11 +252,12 @@
                 
               }
     },
-         "Phone": 
-         {      "category_img": "img/photo/electronics-top.jfif",
+         "Phone": {      
+            "subcategory_img":"img/photo/menu-iphone.jpg",
                 "Iphone": {
+                    "brand_img":"https://cdn-icons-png.flaticon.com/512/94/94225.png",
                 "Iphone 16": {
-                "img": "img/photo/iphone16.jpg",
+                "img": "https://img.jabko.ua/image/cache/catalog/products/2024/09/101538/833171-1-(1)-(1)-1397x1397.jpg.webp",
                 "name": "Iphone 16",
                 "price": "800$",
                 "delivery": "3",
@@ -261,16 +266,16 @@
                 "color": "White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Plus": {
-                 "img": "img/photo/iphone16plus.jpg",
+                 "img": "https://img.jabko.ua/image/cache/catalog/products/2024/09/101546/833209-1-1397x1397.jpg.webp",
                  "name": "Iphone 16 Plus",
                  "price": "850$",
-                 "delivery": "2",
+                 "delivery": "2 дня",
                  "description": "128G/256G/512G",
                  "id": "ded26784-4d23-450f-8d91-84185a0a6062",
                  "color": "White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Pro": {
-                "img":"",
+                "img":"img/photo/iphone-16-pro-desert.webp",
                 "name":"Iphone 16 Pro",
                 "price":"1000$",
                 "delivery":"3",
@@ -279,7 +284,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Pro Max": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2024/09/101554/MYX434-1397x1397.jpg.webp",
                 "name":"Iphone 16 Pro Max",
                 "price":"1200$",
                 "delivery":"1",
@@ -288,7 +293,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15": {
-                "img":"img/photo/iphone-15-finish-select-202309-6 (3)1-1397x1397.jpg.webp",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2023/09/122247/iphone-15-finish-select-202309-6%20(3)1-1397x1397.jpg.webp",
                 "name":"Iphone 15",
                 "price":"700$",
                 "delivery":"3",
@@ -297,7 +302,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Plus": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2023/09/130222/1%20(9)-1397x1397.jpg.webp",
                 "name":"Iphone 15 Plus",
                 "price":"800$",
                 "delivery":"2",
@@ -315,7 +320,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Pro Max": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2023/09/122328/1%20(2)%20(3)-1397x1397.jpg.webp",
                 "name":"Iphone 15 Pro Max",
                 "price":"1000$",
                 "delivery":"3",
@@ -324,7 +329,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 14": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2022/09/072334/photo_2022-09-07_23-30-04-1397x1397.jpg.webp",
                 "name":"Iphone 14",
                 "price":"600$",
                 "delivery":"3",
@@ -333,7 +338,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 14 Plus": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2022/09/072335/photo_2022-09-07_23-29-55-1397x1397.jpg.webp",
                 "name":"Iphone 14 Plus",
                 "price":"700$",
                 "delivery":"2",
@@ -341,26 +346,8 @@
                 "id":"d906a897-bb72-4eb9-8068-ef286a7094fa",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
-                "Iphone 14 Pro": {
-                "img":"",
-                "name":"Iphone 14 Pro",
-                "price":"850$",
-                "delivery":"1",
-                "description":"128G/256G/512G",
-                "id":"8c6f34ff-d8ce-4b69-920d-edc743858cf6",
-                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
-                },
-                "Iphone 14 Pro Max": {
-                "img":"",
-                "name":"Iphone 14 Pro Max",
-                "price":"990$",
-                "delivery":"3",
-                "description":"128G/256G/512G",
-                "id":"666507fd-e22e-488f-b84f-de410f34aeae",
-                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
-                },
                 "Iphone 13": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2021/09/142254/2021-09-14%2021.47.41-1397x1397.jpg.webp",
                 "name":"Iphone 13",
                 "price":"800$",
                 "delivery":"3",
@@ -369,7 +356,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 13 mini": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2021/09/142149/2021-09-14%2021.47.41-1397x1397.jpg.webp",
                 "name":"Iphone 13 mini",
                 "price":"600$",
                 "delivery":"2",
@@ -385,20 +372,12 @@
                 "description":"128G/256G/512G",
                 "id":"31e4aa87-f71b-4cde-b992-732d4da654b8",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
-                },
-                "Iphone 13 Pro Max": {
-                "img":"",
-                "name":"Iphone 13 Pro Max",
-                "price":"850$",
-                "delivery":"2",
-                "description":"128G/256G/512G",
-                "id":"86d5f9e6-8e02-48c9-8e91-f2162deb8fc4",
-                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 }
             },
             "Samsung":{
+                "brand_img":"img/photo/завантаження.png",
                 "Samsung Galaxy S24 Ultra":{
-                    "img":"",
+                    "img":"https://img.jabko.ua/image/cache/catalog/products/2022/09/072334/photo_2022-09-07_23-30-04-1397x1397.jpg.webp",
                     "name":"Samsung Galaxy S24 Ultra",
                     "price":"1290$",
                     "delivery":"2",
@@ -407,7 +386,7 @@
                     "color":"Titanium Black/Cobalt Violet/Titanium Gray"
                 },
                 "Samsung Galaxy S24+":{
-                    "img":"",
+                    "img":"https://img.jabko.ua/image/cache/catalog/products/2023/08/221331/_xcb%20zbb-1397x1397.jpg.webp",
                     "name":"Samsung Galaxy S24+",
                     "price":"990$",
                     "delivery":"2",
@@ -416,7 +395,7 @@
                     "color":"Marble Grey/Marble Black/Cobalt Violet"
                 },
                 "Samsung Galaxy S24":{
-                    "img":"",
+                    "img":"img/photo/samsung-galaxy-s24-onyx-cat.png",
                     "name":"Samsung Galaxy S24",
                     "price":"810$",
                     "delivery":"2",
@@ -425,7 +404,7 @@
                     "color":"Cobalt Violet/Cobalt Grey/Cobalt Black"
                 },
                 "Samsung Galaxy Fold 6":{
-                    "img":"",
+                    "img":"img/photo/samsung-galaxy-fold-6-silver-cat.png",
                     "name":"Samsung Galaxy Fold 6",
                     "price":"2075$",
                     "delivery":"2",
@@ -434,7 +413,7 @@
                     "color":"Silver Shadow/Navy/Pink"
                 },
                 "Samsung Galaxy Flip 6":{
-                   "img":"",
+                   "img":"https://img.jabko.ua/image/cache/catalog/products/2024/07/091735/sm-f741_zflip6_tabletopl30back_silver-shadow_240702-1397x1397.jpg.webp",
                     "name":"Samsung Galaxy Fold 6",
                     "price":"1120$",
                     "delivery":"2",
@@ -444,9 +423,9 @@
                 }
             },
             "Asus":{
-                "subcategory__img": "img/photo/smart-home-top.jfif",
+                "brand_img":"https://static.cdnlogo.com/logos/a/92/asus.png",
                  "ASUS ROG Phone 8":{
-                    "img":"",
+                    "img":"https://touch.com.ua/upload/resize_cache/webp/iblock/dfa/cbc3xpm3u3g35pnj7gofkl0fjysaoc5s.webp",
                     "name":"ASUS ROG Phone 8",
                     "price":"810$",
                     "delivery":"2",
@@ -455,7 +434,7 @@
                     "color":"Grey/Black"
                  },
                  "Asus Zenfone 11 Ultra":{
-                    "img":"",
+                    "img":"https://ua.store.asus.com/media/catalog/product/z/f/zf11-Black_1_1.jpg?width=439&height=439&store=ua_UA&image-type=image",
                     "name":"Asus Zenfone 11 Ultra",
                     "price":"975$",
                     "delivery":"1",
@@ -464,7 +443,7 @@
                     "color":"Grey/Black"
                  },
                  "Asus ROG Phone 8 Pro":{
-                    "img":"",
+                    "img":"https://dlcdnwebimgs.asus.com/gain/169BAE2A-C0D8-4651-8FBD-D09396315571",
                     "name":"Asus ROG Phone 8 Pro",
                     "price":"1120$",
                     "delivery":"1",
@@ -474,8 +453,9 @@
                  }
             },
             "Xiaomi":{
+                "brand_img":"https://w7.pngwing.com/pngs/122/182/png-transparent-xiaomi-logo-xiaomi-mi-a1-smartphone-internet-business-smartphone-angle-electronics-text-thumbnail.png",
                "Xiaomi Redmi Note 13 Pro":{
-                    "img":"",
+                    "img":"https://www.mm.kh.ua/image/cache/catalog/catalog/easyphoto/4253/xiaomi-redmi-note-13-pro-5g-8-256gb-aurora-purple-ua-4-1200x1200.jpg",
                     "name":"Xiaomi Redmi Note 13 Pro",
                     "price":"380$",
                     "delivery":"2",
@@ -484,7 +464,7 @@
                     "color":"Midnigth Black/Aurora Purple/Ocean Teal"
                },
                 "Xiaomi Redmi Note 13 Pro+":{
-                    "img":"",
+                    "img":"https://mobilike.net.ua/image/cache/catalog/easyphoto/4252/xiaomi-redmi-note-13-pro-5g-8-256gb-aurora-purple-ua-1-680x630.jpg",
                     "name":"Xiaomi Redmi Note 13 Pro+",
                     "price":"440$",
                     "delivery":"2",
@@ -493,7 +473,7 @@
                     "color":"Midnigth Black/Mystic Silver/Moonlight White/Aurora Purple"
                },
                 "Xiaomi 14":{
-                    "img":"",
+                    "img":"https://c.428.ua/img/4320476/3000/2000/mobilnyy_telefon_xiaomi_14_12_256gb_white_global_version~2398~2990.jpg",
                     "name":"Xiaomi 14",
                     "price":"970$",
                     "delivery":"2",
@@ -502,7 +482,7 @@
                     "color":"Black/Jade Green/White"
                },
                 "Xiaomi 14 Ultra":{
-                    "img":"",
+                    "img":"https://pixophone.com/image/cache/catalog/product-upload/Xiaomi14UltraBlack/1Xiaomi14UltraBlack-567x517.jpg",
                     "name":"Xiaomi 14 Ultra",
                     "price":"1340$",
                     "delivery":"2",
@@ -512,8 +492,9 @@
                }
             },
             "Google ":{
+                "brand_img":"https://w7.pngwing.com/pngs/760/624/png-transparent-google-logo-google-search-advertising-google-company-text-trademark.png",
                "Google Pixel 8":{
-                   "img":"",
+                   "img":"img/photo/pixel-8-green-cat.png",
                     "name":"Google Pixel 8",
                     "price":"540$",
                     "delivery":"3",
@@ -522,7 +503,7 @@
                     "color":"Rose/Obsidian/Hazel"
                },
                 "Google Pixel 8 Pro":{
-                    "img":"",
+                    "img":"https://kvshop.com.ua/users/products/300/300556/big/0si5xli0e2ymztawz3eeq15g0eq6m3or-webp.jpg",
                     "name":"Google Pixel 8 Pro",
                     "price":"700$",
                     "delivery":"3",
@@ -531,7 +512,7 @@
                     "color":"Bay/Obsidian/Mint/Porcelain"
                 },
                 "Google Pixel 9":{
-                    "img":"img/photo/9pix-4-1397x1397.jpg.webp",
+                    "img":"img/photo/pixel-9-balck.webp",
                     "name":"Google Pixel 9",
                     "price":"800$",
                     "delivery":"3",
@@ -552,14 +533,14 @@
     }
  },
  "HomeTools":{
-    "category_img": "img/photo/electronics-top.jfif",
+    "category_img": "img/photo/household-goods.jfif",
     "Robot Vacuum Clearner":
     {       
-            "subcategory_img": "img/photo/electronics-top.jfif",
+            "subcategory_img": "https://media.wired.com/photos/641d0fc298e1501546f52c83/1:1/w_1430,h_1430,c_limit/How-to-Get-the-Most-Out-of-(or-Into)-Your-Robot-Vacuum-Gear-GettyImages-1314495818.jpg",
             "Xiomi":{
                "brand_img": "img/photo/electronics-top.jfif",
                "Xiaomi Robot Vacuum E5":{
-                    "img":"",
+                    "img":"https://i02.appmifile.com/mi-com-product/fly-birds/xiaomi-robot-vacuum-e5/M/c27a4e16da39c5f625a7c8ef5d855612.jpg",
                     "name":"Xiaomi Robot Vacuum E5",
                     "price":"120$",
                     "delivery":"1",
@@ -567,7 +548,7 @@
                     "color":"Black/White"
                },
                "Xiaomi Robot Vacuum E10":{
-                    "img":"",
+                    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHuQGgAwzT5ad9RS7qFwbptFNOQNBfTLiOUg&s",
                     "name":"Xiaomi Robot Vacuum E10",
                     "price":"145$",
                     "delivery":"1",
@@ -575,7 +556,7 @@
                     "color":"Black/White"
                },
                "Xiaomi Robot Vacuum S10":{
-                    "img":"",
+                    "img":"https://i02.appmifile.com/58_operator_sg/07/03/2023/f7e5f7b6c038a33966170077dbb4f72a.jpg",
                     "name":"Xiaomi Robot Vacuum S10",
                     "price":"210$",
                     "delivery":"1",
@@ -585,7 +566,7 @@
         },
             "Philips":{
                "PHILIPS Series 2000":{
-                    "img":"",
+                    "img":"https://content2.rozetka.com.ua/goods/images/big/486983600.jpg",
                     "name":"PHILIPS Series 2000",
                     "price":"440$",
                     "delivery":"1",
@@ -593,7 +574,7 @@
                     "color":"Black/White"
                },
                "PHILIPS Series 3000":{
-                    "img":"",
+                    "img":"https://www.philips.ua/c-dam/b2c/domestic-appliances/vacuum-cleaners/robot-vacuum-cleaner/robots-3000/philips-homeRun-robots-XU3100-product-thumbnail-L.png",
                     "name":"PHILIPS Series 3000",
                     "price":"640$",
                     "delivery":"1",
@@ -601,7 +582,7 @@
                     "color":"Black/White"
                },
                "PHILIPS Series 7000":{
-                    "img":"",
+                    "img":"https://www.philips.ua/c-dam/b2c/domestic-appliances/vacuum-cleaners/robot-vacuum-cleaner/prepurchase/philips-homeRun-robots-XU7100-product-thumbnail-L.png",
                     "name":"PHILIPS Series 7000",
                     "price":"900$",
                     "delivery":"1",
@@ -637,7 +618,7 @@
         }    
     },
     "CoffeMachine":{
-            "subcategory_img": "img/photo/electronics-top.jfif",
+            "subcategory_img": "https://raivbel.by/upload/iblock/fee/fee6f3199ed088a020988e499b4b2053.jpg",
             "Philips":{
                  "PHILIPS Series 1200":{
                     "img":"",
@@ -702,7 +683,7 @@
             }
         },
         "Hair Dryer":{
-            "subcategory_img": "img/photo/electronics-top.jfif",
+            "subcategory_img": "https://static.independent.co.uk/2024/09/16/13/best-hair-dryers.jpg",
             "Xiomi":{
                 "Xiaomi Showsee A18":{
                     "img":"",
@@ -756,10 +737,14 @@
                     "color":"Black/Silver/Copper"
                 }
             }
-        },
-        "":{
-            
         }
+            
+        },
+        "Gamer stuff":{
+            "category_img": "https://www.slashgear.com/img/gallery/12-important-things-to-consider-before-buying-a-gaming-pc/l-intro-1654286079.jpg",
+           "": {
+
+            }
     
     }
 }
