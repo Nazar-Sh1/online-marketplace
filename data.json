@@ -565,6 +565,7 @@
                }
         },
             "Philips":{
+                 "brand_img": "https://img2.freepng.ru/20180616/zta/aa61attjg.webp",
                "PHILIPS Series 2000":{
                     "img":"https://content2.rozetka.com.ua/goods/images/big/486983600.jpg",
                     "name":"PHILIPS Series 2000",
@@ -591,8 +592,9 @@
                }
         },
             "Samsung":{
+                "brand_img": "https://w7.pngwing.com/pngs/1002/949/png-transparent-samsung-galaxy-gurugram-logo-faridabad-samsung-text-computer-logo-thumbnail.png",
                 "Samsung Bespoke Jet Bot":{
-                    "img":"",
+                    "img":"https://image-us.samsung.com/SamsungUS/home/home-appliances/02282024/VR7MD97714G_06_Satin_Greige_SCOM.jpg?$product-details-jpg$",
                     "name":"Samsung Bespoke Jet Bot",
                     "price":"300$",
                     "delivery":"1",
@@ -600,7 +602,7 @@
                     "color":"Black/White"
                 },
                 "Samsung Bespoke Jet Bot AI+":{
-                    "img":"",
+                    "img":"https://img.global.news.samsung.com/ru/wp-content/uploads/2021/08/Bespoke-Jet-Bot-AI_main1.jpg",
                     "name":"Samsung Bespoke Jet Bot AI+",
                     "price":"620$",
                     "delivery":"1",
@@ -608,7 +610,7 @@
                     "color":"Black/White"
                 },
                 "Samsung Bespoke Jet Bot+" :{
-                    "img":"",
+                    "img":"https://content2.rozetka.com.ua/goods/images/base_action/333850749.jpg",
                     "name":"Samsung Bespoke Jet Bot+",
                     "price":"320$",
                     "delivery":"1",
@@ -620,8 +622,9 @@
     "CoffeMachine":{
             "subcategory_img": "https://raivbel.by/upload/iblock/fee/fee6f3199ed088a020988e499b4b2053.jpg",
             "Philips":{
+                "brand_img": "https://img2.freepng.ru/20180616/zta/aa61attjg.webp",
                  "PHILIPS Series 1200":{
-                    "img":"",
+                    "img":"https://images.philips.com/is/image/philipsconsumer/vrs_63b724823a111644ddb7f265ab6809d09a1de61a?$pnglarge$&wid=1250",
                     "name":"PHILIPS Series 1200",
                     "price":"390$",
                     "delivery":"2",
@@ -629,7 +632,7 @@
                     "color":"Black/Black and White"
                  },
                  "PHILIPS Series 2200":{
-                    "img":"",
+                    "img":"https://dzvinok.ua/pub/media/catalog/product/p/h/philips_series_2200_ep223010-foto1.jpg",
                     "name":"PHILIPS Series 2200",
                     "price":"410$",
                     "delivery":"2",
@@ -637,7 +640,7 @@
                     "color":"Black"
                  },
                  "PHILIPS Series 3300":{
-                    "img":"",
+                    "img":"https://img.jabko.ua/image/cache/catalog/products/2023/10/291647/EP3347:90-1-1397x1397.jpg.webp",
                     "name":"PHILIPS Series 3300",
                     "price":"540$",
                     "delivery":"2",
@@ -646,8 +649,9 @@
                  }
             },
             "Bosch":{
+                "brand_img": "https://w7.pngwing.com/pngs/1006/243/png-transparent-logo-robert-bosch-gmbh-alternator-product-electric-battery-bosch-text-trademark-logo-thumbnail.png",
                 "Bosch Series 8":{
-                    "img":"",
+                    "img":"https://www.sinks-taps.com/uploads/media/default/0001/38/thumb_37906_default_big.jpeg",
                     "name":"Bosch Series 8",
                     "price":"2360$",
                     "delivery":"2",
@@ -656,8 +660,9 @@
                 }
             },
             "Delonghi":{
+                "brand_img":"https://w7.pngwing.com/pngs/401/682/png-transparent-delonghi-hd-logo-thumbnail.png",
                 "DELONGHI Dinamica Plus":{
-                    "img":"",
+                    "img":"https://delonghi.ua/storage/shop/product/image/descr/813/delonghi_ecam_37070_b_dinamica_plus6_cq.png",
                     "name":"DELONGHI Dinamica Plus",
                     "price":"730$",
                     "delivery":"2",
@@ -665,7 +670,7 @@
                     "color":"Silver and Black"
                 },
                 "DeLonghi PrimaDonna Exclusive":{
-                    "img":"",
+                    "img":"https://coffeeone.com.ua/image/catalog/Delonghi/ESAM%206904%20M/IMG_2097.jpeg",
                     "name":"DeLonghi PrimaDonna Exclusive",
                     "price":"760$",
                     "delivery":"2",
@@ -673,7 +678,7 @@
                     "color":"Silver and Black"
                 },
                 "DELONGHI Magnifica Start":{
-                    "img":"",
+                    "img":"https://delonghi.ua/imgcache/large/840/normal/delonghi_ecam_22020_w_magnifica_smart_c.jpg",
                     "name":"DELONGHI Magnifica Start",
                     "price":"400$",
                     "delivery":"2",
@@ -685,8 +690,9 @@
         "Hair Dryer":{
             "subcategory_img": "https://static.independent.co.uk/2024/09/16/13/best-hair-dryers.jpg",
             "Xiomi":{
+                "brand_img":"https://logojinni.com/image/logos/xiaomi-57.svg",
                 "Xiaomi Showsee A18":{
-                    "img":"",
+                    "img":"https://igadgetsmart.com/content/images/12/480x480l50nn0/fen-xiaomi-showsee-a18-black-74171543503196.jpg",
                     "name":"Xiaomi Showsee A18",
                     "price":"100$",
                     "delivery":"2",
@@ -694,7 +700,7 @@
                     "color":"Black/White"
                 },
                 "Xiaomi DOCO":{
-                    "img":"",
+                    "img":"https://content2.rozetka.com.ua/goods/images/big/376497295.jpg",
                     "name":"Xiaomi DOCO",
                     "price":"70$",
                     "delivery":"2",
@@ -702,7 +708,7 @@
                     "color":"Black/Silver"
                 },
                 "Xiaomi Enchen Air-2":{
-                    "img":"",
+                    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwKb3RX9Zub4nDKCGLxQ5cG8EZVf1QzKgtag&s",
                     "name":"Xiaomi Enchen Air-2",
                     "price":"30$",
                     "delivery":"2",
@@ -712,8 +718,9 @@
 
             },
             "Dyson":{
+                "brand_img":"https://miro.medium.com/v2/resize:fit:1400/1*iIm4HULR3P7vqiwo8To6RA.jpeg",
                 "Dyson Supersonic":{
-                    "img":"",
+                    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI3JNOcUGSpatyzxnkcsc_cN2AgLLj2FdsCw&s",
                     "name":"Dyson Supersonic",
                     "price":"560$",
                     "delivery":"2",
@@ -721,7 +728,7 @@
                     "color":"Black/Silver/Copper"
                 },
                 "Dyson Supersonic Lite":{
-                    "img":"",
+                    "img":"https://touch.com.ua/upload/resize_cache/webp/img_new/1221/OCT2/733192.webp",
                     "name":"Dyson Supersonic Lite",
                     "price":"480$",
                     "delivery":"2",
@@ -729,7 +736,7 @@
                     "color":"Black/Silver/Copper"
                 },
                 "Dyson Supersonic Origin":{
-                    "img":"",
+                    "img":"https://anikaphone.com.ua/wp-content/uploads/2024/04/%D0%A4%D0%B5%D0%BD-Dyson-Supersonic-HD07-Origin-Black_Nickel.png",
                     "name":"Dyson Supersonic Origin",
                     "price":"480$",
                     "delivery":"2",
@@ -743,7 +750,9 @@
         "Gamer stuff": {
             "category_img": "https://www.slashgear.com/img/gallery/12-important-things-to-consider-before-buying-a-gaming-pc/l-intro-1654286079.jpg",
             "Game consoles": {
+                "subcategory_img": "https://expertonline.com.ua/media/blog/post/ps-3-gameconsole.jpg",
                 "Microsoft": {
+                    
                     "Microsoft Xbox Series S": {
                         "img": "https://content1.rozetka.com.ua/goods/images/big/371465542.jpg",
                         "name": "Microsoft Xbox Series S",
@@ -887,9 +896,10 @@
                             "color": "Black"
                         }
                     }
-                }
-            },
+                },
+            
             "Gaming laptops": {
+               "subcategory_img": "https://hotline.ua/img/uploads/clients/1212=5feca96ecb8c5.jpg",
                 "Acer": {
                     "Acer Aspire 7": {
                         "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/_/a/_acer_aspire_7_a715-76g-73f2_nh.qn4eu.008_charcoal_black.jpg/w_600",
@@ -1044,6 +1054,7 @@
                     }
                 },
                 "Gaming computers": {
+                    "subcategory_img": "https://img.ktc.ua/img/core/6/Gaming%20PC.jpg",
                 "Acer": {
                     "Acer Predator Orion 3000": {
                         "img": "https://content.rozetka.com.ua/goods/images/big/440441943.jpg",
@@ -1182,6 +1193,7 @@
                     }
                 },
                     "Gaming monitors": {
+                        "subcategory_img": "https://marketing.brain.com.ua/static/articles_icon/brain_9135.jpg",
                     "Acer": {
                         "Acer Predator": {
                             "img": "https://content2.rozetka.com.ua/goods/images/big/441515199.jpg",
@@ -1309,7 +1321,10 @@
                                 "id": "",
                                 "color": " Black"
                             }
-                        }
+                          }
                 }
             }
+        }
+            
+        
            
