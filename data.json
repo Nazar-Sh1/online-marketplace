@@ -752,7 +752,7 @@
             "Game consoles": {
                 "subcategory_img": "https://expertonline.com.ua/media/blog/post/ps-3-gameconsole.jpg",
                 "Microsoft": {
-                    
+                    "brand_img":"https://cdn.pixabay.com/photo/2021/08/10/15/36/microsoft-6536268_1280.png",
                     "Microsoft Xbox Series S": {
                         "img": "https://content1.rozetka.com.ua/goods/images/big/371465542.jpg",
                         "name": "Microsoft Xbox Series S",
@@ -795,6 +795,7 @@
                     }
                 },
                 "Nintendo": {
+                    "brand_img":"https://upload.wikimedia.org/wikipedia/commons/5/5d/Nintendo_Switch_Logo.svg",
                         "Nintendo Switch OLED Red Mario Special Edition": {
                             "img": "https://content1.rozetka.com.ua/goods/images/big/425109323.jpg",
                             "name": "Nintendo Switch OLED Red Mario Special Edition",
@@ -837,6 +838,7 @@
                         }
                     },
                 "Sony PlayStation":{
+                    "brand_img":"https://e7.pngegg.com/pngimages/831/92/png-clipart-brand-logo-circle-playstation-sony-ps-logo-logo-playstation-4-thumbnail.png",
                         "Sony PlayStation 5 Slim Digital Edition": {
                             "img": "https://content2.rozetka.com.ua/goods/images/big/392132677.jpg",
                             "name": "Sony PlayStation 5 Slim Digital Edition",
@@ -871,6 +873,7 @@
                         }
                     },
                 "Valve":{
+                    "brand_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhJ6JbhVXvsPD6uzY6owuG7Wlfmikp7nKEZQ&s",
                         "Valve Steam Deck": {
                             "img": "https://content.rozetka.com.ua/goods/images/big/322363704.jpg",
                             "name": "Valve Steam Deck",
@@ -901,6 +904,7 @@
             "Gaming laptops": {
                "subcategory_img": "https://hotline.ua/img/uploads/clients/1212=5feca96ecb8c5.jpg",
                 "Acer": {
+                    "brand_img":"https://static.vecteezy.com/system/resources/previews/019/136/301/non_2x/acer-logo-acer-icon-free-free-vector.jpg",
                     "Acer Aspire 7": {
                         "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/_/a/_acer_aspire_7_a715-76g-73f2_nh.qn4eu.008_charcoal_black.jpg/w_600",
                         "name": "Acer Aspire",
@@ -943,6 +947,7 @@
                     }
                 },
                 "Asus": {
+                    "brand_img":"https://cdn.icon-icons.com/icons2/3911/PNG/512/asus_logo_icon_247542.png",
                         "Asus TUF F17": {
                             "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/1/_/1_asus_tuf_f17_fx707vu-hx156_mecha_gray.jpg/w_600",
                             "name": "Asus TUF F17",
@@ -985,6 +990,7 @@
                         }
                     },
                 "Lenovo":{
+                    "brand_img":"https://cdn.icon-icons.com/icons2/3912/PNG/512/lenovo_logo_icon_247857.png",
                         "Lenovo IdeaPad Gaming 3": {
                             "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/8/2/82k202b9ra.jpg/w_600",
                             "name": "Lenovo IdeaPad Gaming 3",
@@ -1027,6 +1033,7 @@
                         }
                     },
                 "HP":{
+                    "brand_img":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/2048px-HP_logo_2012.svg.png",
                         "HP Victus": {
                             "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/u/0/u0947326_big_1720649816.jpg/w_600",
                             "name": "HP Victus",
@@ -1056,6 +1063,7 @@
                 "Gaming computers": {
                     "subcategory_img": "https://img.ktc.ua/img/core/6/Gaming%20PC.jpg",
                 "Acer": {
+                   "brand_img":"https://static.vecteezy.com/system/resources/previews/019/136/301/non_2x/acer-logo-acer-icon-free-free-vector.jpg",
                     "Acer Predator Orion 3000": {
                         "img": "https://content.rozetka.com.ua/goods/images/big/440441943.jpg",
                         "name": "Acer Predator Orion 3000",
@@ -1090,6 +1098,7 @@
                     }
                 },
                 "Asus": {
+                    "brand_img":"https://cdn.icon-icons.com/icons2/3911/PNG/512/asus_logo_icon_247542.png",
                         "Asus S300MA": {
                             "img": "https://content1.rozetka.com.ua/goods/images/big/208081282.jpg",
                             "name": "Asus S300MA",
@@ -1116,6 +1125,7 @@
                         }
                     },
                 "Lenovo":{
+                   "brand_img":"https://cdn.icon-icons.com/icons2/3912/PNG/512/lenovo_logo_icon_247857.png",
                         "Lenovo LOQ": {
                             "img": "https://content.rozetka.com.ua/goods/images/big/428295798.jpg",
                             "name": "Lenovo LOQ",
@@ -1150,6 +1160,7 @@
                         }
                     },
                 "ARTLINE":{
+                    "brand_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9qKOqGOt17CslX2P3XREB27PQOwCQgGj5sw&s",
                         "ARTLINE Gaming X43": {
                             "img": "https://content.rozetka.com.ua/goods/images/big/416512630.jpg",
                             "name": "ARTLINE Gaming X43",
@@ -1195,6 +1206,7 @@
                     "Gaming monitors": {
                         "subcategory_img": "https://marketing.brain.com.ua/static/articles_icon/brain_9135.jpg",
                     "Acer": {
+                        "brand_img":"https://static.vecteezy.com/system/resources/previews/019/136/301/non_2x/acer-logo-acer-icon-free-free-vector.jpg",
                         "Acer Predator": {
                             "img": "https://content2.rozetka.com.ua/goods/images/big/441515199.jpg",
                             "name": "Acer Predator",
@@ -1229,6 +1241,7 @@
                         }
                     },
                     "Asus": {
+                       "brand_img":"https://cdn.icon-icons.com/icons2/3911/PNG/512/asus_logo_icon_247542.png",
                             "Asus TUF": {
                                 "img": "https://content2.rozetka.com.ua/goods/images/big/483286012.jpg",
                                 "name": "Asus TUF",
@@ -1263,6 +1276,7 @@
                             }
                         },
                     "Lenovo":{
+                        "brand_img":"https://cdn.icon-icons.com/icons2/3912/PNG/512/lenovo_logo_icon_247857.png",
                             "Lenovo Legion R27i-30": {
                                 "img": "https://content2.rozetka.com.ua/goods/images/big/406519326.jpg",
                                 "name": "Lenovo Legion R27i-30",
@@ -1297,6 +1311,7 @@
                             }
                         },
                     "AOC":{
+                        "brand_img":"https://cdn.freelogovectors.net/wp-content/uploads/2020/07/noc-logo.png",
                             "AOC AGON AG274QXM": {
                                 "img": "https://content1.rozetka.com.ua/goods/images/big/384970491.jpg",
                                 "name": "AOC AGON AG274QXM",
