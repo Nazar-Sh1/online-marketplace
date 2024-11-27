@@ -26,140 +26,154 @@
         data-hx-swap="outerHTML"
         data-hx-get="global.header-nav.partial.html"
       ></nav>
+      <div class="back-button">
+        <a href="#" class="back-button__link">
+          <img
+            src="img/icone/back_button.png"
+            alt="Back button"
+            class="back-button__icon"
+          />
+        </a>
+      </div>
     </header>
-
-    <div class="main-container">
-      <div class="header">
-        <span>Remove all</span>
-        <span class="remove-all">
-          <img src="img/icone/dump.png" alt="Back" />
-        </span>
-      </div>
-
-      <div class="product">
-        <img src="img/photo/iphone15-pro-black-cat.png" alt="iPhone 15 Pro" />
-        <div class="product-details">
-          <h3>Apple iPhone 15 Pro 256GB (Black Titanium)</h3>
-          <div class="pickup">
-            <img src="img/icone/point-cut.png" alt="Pick" />
-            <span>You can pick it up today</span>
-          </div>
-          <div class="actions">
-            <img src="img/icone/Like.png" alt="Like icon" />
-            <span>In favorites</span>
-            <img src="img/icone/dump.png" alt="Delete icon" />
-            <span>Remove</span>
-          </div>
-          <div class="product-code">Product code: 18679</div>
-          <div class="price">
-            <div class="price-info">
-              <span class="original-price">999$</span>
-              <span class="discount">-10%</span>
+    <main class="main-basket">
+      <div class="main-container">
+        <div class="clear-all-section">
+          <span class="clear-all-btn">
+            <img src="img/icone/dump.png" alt="Back" />
+          </span>
+          <span class="remove__all-text">Remove all</span>
+        </div>
+        <div class="product-card-section">
+          <img
+            src="img/photo/iphone15-pro-black-cat.png"
+            alt="iPhone 15 Pro"
+            class="product__card__section-photo"
+          />
+          <div class="product-details-section">
+            <div class="pickup-info">
+              <img src="img/icone/tick-basket.png" alt="Tick" />
+              <span>You can pick it up today</span>
             </div>
-            <span class="current-price">989$</span>
-          </div>
-          <div class="quantity">
-            <button>-</button>
-            <span>1</span>
-            <button>+</button>
+            <h3 class="description_product_basket">Apple iPhone 15 Pro 256GB (Black Titanium)</h3>
+            <div class="action-buttons">
+              <img src="img/icone/Like.png" alt="Like icon" class="action__buttons__like-img"/>
+              <span class="action-buttons_text">In favorites</span>
+              <img src="img/icone/dump.png" alt="Delete icon" class="action__buttons__dump-img"/>
+              <span>Remove</span>
+            </div>
+            <div class="product-code-info">Product code: 18679</div>
+            <div class="product-price-section">
+              <div class="price-info">
+                <span class="original-price">999$</span>
+                <span class="discount">-10%</span>
+              </div>
+              <span class="current-price">989$</span>
+            </div>
+            <div class="quantity-section">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="order-container">
-        <div class="order-content">
-          <h2>Placing an order:</h2>
-          <div class="order-details">
-            <p>1 goods for the amount: <span class="amount">999$</span></p>
-            <p>discount: <span class="discount">100$</span></p>
+        <div class="order-summary-section">
+          <div class="order-summary-content">
+            <h2>Placing an order:</h2>
+            <div class="order-summary-details">
+              <p>1 goods for the amount: <span class="amount">999$</span></p>
+              <p>discount: <span class="discount">100$</span></p>
+            </div>
+            <div class="total-summary">
+              <p>Total amount: <span class="total-amount">989$</span></p>
+            </div>
+            <button class="proceed-to-registration-btn">
+              Proceed to registration
+            </button>
           </div>
-          <div class="total">
-            <p>Total amount: <span class="total-amount">989$</span></p>
-          </div>
-          <button class="proceed-button">Proceed to registration</button>
         </div>
-      </div>
 
-      <div class="similar-products">
-        <div class="title">Similar products:</div>
+        <div class="recommended-products-section">
+          <div class="section-title">Similar products:</div>
 
-        <!-- Product Card 1 -->
-        <div class="product-card">
-          <div class="product-info">
-            <img
-              src="img/photo/iphone-15-blask-cat.png"
-              alt="Product"
-              class="product-image"
-            />
-            <div class="product-details">
-              <div class="product-name">Apple iPhone 15 128GB</div>
-              <div class="color-options">
-                <div class="color black"></div>
-                <div class="color blue"></div>
-                <div class="color pink"></div>
-                <div class="color green"></div>
-                <div class="color yellow"></div>
+          <!-- Product Card 1 -->
+          <div class="product-card">
+            <div class="product-info">
+              <img
+                src="img/photo/iphone-15-blask-cat.png"
+                alt="Product"
+                class="product-image"
+              />
+              <div class="product-details">
+                <div class="product-name">Apple iPhone 15 128GB</div>
+                <div class="color-options">
+                  <div class="color-option black"></div>
+                  <div class="color-option blue"></div>
+                  <div class="color-option pink"></div>
+                  <div class="color-option green"></div>
+                  <div class="color-option yellow"></div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="price-section">
-            <div class="original-price">999$</div>
-            <div class="discounted-price">989$</div>
-          </div>
-        </div>
-
-        <!-- Product Card 2 -->
-        <div class="product-card">
-          <div class="product-info">
-            <img
-              src="img/photo/iphone-16-pro-desert-cat.png"
-              alt="Product"
-              class="product-image"
-            />
-            <div class="product-details">
-              <div class="product-name">Apple iPhone 15 128GB</div>
-              <div class="color-options">
-                <div class="color black"></div>
-                <div class="color blue"></div>
-                <div class="color pink"></div>
-                <div class="color green"></div>
-                <div class="color yellow"></div>
-              </div>
+            <div class="price-section">
+              <div class="original-price">999$</div>
+              <div class="discounted-price">989$</div>
             </div>
           </div>
-          <div class="price-section">
-            <div class="original-price">999$</div>
-            <div class="discounted-price">989$</div>
-          </div>
-        </div>
 
-        <!-- Product Card 3 -->
-        <div class="product-card">
-          <div class="product-info">
-            <img
-              src="img/photo/iphone-16-pro-desert-cat.png"
-              alt="Product"
-              class="product-image"
-            />
-            <div class="product-details">
-              <div class="product-name">Apple iPhone 15 128GB</div>
-              <div class="color-options">
-                <div class="color black"></div>
-                <div class="color blue"></div>
-                <div class="color pink"></div>
-                <div class="color green"></div>
-                <div class="color yellow"></div>
+          <!-- Product Card 2 -->
+          <div class="product-card">
+            <div class="product-info">
+              <img
+                src="img/photo/iphone-16-pro-desert-cat.png"
+                alt="Product"
+                class="product-image"
+              />
+              <div class="product-details">
+                <div class="product-name">Apple iPhone 15 128GB</div>
+                <div class="color-options">
+                  <div class="color-option black"></div>
+                  <div class="color-option blue"></div>
+                  <div class="color-option pink"></div>
+                  <div class="color-option green"></div>
+                  <div class="color-option yellow"></div>
+                </div>
               </div>
             </div>
+            <div class="price-section">
+              <div class="original-price">999$</div>
+              <div class="discounted-price">989$</div>
+            </div>
           </div>
-          <div class="price-section">
-            <div class="original-price">999$</div>
-            <div class="discounted-price">989$</div>
+
+          <!-- Product Card 3 -->
+          <div class="product-card">
+            <div class="product-info">
+              <img
+                src="img/photo/iphone-16-pro-desert-cat.png"
+                alt="Product"
+                class="product-image"
+              />
+              <div class="product-details">
+                <div class="product-name">Apple iPhone 15 128GB</div>
+                <div class="color-options">
+                  <div class="color-option black"></div>
+                  <div class="color-option blue"></div>
+                  <div class="color-option pink"></div>
+                  <div class="color-option green"></div>
+                  <div class="color-option yellow"></div>
+                </div>
+              </div>
+            </div>
+            <div class="price-section">
+              <div class="original-price">999$</div>
+              <div class="discounted-price">989$</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
+    </main>
     <footer class="footer">
       <nav
         class="footer__nav"

@@ -8,4 +8,5 @@
 @import "basket.css";
 @import "index.admin.css";
 @import "index.filter.css";
-@import "css/error.css";
+@import "error.css";
+@import "index.catalog.css";

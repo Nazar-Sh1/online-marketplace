@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalog</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/icone/logo.png"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header_catalog">
+      <nav
+        class="header__nav"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.header-nav.partial.html"
+      ></nav>
+      <div class="breadcrumb">
+        <div class="breadcrumb__item">
+          <img
+            class="breadcrumb__icon"
+            src="img/icone/home-icon-logo-x.png"
+            alt="Home Icon Logo"
+          />
+          <img
+            class="breadcrumb__arrow"
+            src="img/icone/arrow-lite.png"
+            alt="Arrow lite"
+          />
+          <p class="breadcrumb__text">Apple iPhone</p>
+          <img
+            class="breadcrumb__arrow"
+            src="img/icone/arrow-lite.png"
+            alt="Arrow lite"
+          />
+          <p class="breadcrumb__text">Apple iPhone 15 Pro</p>
+        </div>
+      </div>
+      <div class="header__title">
+        <h2 class="header__subtitle">Google Pixel</h2>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__content__card">
+        <div
+          class="filter"
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="index.filter.partial.html"
+        ></div>
+        <div class="main__description">
+          <div class="product-card">
+            <a href="#">
+              <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img
+                  src="img/photo/iphone-16-pro-desert-cat.png"
+                  class="product-thumb"
+                  alt="Iphone 16 Pro"
+                />
+                <!-- <button class="card-btn">add to wishlist</button> -->
+              </div>
+              <div class="product-info">
+                <p class="product-brand">
+                  Apple iPhone 15 Pro 256GB (Black Titanium)
+                </p>
+                <hr class="product-line-divider" />
+                <div class="small__circle">
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-1"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-2"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-3"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-4"
+                  ></div>
+                </div>
+                <span class="actual-price">$40</span
+                ><span class="price">$20</span>
+              </div>
+            </a>
+          </div>
+          <div class="product-card">
+            <a href="#">
+              <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img
+                  src="img/photo/iphone-16-pro-desert-cat.png"
+                  class="product-thumb"
+                  alt="Iphone 16 Pro"
+                />
+                <!-- <button class="card-btn">add to wishlist</button> -->
+              </div>
+              <div class="product-info">
+                <p class="product-brand">
+                  Apple iPhone 15 Pro 256GB (Black Titanium)
+                </p>
+                <hr class="product-line-divider" />
+                <div class="small__circle">
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-1"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-2"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-3"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-4"
+                  ></div>
+                </div>
+                <span class="actual-price">$40</span
+                ><span class="price">$20</span>
+              </div>
+            </a>
+          </div>
+          <div class="product-card">
+            <a href="#">
+              <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img
+                  src="img/photo/iphone-16-pro-desert-cat.png"
+                  class="product-thumb"
+                  alt="Iphone 16 Pro"
+                />
+                <!-- <button class="card-btn">add to wishlist</button> -->
+              </div>
+              <div class="product-info">
+                <p class="product-brand">
+                  Apple iPhone 15 Pro 256GB (Black Titanium)
+                </p>
+                <hr class="product-line-divider" />
+                <div class="small__circle">
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-1"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-2"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-3"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-4"
+                  ></div>
+                </div>
+                <span class="actual-price">$40</span
+                ><span class="price">$20</span>
+              </div>
+            </a>
+          </div>
+          <div class="product-card">
+            <a href="#">
+              <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img
+                  src="img/photo/iphone-16-pro-desert-cat.png"
+                  class="product-thumb"
+                  alt="Iphone 16 Pro"
+                />
+                <!-- <button class="card-btn">add to wishlist</button> -->
+              </div>
+              <div class="product-info">
+                <p class="product-brand">
+                  Apple iPhone 15 Pro 256GB (Black Titanium)
+                </p>
+                <hr class="product-line-divider" />
+                <div class="small__circle">
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-1"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-2"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-3"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-4"
+                  ></div>
+                </div>
+                <span class="actual-price">$40</span
+                ><span class="price">$20</span>
+              </div>
+            </a>
+          </div>
+          <div class="product-card">
+            <a href="#">
+              <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img
+                  src="img/photo/iphone-16-pro-desert-cat.png"
+                  class="product-thumb"
+                  alt="Iphone 16 Pro"
+                />
+                <!-- <button class="card-btn">add to wishlist</button> -->
+              </div>
+              <div class="product-info">
+                <p class="product-brand">
+                  Apple iPhone 15 Pro 256GB (Black Titanium)
+                </p>
+                <hr class="product-line-divider" />
+                <div class="small__circle">
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-1"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-2"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-3"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-4"
+                  ></div>
+                </div>
+                <span class="actual-price">$40</span
+                ><span class="price">$20</span>
+              </div>
+            </a>
+          </div>
+          <div class="product-card">
+            <a href="#">
+              <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img
+                  src="img/photo/iphone-16-pro-desert-cat.png"
+                  class="product-thumb"
+                  alt="Iphone 16 Pro"
+                />
+                <!-- <button class="card-btn">add to wishlist</button> -->
+              </div>
+              <div class="product-info">
+                <p class="product-brand">
+                  Apple iPhone 15 Pro 256GB (Black Titanium)
+                </p>
+                <hr class="product-line-divider" />
+                <div class="small__circle">
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-1"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-2"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-3"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-4"
+                  ></div>
+                </div>
+                <span class="actual-price">$40</span
+                ><span class="price">$20</span>
+              </div>
+            </a>
+          </div>
+          <div class="product-card">
+            <a href="#">
+              <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img
+                  src="img/photo/iphone-16-pro-desert-cat.png"
+                  class="product-thumb"
+                  alt="Iphone 16 Pro"
+                />
+                <!-- <button class="card-btn">add to wishlist</button> -->
+              </div>
+              <div class="product-info">
+                <p class="product-brand">
+                  Apple iPhone 15 Pro 256GB (Black Titanium)
+                </p>
+                <hr class="product-line-divider" />
+                <div class="small__circle">
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-1"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-2"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-3"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-4"
+                  ></div>
+                </div>
+                <span class="actual-price">$40</span
+                ><span class="price">$20</span>
+              </div>
+            </a>
+          </div>
+          <div class="product-card">
+            <a href="#">
+              <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img
+                  src="img/photo/iphone-16-pro-desert-cat.png"
+                  class="product-thumb"
+                  alt="Iphone 16 Pro"
+                />
+                <!-- <button class="card-btn">add to wishlist</button> -->
+              </div>
+              <div class="product-info">
+                <p class="product-brand">
+                  Apple iPhone 15 Pro 256GB (Black Titanium)
+                </p>
+                <hr class="product-line-divider" />
+                <div class="small__circle">
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-1"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-2"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-3"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-4"
+                  ></div>
+                </div>
+                <span class="actual-price">$40</span
+                ><span class="price">$20</span>
+              </div>
+            </a>
+          </div>
+          <div class="product-card">
+            <a href="#">
+              <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img
+                  src="img/photo/iphone-16-pro-desert-cat.png"
+                  class="product-thumb"
+                  alt="Iphone 16 Pro"
+                />
+                <!-- <button class="card-btn">add to wishlist</button> -->
+              </div>
+              <div class="product-info">
+                <p class="product-brand">
+                  Apple iPhone 15 Pro 256GB (Black Titanium)
+                </p>
+                <hr class="product-line-divider" />
+                <div class="small__circle">
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-1"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-2"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-3"
+                  ></div>
+                  <div
+                    class="small__circle-card"
+                    id="small__circle__card-4"
+                  ></div>
+                </div>
+                <span class="actual-price">$40</span
+                ><span class="price">$20</span>
+              </div>
+            </a>
+          </div>
+          <div class="load-more">
+            <a href="#" class="load-more__button">
+              Show more
+              <img src="img/icone/reset .png" alt="" class="load-more__icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <nav
+        class="footer__nav"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.footer.partial.html"
+      ></nav>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>

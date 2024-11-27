@@ -1,0 +1,99 @@
+.breadcrumb {
+  background-color: #e0e0e0;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  /* border-radius: 5px; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.breadcrumb__item {
+  display: flex; /* Елементи всередині також розташовані в рядок */
+  align-items: center; /* Вирівнювання по центру */
+  gap: 5px; /* Відступ між елементами */
+}
+
+.breadcrumb__icon,
+.breadcrumb__arrow {
+  width: 20px; /* Ширина іконок */
+  height: 20px; /* Висота іконок */
+  object-fit: cover; /* Збереження пропорцій */
+}
+
+.breadcrumb__text {
+  font-size: 14px; /* Зменшений розмір тексту */
+  color: #333; /* Темний текст */
+  margin: 0; /* Видалення зовнішніх відступів */
+  white-space: nowrap; /* Запобігання переносу тексту */
+}
+
+.main__content__card {
+  display: flex; /* Флекс-контейнер */
+  justify-content: space-between; /* Розташовує елементи з максимально можливим проміжком */
+  align-items: flex-start; /* Вирівнює елементи по верхньому краю */
+  gap: 20px; /* Відступ між фільтром і описом */
+}
+
+.filter {
+  width: 25%; /* Фіксована ширина фільтра */
+  background-color: #f8f8f8; /* Легкий сірий фон */
+  padding: 10px; /* Внутрішні відступи */
+  border: 1px solid #ddd; /* Легка рамка */
+  border-radius: 5px; /* Округлені краї */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкий тіньовий ефект */
+}
+
+.main__description {
+  width: 75%; /* Займає залишкову ширину */
+  display: flex; /* Розташовує продукти у вигляді сітки */
+  flex-wrap: wrap; /* Дозволяє переносити картки на новий рядок */
+  gap: 1px; /* Відступи між картками */
+  justify-content: flex-end; /* Вирівнює вміст праворуч */
+  /* background-color: #333; */
+}
+
+.header__subtitle {
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.load-more {
+  display: flex; /* Розташування елементів в рядок */
+  align-items: center; /* Вирівнювання елементів по вертикалі */
+  justify-content: center; /* Вирівнювання по горизонталі */
+  width: 300px; /* Ширина прямокутника */
+  height: 50px; /* Висота прямокутника */
+  background-color: #d9d9d9; /* Колір фону */
+  /* border-radius: 8px;  */
+  cursor: pointer; /* Зміна курсору при наведенні */
+  transition: background-color 0.3s, border-color 0.3s;
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-bottom: 60px;
+}
+
+.load-more:hover {
+  background-color: #4e5d73; /* Зміна фону при наведенні */
+}
+
+.load-more__button {
+  display: flex; /* Для вирівнювання тексту та іконки */
+  align-items: center; /* Вертикальне вирівнювання тексту та іконки */
+  justify-content: center; /* Горизонтальне вирівнювання тексту та іконки */
+  font-size: 16px; /* Розмір тексту */
+  font-weight: bold; /* Жирний текст */
+  color: #333; /* Колір тексту */
+  text-decoration: none; /* Забрати підкреслення у посилання */
+  width: auto; /* Ширина кнопки автоматично під контент */
+  height: auto; /* Висота кнопки автоматично під контент */
+  padding: 0 10px; /* Внутрішній відступ */
+}
+
+.load-more__icon {
+  width: 24px; /* Розмір іконки */
+  height: 24px; /* Розмір іконки */
+  margin-left: 10px; /* Відступ між текстом і іконкою */
+  display: inline-block; /* Забезпечення правильного позиціонування */
+}
