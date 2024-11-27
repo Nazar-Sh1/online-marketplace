@@ -2,14 +2,14 @@
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 50px 0;
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 th, td {
     padding: 12px;
-    border: 1px  #ddd;
+    border: 1px solid #ddd; /* Added 'solid' for the border */
     text-align: center;
 }
 
@@ -49,16 +49,25 @@ td {
     color: red;
 }
 
+.action-icons {
+    display: flex;
+    justify-content: center;
+    gap: 0; /* Space between icons */
+}
+
 /* Action icons styling */
 .edit-icon, .delete-icon {
+    width: 20px; 
+    height: 20px;
     cursor: pointer;
+    transition: transform 0.3s ease;
     margin: 0 5px;
     font-size: 16px;
     color: #555;
 }
 
 .edit-icon:hover, .delete-icon:hover {
-    color: #000;
+    transform: scale(1.1); 
 }
 
 /* Checkbox alignment */
@@ -70,7 +79,8 @@ td:first-child input[type="checkbox"] {
     margin: 0;
 }
 
-/* .task-button {
+/* Task button styling */
+.task-button {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -81,12 +91,12 @@ td:first-child input[type="checkbox"] {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .task-button button {
+}
+
+.task-button button {
     font-size: 30px;
     background: none;
     border: none;
     cursor: pointer;
     color: #d9d9d9;
-  } */
+}

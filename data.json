@@ -1,10 +1,11 @@
 {"ElectroTehnica":
  {
+    "category_img": "img/photo/electronics-top.jfif",
     "Laptop":
     {
-        "Models":
-        {
+        "subcategory_img": "https://img.freepik.com/free-photo/still-life-books-versus-technology_23-2150062920.jpg",
               "Asus":{
+                "brand_img": "https://static.cdnlogo.com/logos/a/92/asus.png",
                 "Laptop ASUS ROG Strix G15":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/02/291118/bfdg55-74x74.jpg.webp",
                     "name":"ASUS ROG Strix G15",
@@ -54,6 +55,7 @@
                 }
               },
               "Dell":{
+                "brand_img": "https://cdn.icon-icons.com/icons2/2845/PNG/512/dell_logo_icon_181370.png",
                 "Laptop Dell Precision Workstation":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2023/11/211524/1-1397x1397.jpg.webp",
                     "name":" Dell Precision Workstation",
@@ -82,7 +84,7 @@
                     "color":"Space Black/Silver"
                 },
                 "Laptop Dell Inspiron 14":{
-                    "img":"",
+                    "img":"https://content.rozetka.com.ua/goods/images/big/446781887.jpg",
                     "name":"Dell Inspiron 14",
                     "price":"1010$",
                     "delivery":"2",
@@ -101,6 +103,7 @@
                 }
               },
               "AppleMac":{
+                "brand_img":"https://cdn-icons-png.flaticon.com/512/94/94225.png",
                 "MacBook Air 13 (2020) ":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2020/11/111149/1-2%20(1)-1397x1397.jpg.webp",
                     "name":"MacBook Air 13 (2020)",
@@ -151,6 +154,7 @@
                 
               },
               "HP":{
+                "brand_img":"https://cdn.worldvectorlogo.com/logos/hp-2.svg",
                 "Laptop HP Pavilion 14":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/08/260912/54r-1397x1397.jpg.webp",
                     "name":"HP Pavilion 14",
@@ -199,6 +203,7 @@
                 
               },
               "Acer":{
+                "brand_img":"img/photo/acer_logo_icon_247729.webp",
                 "Laptop Acer Nitro 5":{
                     "img":"https://img.jabko.ua/image/cache/catalog/products/2024/09/160927/AN515-587-1397x1397.jpeg.webp",
                     "name":"Acer Nitro 5",
@@ -246,31 +251,31 @@
                 }
                 
               }
-        }
     },
-    "Phone":{
-        "Models":{
-            "Iphone":{
+         "Phone": {      
+            "subcategory_img":"img/photo/menu-iphone.jpg",
+                "Iphone": {
+                    "brand_img":"https://cdn-icons-png.flaticon.com/512/94/94225.png",
                 "Iphone 16": {
-                "img":"",
-                "name":"Iphone 16",
-                "price":"800$",
-                "delivery":"3",
-                "description":"128G/256G/512G",
-                "id":"2756bde6-1496-48c4-b64f-1a5dbe384ffc",
-                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
+                "img": "https://img.jabko.ua/image/cache/catalog/products/2024/09/101538/833171-1-(1)-(1)-1397x1397.jpg.webp",
+                "name": "Iphone 16",
+                "price": "800$",
+                "delivery": "3",
+                "description": "128G/256G/512G",
+                "id": "2756bde6-1496-48c4-b64f-1a5dbe384ffc",
+                "color": "White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Plus": {
-                "img":"",
-                "name":"Iphone 16 Plus",
-                "price":"850$",
-                "delivery":"2",
-                "description":"128G/256G/512G",
-                "id":"ded26784-4d23-450f-8d91-84185a0a6062",
-                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
+                 "img": "https://img.jabko.ua/image/cache/catalog/products/2024/09/101546/833209-1-1397x1397.jpg.webp",
+                 "name": "Iphone 16 Plus",
+                 "price": "850$",
+                 "delivery": "2 дня",
+                 "description": "128G/256G/512G",
+                 "id": "ded26784-4d23-450f-8d91-84185a0a6062",
+                 "color": "White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Pro": {
-                "img":"",
+                "img":"img/photo/iphone-16-pro-desert.webp",
                 "name":"Iphone 16 Pro",
                 "price":"1000$",
                 "delivery":"3",
@@ -279,7 +284,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 16 Pro Max": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2024/09/101554/MYX434-1397x1397.jpg.webp",
                 "name":"Iphone 16 Pro Max",
                 "price":"1200$",
                 "delivery":"1",
@@ -288,7 +293,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2023/09/122247/iphone-15-finish-select-202309-6%20(3)1-1397x1397.jpg.webp",
                 "name":"Iphone 15",
                 "price":"700$",
                 "delivery":"3",
@@ -297,7 +302,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Plus": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2023/09/130222/1%20(9)-1397x1397.jpg.webp",
                 "name":"Iphone 15 Plus",
                 "price":"800$",
                 "delivery":"2",
@@ -306,7 +311,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Pro": {
-                "img":"img/photo/iphone15-pro-black-cat.png",
+                "img":"img/photo/iphone15-pro-black.webp",
                 "name":"Iphone 15 Pro",
                 "price":"900$",
                 "delivery":"3",
@@ -315,7 +320,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 15 Pro Max": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2023/09/122328/1%20(2)%20(3)-1397x1397.jpg.webp",
                 "name":"Iphone 15 Pro Max",
                 "price":"1000$",
                 "delivery":"3",
@@ -324,7 +329,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 14": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2022/09/072334/photo_2022-09-07_23-30-04-1397x1397.jpg.webp",
                 "name":"Iphone 14",
                 "price":"600$",
                 "delivery":"3",
@@ -333,7 +338,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 14 Plus": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2022/09/072335/photo_2022-09-07_23-29-55-1397x1397.jpg.webp",
                 "name":"Iphone 14 Plus",
                 "price":"700$",
                 "delivery":"2",
@@ -341,26 +346,8 @@
                 "id":"d906a897-bb72-4eb9-8068-ef286a7094fa",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
-                "Iphone 14 Pro": {
-                "img":"",
-                "name":"Iphone 14 Pro",
-                "price":"850$",
-                "delivery":"1",
-                "description":"128G/256G/512G",
-                "id":"8c6f34ff-d8ce-4b69-920d-edc743858cf6",
-                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
-                },
-                "Iphone 14 Pro Max": {
-                "img":"",
-                "name":"Iphone 14 Pro Max",
-                "price":"990$",
-                "delivery":"3",
-                "description":"128G/256G/512G",
-                "id":"666507fd-e22e-488f-b84f-de410f34aeae",
-                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
-                },
                 "Iphone 13": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2021/09/142254/2021-09-14%2021.47.41-1397x1397.jpg.webp",
                 "name":"Iphone 13",
                 "price":"800$",
                 "delivery":"3",
@@ -369,7 +356,7 @@
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 },
                 "Iphone 13 mini": {
-                "img":"",
+                "img":"https://img.jabko.ua/image/cache/catalog/products/2021/09/142149/2021-09-14%2021.47.41-1397x1397.jpg.webp",
                 "name":"Iphone 13 mini",
                 "price":"600$",
                 "delivery":"2",
@@ -385,20 +372,12 @@
                 "description":"128G/256G/512G",
                 "id":"31e4aa87-f71b-4cde-b992-732d4da654b8",
                 "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
-                },
-                "Iphone 13 Pro Max": {
-                "img":"",
-                "name":"Iphone 13 Pro Max",
-                "price":"850$",
-                "delivery":"2",
-                "description":"128G/256G/512G",
-                "id":"86d5f9e6-8e02-48c9-8e91-f2162deb8fc4",
-                "color":"White/Gray/Purple/Red/(Product)Red/Pink/Starlight/Green/Blue/Midnight"
                 }
             },
             "Samsung":{
+                "brand_img":"img/photo/завантаження.png",
                 "Samsung Galaxy S24 Ultra":{
-                    "img":"",
+                    "img":"https://img.jabko.ua/image/cache/catalog/products/2022/09/072334/photo_2022-09-07_23-30-04-1397x1397.jpg.webp",
                     "name":"Samsung Galaxy S24 Ultra",
                     "price":"1290$",
                     "delivery":"2",
@@ -407,7 +386,7 @@
                     "color":"Titanium Black/Cobalt Violet/Titanium Gray"
                 },
                 "Samsung Galaxy S24+":{
-                    "img":"",
+                    "img":"https://img.jabko.ua/image/cache/catalog/products/2023/08/221331/_xcb%20zbb-1397x1397.jpg.webp",
                     "name":"Samsung Galaxy S24+",
                     "price":"990$",
                     "delivery":"2",
@@ -416,7 +395,7 @@
                     "color":"Marble Grey/Marble Black/Cobalt Violet"
                 },
                 "Samsung Galaxy S24":{
-                    "img":"",
+                    "img":"img/photo/samsung-galaxy-s24-onyx-cat.png",
                     "name":"Samsung Galaxy S24",
                     "price":"810$",
                     "delivery":"2",
@@ -425,7 +404,7 @@
                     "color":"Cobalt Violet/Cobalt Grey/Cobalt Black"
                 },
                 "Samsung Galaxy Fold 6":{
-                    "img":"",
+                    "img":"img/photo/samsung-galaxy-fold-6-silver-cat.png",
                     "name":"Samsung Galaxy Fold 6",
                     "price":"2075$",
                     "delivery":"2",
@@ -434,7 +413,7 @@
                     "color":"Silver Shadow/Navy/Pink"
                 },
                 "Samsung Galaxy Flip 6":{
-                   "img":"",
+                   "img":"https://img.jabko.ua/image/cache/catalog/products/2024/07/091735/sm-f741_zflip6_tabletopl30back_silver-shadow_240702-1397x1397.jpg.webp",
                     "name":"Samsung Galaxy Fold 6",
                     "price":"1120$",
                     "delivery":"2",
@@ -444,8 +423,9 @@
                 }
             },
             "Asus":{
+                "brand_img":"https://static.cdnlogo.com/logos/a/92/asus.png",
                  "ASUS ROG Phone 8":{
-                    "img":"",
+                    "img":"https://touch.com.ua/upload/resize_cache/webp/iblock/dfa/cbc3xpm3u3g35pnj7gofkl0fjysaoc5s.webp",
                     "name":"ASUS ROG Phone 8",
                     "price":"810$",
                     "delivery":"2",
@@ -454,7 +434,7 @@
                     "color":"Grey/Black"
                  },
                  "Asus Zenfone 11 Ultra":{
-                    "img":"",
+                    "img":"https://ua.store.asus.com/media/catalog/product/z/f/zf11-Black_1_1.jpg?width=439&height=439&store=ua_UA&image-type=image",
                     "name":"Asus Zenfone 11 Ultra",
                     "price":"975$",
                     "delivery":"1",
@@ -463,7 +443,7 @@
                     "color":"Grey/Black"
                  },
                  "Asus ROG Phone 8 Pro":{
-                    "img":"",
+                    "img":"https://dlcdnwebimgs.asus.com/gain/169BAE2A-C0D8-4651-8FBD-D09396315571",
                     "name":"Asus ROG Phone 8 Pro",
                     "price":"1120$",
                     "delivery":"1",
@@ -473,8 +453,9 @@
                  }
             },
             "Xiaomi":{
+                "brand_img":"https://w7.pngwing.com/pngs/122/182/png-transparent-xiaomi-logo-xiaomi-mi-a1-smartphone-internet-business-smartphone-angle-electronics-text-thumbnail.png",
                "Xiaomi Redmi Note 13 Pro":{
-                    "img":"",
+                    "img":"https://www.mm.kh.ua/image/cache/catalog/catalog/easyphoto/4253/xiaomi-redmi-note-13-pro-5g-8-256gb-aurora-purple-ua-4-1200x1200.jpg",
                     "name":"Xiaomi Redmi Note 13 Pro",
                     "price":"380$",
                     "delivery":"2",
@@ -483,7 +464,7 @@
                     "color":"Midnigth Black/Aurora Purple/Ocean Teal"
                },
                 "Xiaomi Redmi Note 13 Pro+":{
-                    "img":"",
+                    "img":"https://mobilike.net.ua/image/cache/catalog/easyphoto/4252/xiaomi-redmi-note-13-pro-5g-8-256gb-aurora-purple-ua-1-680x630.jpg",
                     "name":"Xiaomi Redmi Note 13 Pro+",
                     "price":"440$",
                     "delivery":"2",
@@ -492,7 +473,7 @@
                     "color":"Midnigth Black/Mystic Silver/Moonlight White/Aurora Purple"
                },
                 "Xiaomi 14":{
-                    "img":"",
+                    "img":"https://c.428.ua/img/4320476/3000/2000/mobilnyy_telefon_xiaomi_14_12_256gb_white_global_version~2398~2990.jpg",
                     "name":"Xiaomi 14",
                     "price":"970$",
                     "delivery":"2",
@@ -501,7 +482,7 @@
                     "color":"Black/Jade Green/White"
                },
                 "Xiaomi 14 Ultra":{
-                    "img":"",
+                    "img":"https://pixophone.com/image/cache/catalog/product-upload/Xiaomi14UltraBlack/1Xiaomi14UltraBlack-567x517.jpg",
                     "name":"Xiaomi 14 Ultra",
                     "price":"1340$",
                     "delivery":"2",
@@ -511,8 +492,9 @@
                }
             },
             "Google ":{
+                "brand_img":"https://w7.pngwing.com/pngs/760/624/png-transparent-google-logo-google-search-advertising-google-company-text-trademark.png",
                "Google Pixel 8":{
-                   "img":"",
+                   "img":"img/photo/pixel-8-green-cat.png",
                     "name":"Google Pixel 8",
                     "price":"540$",
                     "delivery":"3",
@@ -521,7 +503,7 @@
                     "color":"Rose/Obsidian/Hazel"
                },
                 "Google Pixel 8 Pro":{
-                    "img":"",
+                    "img":"https://kvshop.com.ua/users/products/300/300556/big/0si5xli0e2ymztawz3eeq15g0eq6m3or-webp.jpg",
                     "name":"Google Pixel 8 Pro",
                     "price":"700$",
                     "delivery":"3",
@@ -530,7 +512,7 @@
                     "color":"Bay/Obsidian/Mint/Porcelain"
                 },
                 "Google Pixel 9":{
-                    "img":"",
+                    "img":"img/photo/pixel-9-balck.webp",
                     "name":"Google Pixel 9",
                     "price":"800$",
                     "delivery":"3",
@@ -539,7 +521,7 @@
                     "color":"Porcelain/Obsidian/Peoni/WinterGreean"
                 },
                 "Google Pixel 9 Pro":{
-                    "img":"",
+                    "img":"img/photo/9pro-1-1397x1397.jpg.webp",
                     "name":"Google Pixel 9 Pro",
                     "price":"1340$",
                     "delivery":"3",
@@ -548,14 +530,17 @@
                     "color":"Obsidian/Porcelian"
                 }   
             }
-        }
     }
  },
  "HomeTools":{
-    "Robot Vacuum Clearner":{
+    "category_img": "img/photo/household-goods.jfif",
+    "Robot Vacuum Clearner":
+    {       
+            "subcategory_img": "https://media.wired.com/photos/641d0fc298e1501546f52c83/1:1/w_1430,h_1430,c_limit/How-to-Get-the-Most-Out-of-(or-Into)-Your-Robot-Vacuum-Gear-GettyImages-1314495818.jpg",
             "Xiomi":{
+               "brand_img": "img/photo/electronics-top.jfif",
                "Xiaomi Robot Vacuum E5":{
-                    "img":"",
+                    "img":"https://i02.appmifile.com/mi-com-product/fly-birds/xiaomi-robot-vacuum-e5/M/c27a4e16da39c5f625a7c8ef5d855612.jpg",
                     "name":"Xiaomi Robot Vacuum E5",
                     "price":"120$",
                     "delivery":"1",
@@ -563,7 +548,7 @@
                     "color":"Black/White"
                },
                "Xiaomi Robot Vacuum E10":{
-                    "img":"",
+                    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHuQGgAwzT5ad9RS7qFwbptFNOQNBfTLiOUg&s",
                     "name":"Xiaomi Robot Vacuum E10",
                     "price":"145$",
                     "delivery":"1",
@@ -571,7 +556,7 @@
                     "color":"Black/White"
                },
                "Xiaomi Robot Vacuum S10":{
-                    "img":"",
+                    "img":"https://i02.appmifile.com/58_operator_sg/07/03/2023/f7e5f7b6c038a33966170077dbb4f72a.jpg",
                     "name":"Xiaomi Robot Vacuum S10",
                     "price":"210$",
                     "delivery":"1",
@@ -580,8 +565,9 @@
                }
         },
             "Philips":{
+                 "brand_img": "https://img2.freepng.ru/20180616/zta/aa61attjg.webp",
                "PHILIPS Series 2000":{
-                    "img":"",
+                    "img":"https://content2.rozetka.com.ua/goods/images/big/486983600.jpg",
                     "name":"PHILIPS Series 2000",
                     "price":"440$",
                     "delivery":"1",
@@ -589,7 +575,7 @@
                     "color":"Black/White"
                },
                "PHILIPS Series 3000":{
-                    "img":"",
+                    "img":"https://www.philips.ua/c-dam/b2c/domestic-appliances/vacuum-cleaners/robot-vacuum-cleaner/robots-3000/philips-homeRun-robots-XU3100-product-thumbnail-L.png",
                     "name":"PHILIPS Series 3000",
                     "price":"640$",
                     "delivery":"1",
@@ -597,7 +583,7 @@
                     "color":"Black/White"
                },
                "PHILIPS Series 7000":{
-                    "img":"",
+                    "img":"https://www.philips.ua/c-dam/b2c/domestic-appliances/vacuum-cleaners/robot-vacuum-cleaner/prepurchase/philips-homeRun-robots-XU7100-product-thumbnail-L.png",
                     "name":"PHILIPS Series 7000",
                     "price":"900$",
                     "delivery":"1",
@@ -606,8 +592,9 @@
                }
         },
             "Samsung":{
+                "brand_img": "https://w7.pngwing.com/pngs/1002/949/png-transparent-samsung-galaxy-gurugram-logo-faridabad-samsung-text-computer-logo-thumbnail.png",
                 "Samsung Bespoke Jet Bot":{
-                    "img":"",
+                    "img":"https://image-us.samsung.com/SamsungUS/home/home-appliances/02282024/VR7MD97714G_06_Satin_Greige_SCOM.jpg?$product-details-jpg$",
                     "name":"Samsung Bespoke Jet Bot",
                     "price":"300$",
                     "delivery":"1",
@@ -615,7 +602,7 @@
                     "color":"Black/White"
                 },
                 "Samsung Bespoke Jet Bot AI+":{
-                    "img":"",
+                    "img":"https://img.global.news.samsung.com/ru/wp-content/uploads/2021/08/Bespoke-Jet-Bot-AI_main1.jpg",
                     "name":"Samsung Bespoke Jet Bot AI+",
                     "price":"620$",
                     "delivery":"1",
@@ -623,18 +610,21 @@
                     "color":"Black/White"
                 },
                 "Samsung Bespoke Jet Bot+" :{
-                    "img":"",
+                    "img":"https://content2.rozetka.com.ua/goods/images/base_action/333850749.jpg",
                     "name":"Samsung Bespoke Jet Bot+",
                     "price":"320$",
                     "delivery":"1",
                     "id":"c3d519cb-3c64-46a2-b11f-7be4ea9cf171",
                     "color":"Black/White"
                 }   
-        },
-        "CoffeMachine":{
+        }    
+    },
+    "CoffeMachine":{
+            "subcategory_img": "https://raivbel.by/upload/iblock/fee/fee6f3199ed088a020988e499b4b2053.jpg",
             "Philips":{
+                "brand_img": "https://img2.freepng.ru/20180616/zta/aa61attjg.webp",
                  "PHILIPS Series 1200":{
-                    "img":"",
+                    "img":"https://images.philips.com/is/image/philipsconsumer/vrs_63b724823a111644ddb7f265ab6809d09a1de61a?$pnglarge$&wid=1250",
                     "name":"PHILIPS Series 1200",
                     "price":"390$",
                     "delivery":"2",
@@ -642,7 +632,7 @@
                     "color":"Black/Black and White"
                  },
                  "PHILIPS Series 2200":{
-                    "img":"",
+                    "img":"https://dzvinok.ua/pub/media/catalog/product/p/h/philips_series_2200_ep223010-foto1.jpg",
                     "name":"PHILIPS Series 2200",
                     "price":"410$",
                     "delivery":"2",
@@ -650,7 +640,7 @@
                     "color":"Black"
                  },
                  "PHILIPS Series 3300":{
-                    "img":"",
+                    "img":"https://img.jabko.ua/image/cache/catalog/products/2023/10/291647/EP3347:90-1-1397x1397.jpg.webp",
                     "name":"PHILIPS Series 3300",
                     "price":"540$",
                     "delivery":"2",
@@ -659,8 +649,9 @@
                  }
             },
             "Bosch":{
+                "brand_img": "https://w7.pngwing.com/pngs/1006/243/png-transparent-logo-robert-bosch-gmbh-alternator-product-electric-battery-bosch-text-trademark-logo-thumbnail.png",
                 "Bosch Series 8":{
-                    "img":"",
+                    "img":"https://www.sinks-taps.com/uploads/media/default/0001/38/thumb_37906_default_big.jpeg",
                     "name":"Bosch Series 8",
                     "price":"2360$",
                     "delivery":"2",
@@ -669,8 +660,9 @@
                 }
             },
             "Delonghi":{
+                "brand_img":"https://w7.pngwing.com/pngs/401/682/png-transparent-delonghi-hd-logo-thumbnail.png",
                 "DELONGHI Dinamica Plus":{
-                    "img":"",
+                    "img":"https://delonghi.ua/storage/shop/product/image/descr/813/delonghi_ecam_37070_b_dinamica_plus6_cq.png",
                     "name":"DELONGHI Dinamica Plus",
                     "price":"730$",
                     "delivery":"2",
@@ -678,7 +670,7 @@
                     "color":"Silver and Black"
                 },
                 "DeLonghi PrimaDonna Exclusive":{
-                    "img":"",
+                    "img":"https://coffeeone.com.ua/image/catalog/Delonghi/ESAM%206904%20M/IMG_2097.jpeg",
                     "name":"DeLonghi PrimaDonna Exclusive",
                     "price":"760$",
                     "delivery":"2",
@@ -686,7 +678,7 @@
                     "color":"Silver and Black"
                 },
                 "DELONGHI Magnifica Start":{
-                    "img":"",
+                    "img":"https://delonghi.ua/imgcache/large/840/normal/delonghi_ecam_22020_w_magnifica_smart_c.jpg",
                     "name":"DELONGHI Magnifica Start",
                     "price":"400$",
                     "delivery":"2",
@@ -694,7 +686,753 @@
                     "color":"Silver/Black/White"
                 }
             }
+        },
+        "Hair Dryer":{
+            "subcategory_img": "https://static.independent.co.uk/2024/09/16/13/best-hair-dryers.jpg",
+            "Xiomi":{
+                "brand_img":"https://logojinni.com/image/logos/xiaomi-57.svg",
+                "Xiaomi Showsee A18":{
+                    "img":"https://igadgetsmart.com/content/images/12/480x480l50nn0/fen-xiaomi-showsee-a18-black-74171543503196.jpg",
+                    "name":"Xiaomi Showsee A18",
+                    "price":"100$",
+                    "delivery":"2",
+                    "id":"5bf2356f-fdc7-449a-b5a5-9b38f83dfecb",
+                    "color":"Black/White"
+                },
+                "Xiaomi DOCO":{
+                    "img":"https://content2.rozetka.com.ua/goods/images/big/376497295.jpg",
+                    "name":"Xiaomi DOCO",
+                    "price":"70$",
+                    "delivery":"2",
+                    "id":"f2837043-f29f-4cea-80e8-0f2363a8c1db",
+                    "color":"Black/Silver"
+                },
+                "Xiaomi Enchen Air-2":{
+                    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwKb3RX9Zub4nDKCGLxQ5cG8EZVf1QzKgtag&s",
+                    "name":"Xiaomi Enchen Air-2",
+                    "price":"30$",
+                    "delivery":"2",
+                    "id":"3110d871-7760-4dc0-84dc-d5037e54734a",
+                    "color":"Black/Silver"
+                }
+
+            },
+            "Dyson":{
+                "brand_img":"https://miro.medium.com/v2/resize:fit:1400/1*iIm4HULR3P7vqiwo8To6RA.jpeg",
+                "Dyson Supersonic":{
+                    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI3JNOcUGSpatyzxnkcsc_cN2AgLLj2FdsCw&s",
+                    "name":"Dyson Supersonic",
+                    "price":"560$",
+                    "delivery":"2",
+                    "id":"09de37ba-c4df-4d2e-9551-97d6933142cd",
+                    "color":"Black/Silver/Copper"
+                },
+                "Dyson Supersonic Lite":{
+                    "img":"https://touch.com.ua/upload/resize_cache/webp/img_new/1221/OCT2/733192.webp",
+                    "name":"Dyson Supersonic Lite",
+                    "price":"480$",
+                    "delivery":"2",
+                    "id":"65df63e7-2c8c-4b49-b9fb-b6d7c47b3286",
+                    "color":"Black/Silver/Copper"
+                },
+                "Dyson Supersonic Origin":{
+                    "img":"https://anikaphone.com.ua/wp-content/uploads/2024/04/%D0%A4%D0%B5%D0%BD-Dyson-Supersonic-HD07-Origin-Black_Nickel.png",
+                    "name":"Dyson Supersonic Origin",
+                    "price":"480$",
+                    "delivery":"2",
+                    "id":"175d25c5-46bd-4532-9952-d25307a9fcf9",
+                    "color":"Black/Silver/Copper"
+                }
+            }
         }
-    }
- }
-}
+            
+        },
+        "Gamer stuff": {
+            "category_img": "https://www.slashgear.com/img/gallery/12-important-things-to-consider-before-buying-a-gaming-pc/l-intro-1654286079.jpg",
+            "Game consoles":{ 
+                "subcategory_img": "https://expertonline.com.ua/media/blog/post/ps-3-gameconsole.jpg",
+                "Microsoft": {
+                    "brand_img":"https://cdn.pixabay.com/photo/2021/08/10/15/36/microsoft-6536268_1280.png",
+                    "Microsoft Xbox Series S": {
+                        "img": "https://content1.rozetka.com.ua/goods/images/big/371465542.jpg",
+                        "name": "Microsoft Xbox Series S",
+                        "price": "430$",
+                        "delivery": "2",
+                        "id": "2d8910b3-0d73-4b1e-b5bb-04a5e8c1cbd2",
+                        "color": "Black"
+                    },
+                    "Microsoft Xbox Series X": {
+                        "img": "https://content.rozetka.com.ua/goods/images/big/276682665.jpg",
+                        "name": "Microsoft Xbox Series X",
+                        "price": "590$",
+                        "delivery": "2",
+                        "id": "738548b8-6d8b-4b88-985c-ee3f2d6736fb",
+                        "color": "Black/White"
+                    },
+                    "Microsoft Xbox Series X + Diablo 4":{
+                        "img": "https://content2.rozetka.com.ua/goods/images/big/417306907.jpg",
+                        "name": "Microsoft Xbox Series X + Diablo 4",
+                        "price": "495$",
+                        "delivery": "2",
+                        "id": "4d8c06e5-5a0a-4b28-884c-b745b1ef7a58",
+                        "color": "Black"
+                    },
+                    "Microsoft Xbox Series X + EA Sports FC 24": {
+                        "img": "https://content.rozetka.com.ua/goods/images/big/417306960.jpg",
+                        "name": "Microsoft Xbox Series X + EA Sports FC 24",
+                        "price": "514$",
+                        "delivery": "2",
+                        "id": "769f90ca-d1c1-49f0-a57f-4197690ceb5e",
+                        "color": "Black/White"
+                    },
+                    "Microsoft Xbox Series X + Forza Horizon 5":{
+                        "img": "https://content.rozetka.com.ua/goods/images/big/417306913.jpg",
+                        "name": "Microsoft Xbox Series X + Forza Horizon 5",
+                        "price": "573$",
+                        "delivery": "2",
+                        "id": "42850890-a54a-4dff-9458-7e8df56d6970",
+                        "color": "Black"
+                    }
+                },
+                "Nintendo":{ 
+                    "brand_img":"https://upload.wikimedia.org/wikipedia/commons/5/5d/Nintendo_Switch_Logo.svg",
+                        "Nintendo Switch OLED Red Mario Special Edition": {
+                            "img": "https://content1.rozetka.com.ua/goods/images/big/425109323.jpg",
+                            "name": "Nintendo Switch OLED Red Mario Special Edition",
+                            "price": "480$",
+                            "delivery": "2",
+                            "id": "5e7c9a55-a1e6-4db7-b2f8-7bfd4263e99e",
+                            "color": "Red"
+                        },
+                        "Nintendo Switch": {
+                            "img": "https://content.rozetka.com.ua/goods/images/big/231289586.jpg",
+                            "name": "Nintendo Switch",
+                            "price": "360$",
+                            "delivery": "2",
+                            "id": "65ce93fd-e4e4-4dfc-9001-985808dfaaa4",
+                            "color": "Gray"
+                        },
+                        "Nintendo Switch OLED + Minecraft":{
+                            "img": "https://content.rozetka.com.ua/goods/images/big/488605886.jpg",
+                            "name": "Nintendo Switch OLED + Minecraft",
+                            "price": "409$",
+                            "delivery": "2",
+                            "id": "a42fb649-322e-40ab-b673-06a66e11efd7",
+                            "color": "Black/White"
+                        },
+                        "Nintendo Switch Neon + Switch Sports + 3M NSO": {
+                            "img": "https://content.rozetka.com.ua/goods/images/big/370316154.png",
+                            "name": "Nintendo Switch Neon + Switch Sports + 3M NSO",
+                            "price": "514$",
+                            "delivery": "2",
+                            "id": "145fc4c6-806d-4a97-ba99-401d11d8170f",
+                            "color": "Red/White"
+                        },
+                        "Nintendo Switch OLED Neon":{
+                            "img": "https://content.rozetka.com.ua/goods/images/big/370208513.jpg",
+                            "name": "Nintendo Switch OLED Neon",
+                            "price": "366$",
+                            "delivery": "2",
+                            "id": "98a207d3-71c2-469d-affd-55c07b09276d",
+                            "color": "Red/Blue"
+                        }
+                },
+                "Sony PlayStation":{
+                    "brand_img":"https://e7.pngegg.com/pngimages/831/92/png-clipart-brand-logo-circle-playstation-sony-ps-logo-logo-playstation-4-thumbnail.png",
+                        "Sony PlayStation 5 Slim Digital Edition": {
+                            "img": "https://content2.rozetka.com.ua/goods/images/big/392132677.jpg",
+                            "name": "Sony PlayStation 5 Slim Digital Edition",
+                            "price": "439$",
+                            "delivery": "2",
+                            "id": "",
+                            "color": "White"
+                        },
+                        "Sony PlayStation 5 Pro":{
+                            "img": "https://content1.rozetka.com.ua/goods/images/big/469528067.jpg",
+                            "name": "Sony PlayStation 5 Pro",
+                            "price": "1032$",
+                            "delivery": "2",
+                            "id": "fb81a66d-204c-4c95-bea2-bf04e344f61b",
+                            "color": "White"
+                        },
+                        "Sony PlayStation 5 Chassis Digital Edition": {
+                            "img": "https://content1.rozetka.com.ua/goods/images/big/439417614.jpg",
+                            "name": "Sony PlayStation 5 Chassis Digital EditionO",
+                            "price": "480$",
+                            "delivery": "2",
+                            "id": "71792895-2dbc-4879-a577-9779f2ab6565",
+                            "color": "White"
+                        },
+                        "PS5 PlayStation 5":{
+                            "img": "https://content1.rozetka.com.ua/goods/images/big/219494175.jpg",
+                            "name": "PS5 PlayStation 5",
+                            "price": "576$",
+                            "delivery": "2",
+                            "id": "e1f5b6b3-1b73-4d24-b034-674a686d64f8",
+                            "color": "White"
+                        }
+                },
+                "Valve":{
+                    "brand_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhJ6JbhVXvsPD6uzY6owuG7Wlfmikp7nKEZQ&s",
+                        "Valve Steam Deck": {
+                            "img": "https://content.rozetka.com.ua/goods/images/big/322363704.jpg",
+                            "name": "Valve Steam Deck",
+                            "price": "840$",
+                            "delivery": "2",
+                            "id": "20a5c74f-4743-49b5-887d-681b10c98404",
+                            "color": "Black"
+                        },
+                        "Steam Deck Valve":{
+                            "img": "https://content1.rozetka.com.ua/goods/images/big/309909140.png",
+                            "name": "Steam Deck Valve",
+                            "price": "167$",
+                            "delivery": "2",
+                            "id": "e09fb595-bac7-4fa8-ab1a-93354202ee14",
+                            "color": "Black"
+                        },
+                        "Valve Steam Deck OLED": {
+                            "img": "https://content1.rozetka.com.ua/goods/images/big/461183132.jpg",
+                            "name": "Valve Steam Deck OLED",
+                            "price": "864$",
+                            "delivery": "2",
+                            "id": "77366f4b-5829-4eff-a2d1-a1bb7aaf6e1b",
+                            "color": "Black"
+                        }
+                },
+            "Gaming laptops":{ 
+               "subcategory_img": "https://hotline.ua/img/uploads/clients/1212=5feca96ecb8c5.jpg",
+                "Acer": {
+                    "brand_img":"https://static.vecteezy.com/system/resources/previews/019/136/301/non_2x/acer-logo-acer-icon-free-free-vector.jpg",
+                    "Acer Aspire 7": {
+                        "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/_/a/_acer_aspire_7_a715-76g-73f2_nh.qn4eu.008_charcoal_black.jpg/w_600",
+                        "name": "Acer Aspire",
+                        "price": "816$",
+                        "delivery": "2",
+                        "id": "db72e128-2ad4-4a7e-85a2-8c4587f3994f",
+                        "color": "Black"
+                    },
+                    "Acer Nitro V15": {
+                        "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/n/h/nh.qsgeu.006.jpg/w_600",
+                        "name": "Acer Nitro V15",
+                        "price": "933$",
+                        "delivery": "2",
+                        "id": "6b1a8ab2-521a-4cc4-938f-32dd43297265",
+                        "color": "Black"
+                    },
+                    "Acer Predator Helios Neo 16":{
+                        "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/n/h/nh.qrfeu.002.jpg/w_600",
+                        "name": "Acer Predator Helios Neo 16 PHN16-72",
+                        "price": "1560$",
+                        "delivery": "2",
+                        "id": "bfca7386-ad2c-49a0-aa38-14797a0e990c",
+                        "color": "Black"
+                    },
+                    "Acer Nitro V 15": {
+                        "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/n/h/nh.qnceu.002_001.jpg/w_600g",
+                        "name": "Acer Nitro V 15",
+                        "price": "864$",
+                        "delivery": "2",
+                        "id": "b9eb5e63-9203-47be-9cf1-611d097576de",
+                        "color": "Black"
+                    },
+                    "Acer Nitro V 16":{
+                        "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/0/-/0-etailer-hero-nitro-v-16-anv16-41-non-fingerprint-with-backlit-on-wp-ai-obsidian-black-01-custom.jpg/w_600",
+                        "name": "Acer Nitro V 16",
+                        "price": "1176$",
+                        "delivery": "2",
+                        "id": "9c11cdad-6e11-4fe9-b5c0-4dc248a998b5",
+                        "color": "Black"
+                    }
+                },
+                "Asus":{ 
+                    "brand_img":"https://cdn.icon-icons.com/icons2/3911/PNG/512/asus_logo_icon_247542.png",
+                        "Asus TUF F17": {
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/1/_/1_asus_tuf_f17_fx707vu-hx156_mecha_gray.jpg/w_600",
+                            "name": "Asus TUF F17",
+                            "price": "1272$",
+                            "delivery": "2",
+                            "id": "9c73bb74-6036-4268-bab6-c272dc5cd69c",
+                            "color": "Mecha Gray"
+                        },
+                        "Asus TUF A15": {
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/2/0/2021_asus_tuf_gaming_a15_fa506_2_1_.jpg/w_600",
+                            "name": "Asus TUF A15",
+                            "price": "888$",
+                            "delivery": "2",
+                            "id": "b7ed9011-514d-4c10-8113-6e1b90b6b09f",
+                            "color": "Graphite Black"
+                        },
+                        "Asus ROG Strix":{
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/6/3/63bebe4e13e697.21246959_3.jpg/w_600",
+                            "name": "Asus ROG Strix",
+                            "price": "1609$",
+                            "delivery": "2",
+                            "id": "6c443a55-7d9b-4ad9-98d3-362b728c7b77",
+                            "color": "Eclipse Gray"
+                        },
+                        "Asus Vivobook Pro 16": {
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/d/f/dfc2b5b91_247943_b.jpg/w_600",
+                            "name": "Asus Vivobook Pro 16",
+                            "price": "514$",
+                            "delivery": "2",
+                            "id": "62278856-9f84-40c9-8d5c-49b6c1da5b45",
+                            "color": "Quiet Blue"
+                        },
+                        "Asus ROG Strix G18":{
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/6/3/63bebc02ae4507.80575427_1.jpg/w_600",
+                            "name": "Asus ROG Strix G18",
+                            "price": "1849$",
+                            "delivery": "2",
+                            "id": "37af83b5-0cc1-4551-a828-ac1f85229ab4",
+                            "color": "Cool Silver"
+                        }
+                },
+                "Lenovo":{
+                    "brand_img":"https://cdn.icon-icons.com/icons2/3912/PNG/512/lenovo_logo_icon_247857.png",
+                        "Lenovo IdeaPad Gaming 3": {
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/8/2/82k202b9ra.jpg/w_600",
+                            "name": "Lenovo IdeaPad Gaming 3",
+                            "price": "768$",
+                            "delivery": "2",
+                            "id": "9d349363-5cbd-4be2-90bc-4335df8c8920",
+                            "color": "Shadow Black"
+                        },
+                        "Lenovo LOQ":{
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/8/3/83gs00h4ra.jpg/w_600",
+                            "name": "Lenovo LOQ",
+                            "price": "1080$",
+                            "delivery": "2",
+                            "id": "9d7e6907-d3aa-4607-9db7-ad8c9af9c661",
+                            "color": "Luna Grey"
+                        },
+                        "Lenovo Legion 5": {
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/l/e/legion_5_16irx9_rgb_4070.jpg/w_600",
+                            "name": "Lenovo Legion 5",
+                            "price": "1921$",
+                            "delivery": "2",
+                            "id": "0293d190-93b1-4b1b-9d19-be072aef618b",
+                            "color": "Luna Grey"
+                        },
+                        "Lenovo Legion Slim 5": {
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/l/e/legion_slim_5_16ahp9.jpg/w_600",
+                            "name": "Lenovo Legion Slim 5",
+                            "price": "1681$",
+                            "delivery": "2",
+                            "id": "c8f93ad8-1d2b-4c9f-a4c9-06f5105b590c",
+                            "color": "Luna Grey"
+                        },
+                        "Lenovo Legion 7":{
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/l/e/legion_7_16irx9_ct1_12_3.jpg/w_600",
+                            "name": "Lenovo Legion 7",
+                            "price": "2785$",
+                            "delivery": "2",
+                            "id": "7c787a2d-4410-4667-bfd9-607846344972",
+                            "color": "Glacier White"
+                        }
+                },
+                "HP":{
+                    "brand_img":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/2048px-HP_logo_2012.svg.png",
+                        "HP Victus": {
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/u/0/u0947326_big_1720649816.jpg/w_600",
+                            "name": "HP Victus",
+                            "price": "768$",
+                            "delivery": "2",
+                            "id": "b5a6c010-93c6-4aae-8430-5141abb28f90",
+                            "color": "Blue/ Ceramic White/ Mica Silver"
+                        },
+                        "HP Pavilion":{
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/c/0/c07956601.webp.jpg/w_600",
+                            "name": "HP Pavilion",
+                            "price": "1056$",
+                            "delivery": "2",
+                            "id": "cd1f1041-fb55-4db8-bce7-a54701fad83a",
+                            "color": "Shadow Black"
+                        },
+                        "HP OMEN": {
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/c/0/c08498598.jpg/w_600",
+                            "name": "HP OMEN",
+                            "price": "1344$",
+                            "delivery": "2",
+                            "id": "22769685-3a97-4636-8191-e3c744952710",
+                            "color": "Shadow Black"
+                        }
+                }
+            },
+                "Gaming computers":{ 
+                    "subcategory_img": "https://img.ktc.ua/img/core/6/Gaming%20PC.jpg",
+                "Acer": {
+                   "brand_img":"https://static.vecteezy.com/system/resources/previews/019/136/301/non_2x/acer-logo-acer-icon-free-free-vector.jpg",
+                    "Acer Predator Orion 3000": {
+                        "img": "https://content.rozetka.com.ua/goods/images/big/440441943.jpg",
+                        "name": "Acer Predator Orion 3000",
+                        "price": "552$",
+                        "delivery": "2",
+                        "id": "74f59050-8e6e-4b58-87d6-dab8ad44dda6",
+                        "color": "Black"
+                    },
+                    "Acer Predator G3-605": {
+                        "img": "https://content2.rozetka.com.ua/goods/images/big/440810386.jpg",
+                        "name": "Acer Predator G3-605",
+                        "price": "528$",
+                        "delivery": "2",
+                        "id": "f8e72509-80f4-411d-b1b9-1f92ba77a99a",
+                        "color": "Black"
+                    },
+                    "Acer Aspire TC-705":{
+                        "img": "https://content.rozetka.com.ua/goods/images/big/440810409.jpg",
+                        "name": "Acer Aspire TC-705",
+                        "price": "240$",
+                        "delivery": "2",
+                        "id": "505f8b68-1dd8-466c-8b4d-897e755f8968",
+                        "color": "Black"
+                    },
+                    "Acer Veriton": {
+                        "img": "https://content2.rozetka.com.ua/goods/images/big/481699700.jpg",
+                        "name": "Acer Veriton",
+                        "price": "816$",
+                        "delivery": "2",
+                        "id": "63dcfdda-23fe-4b04-902c-d19492a51398",
+                        "color": "Black"
+                    }
+                },
+                "Asus":{ 
+                    "brand_img":"https://cdn.icon-icons.com/icons2/3911/PNG/512/asus_logo_icon_247542.png",
+                        "Asus S300MA": {
+                            "img": "https://content1.rozetka.com.ua/goods/images/big/208081282.jpg",
+                            "name": "Asus S300MA",
+                            "price": "672$",
+                            "delivery": "2",
+                            "id": "c5ee799e-bbc3-4169-abb8-8c3572551a24",
+                            "color": "Black"
+                        },
+                        "Asus ROG Strix":{
+                            "img": "https://content.rozetka.com.ua/goods/images/big/275187194.jpg",
+                            "name": "Asus ROG Strix",
+                            "price": "1401$",
+                            "delivery": "2",
+                            "id": "67c744ae-8095-4f4a-a31d-2bfa1d2a9128",
+                            "color": "Black"
+                        },
+                        "Asus ROG Strix GT35":{
+                            "img": "https://content2.rozetka.com.ua/goods/images/big/253661120.jpg",
+                            "name": "Asus ROG Strix GT35",
+                            "price": "2605$",
+                            "delivery": "2",
+                            "id": "6017bd18-2d07-4b4f-9601-d947ba8385a8",
+                            "color": "Black"
+                        }
+                },
+                "Lenovo":{
+                   "brand_img":"https://cdn.icon-icons.com/icons2/3912/PNG/512/lenovo_logo_icon_247857.png",
+                        "Lenovo LOQ": {
+                            "img": "https://content.rozetka.com.ua/goods/images/big/428295798.jpg",
+                            "name": "Lenovo LOQ",
+                            "price": "1032$",
+                            "delivery": "2",
+                            "id": "2f41d98e-dcf8-4c27-846a-9ba75dddf58e",
+                            "color": "Raven Black"
+                        },
+                        "Lenovo Legion T5 26IRB8":{
+                            "img": "https://content.rozetka.com.ua/goods/images/big/351265226.jpg",
+                            "name": "Lenovo Legion T5 26IRB8",
+                            "price": "1200$",
+                            "delivery": "2",
+                            "id": "df7b891c-3f0e-4af3-8cd7-009a8d1090ab",
+                            "color": "Black"
+                        },
+                        "Lenovo IdeaCentre G5": {
+                            "img": "https://content1.rozetka.com.ua/goods/images/big/179431798.png",
+                            "name": "Lenovo IdeaCentre G5",
+                            "price": "782$",
+                            "delivery": "2",
+                            "id": "ddda9574-572a-4896-9d64-bda8910bd6f8",
+                            "color": "Black"
+                        },
+                        "Lenovo Legion T5 26IOB6": {
+                            "img": "https://content.rozetka.com.ua/goods/images/big/278889032.jpg",
+                            "name": "Lenovo  Legion T5 26IOB6",
+                            "price": "1488$",
+                            "delivery": "2",
+                            "id": "8147f1b3-13f3-4272-8f85-458f900b92ef",
+                            "color": "Black"
+                        }
+                },
+                "ARTLINE":{
+                    "brand_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9qKOqGOt17CslX2P3XREB27PQOwCQgGj5sw&s",
+                        "ARTLINE Gaming X43": {
+                            "img": "https://content.rozetka.com.ua/goods/images/big/416512630.jpg",
+                            "name": "ARTLINE Gaming X43",
+                            "price": "600$",
+                            "delivery": "2",
+                            "id": "5aa1997a-1e6a-4b8a-9b29-b9a8b115a4f0",
+                            "color": "Black"
+                        },
+                        "ARTLINE Gaming X47":{
+                            "img": "https://content.rozetka.com.ua/goods/images/big/320078659.jpg",
+                            "name": "ARTLINE Gaming X47",
+                            "price": "696$",
+                            "delivery": "2",
+                            "id": "9db902f8-7b1c-4523-9f40-7a4d702bf487",
+                            "color": "Black"
+                        },
+                        "ARTLINE Gaming DRGN": {
+                            "img": "https://content1.rozetka.com.ua/goods/images/big/407288286.jpg",
+                            "name": "ARTLINE Gaming DRGN",
+                            "price": "1080$",
+                            "delivery": "2",
+                            "id": "bc57a724-f766-4003-a87e-f18788d7f038",
+                            "color": " Black"
+                        },
+                        "ARTLINE Overlord X83": {
+                            "img": "https://content1.rozetka.com.ua/goods/images/big/411584640.jpg",
+                            "name": "ARTLINE Overlord X83",
+                            "price": "1584$",
+                            "delivery": "2",
+                            "id": "fbf0382a-7522-4ddd-9ab0-d27442423f10",
+                            "color": "Black"
+                        },
+                        "ARTLINE Gaming X48": {
+                            "img": "https://content1.rozetka.com.ua/goods/images/big/240543243.jpg",
+                            "name": "ARTLINE Gaming X48",
+                            "price": "624$",
+                            "delivery": "2",
+                            "id": "c0543944-7155-4d43-a186-2ba23670d935",
+                            "color": "Black"
+                        }
+                    
+                    }
+                },
+                    "Gaming monitors":{ 
+                        "subcategory_img": "https://marketing.brain.com.ua/static/articles_icon/brain_9135.jpg",
+                    "Acer":{ 
+                        "brand_img":"https://static.vecteezy.com/system/resources/previews/019/136/301/non_2x/acer-logo-acer-icon-free-free-vector.jpg",
+                        "Acer Predator": {
+                            "img": "https://content2.rozetka.com.ua/goods/images/big/441515199.jpg",
+                            "name": "Acer Predator",
+                            "price": "220$",
+                            "delivery": "2",
+                            "id": "8f6d4a23-6aa0-434b-8cf1-9992bfd3ca57",
+                            "color": "Black"
+                        },
+                        "Acer Nitro": {
+                            "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/i/m/image_2024_2.jpg/w_600",
+                            "name": "Acer Nitro",
+                            "price": "117$",
+                            "delivery": "2",
+                            "id": "32f9f8e6-caae-4db0-a8fb-49bdbd07079c",
+                            "color": "Black"
+                        },
+                        "TFT ACER 23.8":{
+                            "img": "https://content.rozetka.com.ua/goods/images/big/416699850.jpg",
+                            "name": "TFT ACER 23.8",
+                            "price": "100$",
+                            "delivery": "2",
+                            "id": "3aa9a76b-1fe6-47e4-b6e9-3fc45b7b81e1",
+                            "color": "Black"
+                        },
+                        "IPS Acer VG273EBMIIX": {
+                            "img": "https://content2.rozetka.com.ua/goods/images/big/381899467.png",
+                            "name": "IPS Acer VG273EBMIIX",
+                            "price": "174$",
+                            "delivery": "2",
+                            "id": "98a46348-f8e6-47f1-9e13-48e5b1f1ed1a",
+                            "color": "Black"
+                        }
+                    },
+                    "Asus":{ 
+                       "brand_img":"https://cdn.icon-icons.com/icons2/3911/PNG/512/asus_logo_icon_247542.png",
+                            "Asus TUF": {
+                                "img": "https://content2.rozetka.com.ua/goods/images/big/483286012.jpg",
+                                "name": "Asus TUF",
+                                "price": "247$",
+                                "delivery": "2",
+                                "id": "a6608326-3221-45a3-9f9f-6f18e36baec8",
+                                "color": "Black"
+                            },
+                            "Asus Asus Curved Gaming Monitor": {
+                                "img": "https://content1.rozetka.com.ua/goods/images/big/483446909.jpg",
+                                "name": "Asus Asus Curved Gaming Monitor",
+                                "price": "134$",
+                                "delivery": "2",
+                                "id": "113cd79d-a487-4a5f-a4b4-a4dc7d2db6e3",
+                                "color": "Black"
+                            },
+                            "ASUS 27” ROG Swift":{
+                                "img": "https://content1.rozetka.com.ua/goods/images/big/341616146.jpg",
+                                "name": "ASUS 27” ROG Swift",
+                                "price": "1609$",
+                                "delivery": "2",
+                                "id": "a205b9f4-1fe7-40f1-8713-32e292c92ad4",
+                                "color": "Black"
+                            },
+                            "Asus ROG Strix OLED":{
+                                "img": "https://content1.rozetka.com.ua/goods/images/big/456865340.jpg",
+                                "name": "Asus ROG Strix OLED",
+                                "price": "1527$",
+                                "delivery": "2",
+                                "id": "4ccae9f3-786d-4d89-b965-59cf9f93cba0",
+                                "color": "Black"
+                            }
+                    },
+                    "Lenovo":{
+                        "brand_img":"https://cdn.icon-icons.com/icons2/3912/PNG/512/lenovo_logo_icon_247857.png",
+                            "Lenovo Legion R27i-30": {
+                                "img": "https://content2.rozetka.com.ua/goods/images/big/406519326.jpg",
+                                "name": "Lenovo Legion R27i-30",
+                                "price": "182$",
+                                "delivery": "2",
+                                "id": "e3c2ba46-7b4b-4f1e-b0d0-18db8a5a8b96",
+                                "color": "Black"
+                            },
+                            " Lenovo Legion R45w-30 ":{
+                                "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/l/e/lenovo_legion_r45w_30_ct2_01.jpg/f_auto",
+                                "name": "Lenovo Legion R45w-30 ",
+                                "price": "888$",
+                                "delivery": "2",
+                                "id": "9b24a255-879d-4394-82bb-75a6c4e53ec2",
+                                "color": "Black"
+                            },
+                            "Lenovo G32qc-30": {
+                                "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/l/e/lenovo_g32qc-30.jpg/w_600",
+                                "name": "Lenovo Legion 5",
+                                "price": "264$",
+                                "delivery": "2",
+                                "id": "54d9a410-00f7-4d33-ba6b-acf69bbecbdb",
+                                "color": "Black"
+                            },
+                            "Lenovo WQHD G27qc-305": {
+                                "img": "https://content1.rozetka.com.ua/goods/images/big/392479644.jpg",
+                                "name": "Lenovo WQHD G27qc-30",
+                                "price": "245$",
+                                "delivery": "2",
+                                "id": "b01d84e8-7e07-4999-a774-3f66ce3352f9",
+                                "color": "Raven Black"
+                            }
+                        },
+                    "AOC":{
+                        "brand_img":"https://cdn.freelogovectors.net/wp-content/uploads/2020/07/noc-logo.png",
+                            "AOC AGON AG274QXM": {
+                                "img": "https://content1.rozetka.com.ua/goods/images/big/384970491.jpg",
+                                "name": "AOC AGON AG274QXM",
+                                "price": "872$",
+                                "delivery": "2",
+                                "id": "9bf8a440-7092-4777-89ed-998dc342eccc",
+                                "color": "Black"
+                            },
+                            "AOC CQ32G4VE":{
+                                "img": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/1/_/1_aoc_cq32g4ve_black.jpg/w_600",
+                                "name": "AOC CQ32G4VE",
+                                "price": "225$",
+                                "delivery": "2",
+                                "id": "4fbab090-a5c1-41b9-9781-20b4b2884d74",
+                                "color": "Black"
+                            },
+                            " AOC 27G4X IPS": {
+                                "img": "https://content.rozetka.com.ua/goods/images/big/483430173.jpg",
+                                "name": " AOC 27G4X IPS",
+                                "price": "247$",
+                                "delivery": "2",
+                                "id": "2468ddea-12f9-4ef7-a73e-db38d35b3558",
+                                "color": " Black"
+                            }
+                        }
+                    }
+                }
+            },
+            "Smart Home":{
+                "category_img":"img/photo/smart-home.jfif",
+                "Cameras":{
+                    "subcategory_img":"img/photo/menu-surveillance-camera.jpg",
+                  "TP-Link":{
+                    "brand_img":"https://iconape.com/wp-content/png_logo_vector/tplink-logo-2.png",
+                    "VIGI":{
+                        "img": "https://content.rozetka.com.ua/goods/images/big/483430173.jpg",
+                        "name": "IP-Камера TP-LINK VIGI",
+                        "price": "180$",
+                        "delivery": "1 день",
+                        "id": "c2422d48-7417-4bb3-a5a1-96133f309b92",
+                        "color": "White"
+                    },
+                    "TP-Link Tapo":{ 
+                        "img": "https://content1.rozetka.com.ua/goods/images/big/417671895.jpg",
+                        "name": "Набір з двох камер TP-Link Tapo",
+                        "price": "135$",
+                        "delivery": "1 день",
+                        "id": "7283f765-830e-4f7e-a015-9d3e20ff6b68",
+                        "color": "White"
+                    }
+                },
+                  "Hikvision":{
+                    "brand_img":"https://cdn6.aptoide.com/imgs/1/9/6/196eac61236c8941a0386b2fcf711f35_icon.png",
+                  "IP камера Hikvision":{
+                        "img": "https://content.rozetka.com.ua/goods/images/big/310596646.png",
+                        "name": " IP камера Hikvision",
+                        "price": "1050$",
+                        "delivery": "1 день",
+                        "id": "92ce77ed-83a2-4fc5-8145-04a1847595dc",
+                        "color": "White"
+                  },
+                  "PTZ Hikvision":{
+                    "img": "https://content1.rozetka.com.ua/goods/images/big/301413867.jpg",
+                    "name": "PTZ Hikvision",
+                    "price": "1030$",
+                    "delivery": "1 день",
+                    "id": "032a04e8-5ec2-4f57-bf82-0e61c5621620",
+                    "color": "White"
+                  }
+                }
+             },
+                "Alarms":{
+                    "subcategory_img": "https://www.stolenride.co.uk/wp-content/uploads/2023/03/Burglar-alarm-types.jpg",
+                       "Ajax":{
+                        "brand_img":"https://brand.ajax.systems/static/20105bcfc4dce4f45a0174156f229d88/87c1a/logo_dont_2%402x.jpg",
+                        "StarterKit Cam Plus":{
+                            "img": "https://content2.rozetka.com.ua/goods/images/big/144146535.jpg",
+                            "name": "StarterKit Cam Plus",
+                            "price": "475$",
+                            "delivery": "3 дня",
+                            "id": "ac88d7c1-79c3-4657-89c4-7c1dab38daae",
+                            "color": "White"
+                        },
+                        "StarterKit 2":{
+                           "img": "https://content2.rozetka.com.ua/goods/images/big/144146535.jpg",
+                            "name": "StarterKit 2 ",
+                            "price": "380$",
+                            "delivery": "3 дня",
+                            "id": "a15cf418-60cb-45e3-8bc2-be83416ff749",
+                            "color": "White"
+                        }
+                    },
+                       "Hikvision":{
+                        "brand_img":"https://cdn6.aptoide.com/imgs/1/9/6/196eac61236c8941a0386b2fcf711f35_icon.png",
+                        "Hikvision AX":{
+                            "img": "https://content2.rozetka.com.ua/goods/images/big/260870199.jpg",
+                            "name": "Hikvision AX",
+                            "price": "300$",
+                            "delivery": "2 дня",
+                            "id": "0bfe6aa0-d39f-4fb7-95be-def18c00ccbd",
+                            "color": "White"
+                        },
+                        "Hikvision AX PRO":{
+                            "img": "https://content.rozetka.com.ua/goods/images/big/172741469.jpg",
+                            "name": "Hikvision AX PRO",
+                            "price": "150$",
+                            "delivery": "2 дня",
+                            "id": "3e84a289-de97-4171-a915-9d26c6a7df38",
+                            "color": "White"
+                        }
+                    }
+                }
+            }
+        }
+    
+                  
+                
+
+            
+        
+    
+
+            
+        
+           

@@ -1,3 +1,9 @@
+<?php
+// Загружаем данные из JSON
+$jsonData = file_get_contents('data.json');
+$data = json_decode($jsonData, true);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,6 +25,7 @@
     ></script>
   </head>
   <body>
+    
     <header class="header">
       <nav
         class="header__nav"
@@ -36,46 +43,20 @@
     <main class="main-content">
       <section class="category">
         <div class="category__grid">
-          <div class="category__item">
-            <a href="menu.electronics.partial.html" class="category__link">
-              <img
-                src="img/photo/iphone-setup.jfif"
-                alt="Iphone Setup"
-                class="category__image"
-              />
-              <p class="category__title">Electronics</p>
-            </a>
-          </div>
-          <div class="category__item">
-            <a href="menu.household.goods.partial.html" class="category__link">
-              <img
-                src="img/photo/household-goods.jfif"
-                alt="Household goods"
-                class="category__image"
-              />
-              <p class="category__title">Household goods</p>
-            </a>
-          </div>
-          <div class="category__item">
-            <a href="menu.gaming.partial.html" class="category__link">
-              <img
-                src="img/photo/cook-for-gamers.jfif"
-                alt="Cook for gamers"
-                class="category__image"
-              />
-              <p class="category__title">Goods for gamers</p>
-            </a>
-          </div>
-          <div class="category__item">
-            <a href="menu.smart.home.partial.html" class="category__link">
-              <img
-                src="img/photo/smart-home.jfif"
-                alt="Smart Home"
-                class="category__image"
-              />
-              <p class="category__title">Smart home</p>
-            </a>
-          </div>
+        <?php foreach ($data as $category => $subcategories): ?>
+    <?php
+    // Получаем URL изображения для категории
+    $category_img = $subcategories['category_img'] ?? null;
+    ?>
+    <div class="category__item">
+        <?php if ($category_img): ?>
+            <img src="<?php echo $category_img; ?>" alt="<?php echo ucfirst($category); ?>" class="category-img">
+        <?php endif; ?>
+        <a href="product.php?category=<?php echo urlencode($category); ?>" class="category__title"><?php echo ucfirst($category); ?></a>
+    </div>
+<?php endforeach; ?>
+
+
         </div>
       </section>
       <section class="product-ratings">
